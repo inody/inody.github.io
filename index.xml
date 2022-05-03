@@ -11,12 +11,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 03 May 2022 15:06:39 +0900</lastBuildDate><atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About me</title>
+      <link>https://inody.github.io/about/</link>
+      <pubDate>Tue, 03 May 2022 15:06:39 +0900</pubDate>
+      
+      <guid>https://inody.github.io/about/</guid>
+      <description>Daisuke Inoue is a researcher at Toyota Central R&amp;amp;D Labs,. Inc. He is also a Ph.D. student at the University of Tokyo. He received a B.E. degree in engineering from Osaka University in 2014 and an M.S. degree in informatics from Kyoto University in 2017. His current research interests include control engineering, multi-agent systems, and swarm intelligence.
+If you are interested in my research, please feel free to contact me!</description>
+    </item>
+    
+    <item>
       <title>My First Post</title>
       <link>https://inody.github.io/posts/my-first-post/</link>
       <pubDate>Tue, 03 May 2022 15:06:39 +0900</pubDate>
       
       <guid>https://inody.github.io/posts/my-first-post/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://inody.github.io/publications/</link>
+      <pubDate>Tue, 03 May 2022 15:06:39 +0900</pubDate>
+      
+      <guid>https://inody.github.io/publications/</guid>
+      <description>Journal (Refereed)  S. Koyama, D. Inoue, A. Okada, and H, Yoshida, &amp;ldquo;Electro-osmotic diode based on colloidal nano-valves between double membranes,&amp;rdquo; Phys. Rev. Research, 2021, 3, 033289, (link) D. Inoue, A. Okada, T, Matsumori, K. Aihara, and H. Yoshida, &amp;ldquo;Traffic Signal Optimization on a Square Lattice with Quantum Annealing&amp;rdquo;, Scientific Reports, 2021, 11, 3303, (link) . D. Inoue, Y. Ito, and H. Yoshida, &amp;ldquo;Optimal Transport-based Coverage Control for Swarm Robot Systems: Generalization of the Voronoi Tessellation-based Method,&amp;rdquo; IEEE Control Systems Letters, 2021, Vol.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://inody.github.io/research/</link>
+      <pubDate>Tue, 03 May 2022 15:06:39 +0900</pubDate>
+      
+      <guid>https://inody.github.io/research/</guid>
+      <description>平均場ゲームを用いた集団の制御 (2019 &amp;ndash; Present) 大規模なシステムを制御する際、規模が大きくなるほど、最適な制御入力を計算するための時間が爆発的に大きくなってしまうという問題があります。この問題を解決するため、私たちは平均場ゲームと呼ばれる、集団の最適制御系を近似する概念（偏微分方程式系）に着目しています。平均場ゲームでは「1対1」の相互作用が「1対その他全員」と近似されるため、計算量の削減に繋がります。一方、平均場ゲームそのものも通常の計算では解きづらい方程式系であるため、数値計算の工夫が必要です。私たちは、この平均場ゲームの数値計算を、高速・高精度に行う手法を研究しています。
+関連文献
+D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Model Predictive Mean Field Games for Controlling Multi-Agent Systems,&amp;rdquo; IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2021
+最適輸送を用いた集団の制御 (2020 &amp;ndash; Present) 物質をある場所から別の場所までコストを最小にするよう輸送する問題を、最適輸送問題といいます。最適輸送自体は古くからある概念ですが、制御工学との関連が見出されたのは比較的新しく、業界のホットトピックの一つと言えます。私たちは、マルチエージェントの被覆制御問題を、最適輸送のアイデアを用いて整理することで、新しい制御法を提案しました。この手法は、あるパラメータを固定することで、ある既存手法と等価になる（つまり提案手法は既存手法を含む）という特徴を持ちます。数値計算により提案手法は既存手法より被覆性能に優れていることが示されました。
+関連文献
+D. Inoue, Y. Ito, and H. Yoshida, &amp;ldquo;Optimal Transport-based Coverage Control for Swarm Robot Systems: Generalization of the Voronoi Tessellation-based Method,&amp;rdquo; in IEEE Control Systems Letter, 2020
+量子コンピュータの制御応用 (2018 &amp;ndash; Present) 近年、量子アニーリングマシンと呼ばれる新しい形式の量子計算機が商用利用され始めています。計算機としての性能はまだまだなのですが、将来性が期待されています。アニーリングマシンは解ける問題の形式が限定されるため、一見解けない問題の形式を、近似や変数変換を用いて、解ける形式に変換する研究をしています。私たちはこれまで、モデル予測制御や都市における信号制御に対して、このような変換を用いた解法を提案し、提案手法が一部の古典的な手法に比べて優位であることを示しました。</description>
     </item>
     
   </channel>
