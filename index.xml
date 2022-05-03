@@ -9,7 +9,7 @@
       <link>https://inody.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 Jan 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
       <link>https://inody.github.io/about/</link>
@@ -42,6 +42,15 @@ D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Model Pre
 最適輸送を用いた集団の制御 (2020 &amp;ndash; Present) 物質をある場所から別の場所までコストを最小にするよう輸送する問題を、最適輸送問題といいます。最適輸送自体は古くからある概念ですが、制御工学との関連が見出されたのは比較的新しく、業界のホットトピックの一つと言えます。私たちは、マルチエージェントの被覆制御問題を、最適輸送のアイデアを用いて整理することで、新しい制御法を提案しました。この手法は、あるパラメータを固定することで、ある既存手法と等価になる（つまり提案手法は既存手法を含む）という特徴を持ちます。数値計算により提案手法は既存手法より被覆性能に優れていることが示されました。
 関連文献
 D. Inoue, Y. Ito, and H. Yoshida, &amp;ldquo;Optimal Transport-based Coverage Control for Swarm Robot Systems: Generalization of the Voronoi Tessellation-based Method,&amp;rdquo; in IEEE Control Systems Letter, 2020</description>
+    </item>
+    
+    <item>
+      <title>重い腰を上げてGithub pagesにポートフォリオサイト作成した</title>
+      <link>https://inody.github.io/posts/portfolio-blog-hugo/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://inody.github.io/posts/portfolio-blog-hugo/</guid>
+      <description> 今まで研究者としてのポートフォリオはGoogle Siteを、ブログはTumblrを用いていた  それぞれのアドレスは下記  https://sites.google.com/view/d-inoue/home https://inody.tumblr.com/     どちらも投稿時はWebの投稿画面にアクセスする必要があり、煩雑に感じていた 前からやろうやろうと思っていた、Github pagesでポートフォリオサイトを公開する作業に取り組んだ ジェネレータにはよく見かけるHugoを、テンプレートにはStar数の多いPaperModを使用することにした  作業には https://zenn.dev/okaponta/articles/c302f58507febc が参考になった   これまでのポートフォリオサイトの内容をコピペし、ブログ記事も移行した  最初自動化しようと思ったが、そんなに記事の本数も多くなかったため、手作業で行った   過去のブログとmarkdownやlatexのレンダリング方法が異なるため、表示がかなり崩れている  修正は面倒なので、後回しにすることにする   git pushすれば記事が公開できるようになったため、執筆のハードルが下がったと思う 今後、Google SiteやTumblrの更新を止め、こちらのサイトで情報を更新しようと思う  いろんなところに貼っているGoogle SiteやTumblrへのリンクもこちらのサイトに張り替えなければならない   こんなことやってる時間があったら研究しましょう  </description>
     </item>
     
     <item>
