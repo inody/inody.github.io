@@ -11,12 +11,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 03 May 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://inody.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>重い腰を上げてGithub pagesにポートフォリオサイト作成した</title>
+      <title>重い腰を上げてGithub pagesにポートフォリオサイトを作成した</title>
       <link>https://inody.github.io/posts/portfolio-blog-hugo/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0900</pubDate>
       
       <guid>https://inody.github.io/posts/portfolio-blog-hugo/</guid>
-      <description> 今まで研究者としてのポートフォリオはGoogle Siteを、ブログはTumblrを用いていた  それぞれのアドレスは下記  https://sites.google.com/view/d-inoue/home https://inody.tumblr.com/     どちらも投稿時はWebの投稿画面にアクセスする必要があり、煩雑に感じていた 前からやろうやろうと思っていた、Github pagesでポートフォリオサイトを公開する作業に取り組んだ ジェネレータにはよく見かけるHugoを、テンプレートにはStar数の多いPaperModを使用することにした  作業には https://zenn.dev/okaponta/articles/c302f58507febc が参考になった   これまでのポートフォリオサイトの内容をコピペし、ブログ記事も移行した  最初自動化しようと思ったが、そんなに記事の本数も多くなかったため、手作業で行った   過去のブログとmarkdownやlatexのレンダリング方法が異なるため、表示がかなり崩れている  修正は面倒なので、後回しにすることにする   git pushすれば記事が公開できるようになったため、執筆のハードルが下がったと思う 今後、Google SiteやTumblrの更新を止め、こちらのサイトで情報を更新しようと思う  いろんなところに貼っているGoogle SiteやTumblrへのリンクもこちらのサイトに張り替えなければならない   こんなことやってる時間があったら研究しましょう  </description>
+      <description> 今まで研究者としてのポートフォリオはGoogle Siteを、ブログはTumblrを用いていた  それぞれのアドレスは下記  https://sites.google.com/view/d-inoue/home https://inody.tumblr.com     どちらも投稿時はWebの投稿画面にアクセスする必要があり、煩雑に感じていた 前からやろうやろうと思っていた、Github pagesでポートフォリオサイトを公開する作業に取り組んだ ジェネレータにはよく見かけるHugoを、テンプレートにはStar数の多いPaperModを使用することにした  作業には https://zenn.dev/okaponta/articles/c302f58507febc が参考になった   これまでのポートフォリオサイトの内容をコピペし、ブログ記事も移行した  最初自動化しようと思ったが、そんなに記事の本数も多くなかったため、手作業で行った   過去のブログとmarkdownやlatexのレンダリング方法が異なるため、表示がかなり崩れている  修正は面倒なので、後回しにすることにする -&amp;gt; たぶん完了。   git pushすれば記事が公開できるようになったため、執筆のハードルが下がったと思う 今後、Google SiteやTumblrの更新を止め、こちらのサイトで情報を更新しようと思う  いろんなところに貼っているGoogle SiteやTumblrへのリンクもこちらのサイトに張り替えなければならない -&amp;gt; これも多分完了。   こんなことやってる時間があったら研究しましょう  </description>
     </item>
     
     <item>
