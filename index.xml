@@ -12,10 +12,10 @@
     <lastBuildDate>Tue, 03 May 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
-      <link>https://inody.github.io/profile/</link>
+      <link>https://inody.github.io/biography/</link>
       <pubDate>Tue, 03 May 2022 15:06:39 +0900</pubDate>
       
-      <guid>https://inody.github.io/profile/</guid>
+      <guid>https://inody.github.io/biography/</guid>
       <description>Daisuke Inoue is a researcher at Toyota Central R&amp;amp;D Labs,. Inc. He is also a Ph.D. student at the University of Tokyo. He received a B.E. degree in engineering from Osaka University in 2014 and an M.S. degree in informatics from Kyoto University in 2017. His current research interests include control engineering, multi-agent systems, and swarm intelligence.
 If you are interested in my research, please feel free to contact me!</description>
     </item>
