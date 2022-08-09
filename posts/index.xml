@@ -20,6 +20,18 @@
     </item>
     
     <item>
+      <title>モニタを買った</title>
+      <link>https://inody.github.io/posts/buy-monitor/</link>
+      <pubDate>Wed, 03 Aug 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://inody.github.io/posts/buy-monitor/</guid>
+      <description>U3223QE 買ってしまった…
+良かったこと
+画面が綺麗。ベゼルも狭い。 KVM機能が優秀。マウス・キーボード・usb-dacを切り替えてくれる。以前より配線がスッキリして気持ちいい。 dell display managerが優秀。キーボードショートカットで画面を触らず入力切り替えできるし、画面の輝度はじめとする設定も全部ここからできる。 微妙だったこと
+webカメラ（logicool brio）をハブに接続すると入力切り替えの際に他のUSBデバイスが認識されなくなる Non-integer scalingをすると4GBくらいメモリが召し上げられる 基本的にいい買い物だったと思うけど、メモリ問題は誤算だった。今後あまりに困るようならS3423DWCに買い替えを検討しようかな…</description>
+    </item>
+    
+    <item>
       <title>重い腰を上げてGithub pagesにポートフォリオサイトを作成した</title>
       <link>https://inody.github.io/posts/portfolio-blog-hugo/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0900</pubDate>
