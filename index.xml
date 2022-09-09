@@ -9,7 +9,7 @@
       <link>https://inody.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 09 Aug 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publications</title>
       <link>https://inody.github.io/publication/</link>
@@ -17,6 +17,19 @@
       
       <guid>https://inody.github.io/publication/</guid>
       <description>Preprint Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;A Fictitious-play Finite-difference Method for Linearly Solvable Mean Field Games&amp;rdquo;, April 15, 2022, (link). Journal (Refereed) S. Koyama, D. Inoue, A. Okada, and H, Yoshida, &amp;ldquo;Electro-osmotic diode based on colloidal nano-valves between double membranes,&amp;rdquo; Phys. Rev. Research, 2021, 3, 033289, (link) D. Inoue, A. Okada, T, Matsumori, K. Aihara, and H. Yoshida, &amp;ldquo;Traffic Signal Optimization on a Square Lattice with Quantum Annealing&amp;rdquo;, Scientific Reports, 2021, 11, 3303, (link) .</description>
+    </item>
+    
+    <item>
+      <title>日本応用数理学会の年会で発表してきました</title>
+      <link>https://inody.github.io/posts/jsiam-presentation/</link>
+      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://inody.github.io/posts/jsiam-presentation/</guid>
+      <description> 日本応用数理学会の年会で口頭発表してきました。
+内容は、平均場ゲームの数値計算についてです。
+平均場ゲームとは、非常に数の多い多体の最適制御問題を近似する偏微分方程式です。 平均場ゲームを数値計算したいのですが、以下の難しさがあります。 一つが、方程式が非線形であることです。 もう一つが、2本の連立方程式になっており、それぞれの変数が相互依存してしまっていることです。 これらの問題に対して Cole-Hopf変換と呼ばれる変換によって、方程式を線形化し、 Fictitous Playと呼ばれる反復計算によって、相互依存の問題を解消しました。 これらの変換を実施した系に対して、標準的な陽的差分スキームを提案し、提案スキームが平均場ゲームに対して収束性を持つことを証明しました。 提案スキームを1,2次元の制御問題に適用し、妥当な結果を与えることを確認しました。 発表資料をここに置いておきます。興味のある方はご覧ください。
+今回はハイブリッド開催でしたが、オンラインで発表しました。
+せっかくなので、一眼レフとマイクを使って発表を行ってみました。 完全に自己満足ですが、発表後「声が良かった」と好評いただき嬉しかったです。 </description>
     </item>
     
     <item>
