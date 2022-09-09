@@ -5,8 +5,8 @@
     <link>https://inody.github.io/</link>
     <description>Recent content on inosite</description>
     <image>
-      <url>https://inody.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://inody.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://inody.github.io/101</url>
+      <link>https://inody.github.io/101</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 09 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -29,7 +29,8 @@
 内容は、平均場ゲームの数値計算についてです。
 平均場ゲームとは、非常に数の多い多体の最適制御問題を近似する偏微分方程式です。 平均場ゲームを数値計算したいのですが、以下の難しさがあります。 一つが、方程式が非線形であることです。 もう一つが、2本の連立方程式になっており、それぞれの変数が相互依存してしまっていることです。 これらの問題に対して Cole-Hopf変換と呼ばれる変換によって、方程式を線形化し、 Fictitous Playと呼ばれる反復計算によって、相互依存の問題を解消しました。 これらの変換を実施した系に対して、標準的な陽的差分スキームを提案し、提案スキームが平均場ゲームに対して収束性を持つことを証明しました。 提案スキームを1,2次元の制御問題に適用し、妥当な結果を与えることを確認しました。 発表資料をここに置いておきます。興味のある方はご覧ください。
 今回はハイブリッド開催でしたが、オンラインで発表しました。
-せっかくなので、一眼レフとマイクを使って発表を行ってみました。 完全に自己満足ですが、発表後「声が良かった」と好評いただき嬉しかったです。 </description>
+せっかくなので、一眼レフとマイクを使って発表を行ってみました。 少し凝った環境でオンライン学会発表してみた pic.twitter.com/02N2XwN97Y
+&amp;mdash; inody (@inody_) September 8, 2022 完全に自己満足ですが、発表後「声が良かった」と好評いただき嬉しかったです。 </description>
     </item>
     
     <item>
