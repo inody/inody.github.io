@@ -9,7 +9,16 @@
       <link>https://inody.github.io/47</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 09 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://inody.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://inody.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>プロキシ環境でスクラッチからsingularityコンテナの作成</title>
+      <link>https://inody.github.io/posts/singularity/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://inody.github.io/posts/singularity/</guid>
+      <description>概要 現職場環境からアクセスできるスパコンで、gpuを使ったコードを実行しようとする時、singularity経由でないとcudaの設定周りで怒られることがある。 例えばjuliaのコードはコンテナを経由せずとも実行できたが、pythonでは怒られが発生してしまう。 このためやむを得ずコンテナに入門することになった。 docker hubやsingularity hubのコンテナを利用するのが手っ取り早いが、勉強のためにdockerのコンテナを一から作って、singularityのコンテナに変換してみることにした。 作業内容をここにメモしておく。 dockerのインストール 公式ページを参考にしたが、何かしらのエラーが出てしまった。ここ を参考にするとうまくいった。 dockerがプロキシを見られるように設定 以下を作成 $ sudo mkdir -p /etc/systemd/system/docker.service.d $ sudo vim /etc/systemd/system/docker.service.d/http-proxy.conf 以下を記述 [Service] Environment=&amp;#34;HTTP_PROXY=http://proxy_address:port&amp;#34; Environment=&amp;#34;HTTPS_PROXY=http://proxy_address:port&amp;#34; Environment=&amp;#34;NO_PROXY=localhost&amp;#34; dockerを再起動 $ sudo systemctl daemon-reload $ sudo systemctl restart docker コンテナが作成されたときにproxy設定 以下を作成 $ mkdir ~/.docker $ vim ~/.docker/config.json 以下を記述 { &amp;#34;proxies&amp;#34;: { &amp;#34;default&amp;#34;: { &amp;#34;httpProxy&amp;#34;: &amp;#34;http://proxy_address:port&amp;#34;, &amp;#34;httpsProxy&amp;#34;: &amp;#34;http://proxy_address:port&amp;#34;, &amp;#34;noProxy&amp;#34;: &amp;#34;localhost&amp;#34; } } } pythonの実行環境を作成： ここ を参照 ディレクトリ構成は下記のようにする . ├── docker-compose.yml ├── Dockerfile ├── .</description>
+    </item>
+    
     <item>
       <title>日本応用数理学会の年会で発表してきました</title>
       <link>https://inody.github.io/posts/jsiam-presentation/</link>
