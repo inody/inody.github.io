@@ -9,7 +9,21 @@
       <link>https://inody.github.io/47</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://inody.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://inody.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>カメラを買いたい！</title>
+      <link>https://inody.github.io/posts/wanna-buy-camera/</link>
+      <pubDate>Sun, 11 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://inody.github.io/posts/wanna-buy-camera/</guid>
+      <description>学生時代はPentaxのK-30とK-S1を使っていた。 選んだ理由はシンプルにカタログスペック上のコスパが良いと感じたから。 実際使ってみると、旅行先で風景写真を撮るなどの用途には不満を感じなかった。
+就職してから妻（当時の彼女）がOlympusのカメラを購入するのを横目に眺め、マイクロフォーサーズのコンパクトさとミラーレスカメラの充実した機能を羨ましく思うようになり、気づけば自分も同じマウントでE-M5 mark IIを購入していた。 レンズは12-40mm F2.8を使っていて、後から軽さと明るさを求めてPanasonicの25mm F1.4を買い足した。
+子どもが生まれて、元気に歩き回るまで成長してから、E-M5 mark IIのAFに不満を感じるようになった。 2022現在、OlympusはOMDSに名前を変え、OM-1やOM-5など新しいカメラを手掛けていた。 そこまでお金に余裕があるわけではないが、これら同一メーカーの機種だけでなく、他のメーカーへの乗り換えも検討してみることにした。 なお、APS-Cとフルサイズでマウントを共用しているC, N, S社は、AF性能で比べると間違いなく筆頭候補だが、予算的に許容できるAPS-Cを買うと、将来フルサイズへのコンプが刺激されそうで怖いので、見送ることにした。
+評価ポイントとして、E-M5での不満点を考慮し、下記を評価してみることにした。
+AF: 動体（子ども）が合わない。コントラストAFであることに原因がある気がする。 絵作り: 大きな不満があるわけではないが、ちょっと飽きてきている。PanaやFujiの記憶色的な絵作りに興味がある。 操作性: 設定項目が分かりづらい。タッチパネルなども限定的にしか使えない。 運搬性: これは現状不満があるわけではないが、乗り換えの際にあまり重くなってほしくない。 動画: 以前旅行の際初めて外付けマイクで挑戦したが、Full HDの画質がスマホより悪かったのと、30分制限が不満だった。 以上の不満点が買い替えによってどこまで改善しそうか、独断と偏見で点をつけてみることにした。
+機種 価格 AF 絵作り 操作性 運搬性 動画機能 総合 E-M5 mark iii 10 5 5 4 8 5 37 OM-5 6 6 5 4 8 7 36 E-M1 mark iii 8 8 5 7 7 6 41 OM-1 2 9 5 6 7 8 35 G99 9 4 7 8 6 7 41 G9 9 5 7 7 2 9 39 GH5m2 3 6 7 8 4 10 38 X-T5 1 6 10 4 6 10 37 X-S10 3 6 10 4 7 8 38 評価軸ごとにコメントすると、</description>
+    </item>
+    
     <item>
       <title>プロキシ環境でスクラッチからsingularityコンテナの作成</title>
       <link>https://inody.github.io/posts/singularity/</link>
