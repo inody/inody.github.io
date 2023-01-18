@@ -11,6 +11,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 29 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Publications</title>
+      <link>https://inody.github.io/publication/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://inody.github.io/publication/</guid>
+      <description>Preprint Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations&amp;rdquo;, January 18, 2023, (link).
+Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;A Fictitious-play Finite-difference Method for Linearly Solvable Mean Field Games&amp;rdquo;, April 15, 2022, (link).
+Journal (Refereed) A. Okada, D. Inoue, S. Koyama, T. Matsumori, and H. Yoshida, &amp;ldquo;Dynamical Cooperation Model for Mitigating the Segregation Phase in Schelling’s Model.</description>
+    </item>
+    
+    <item>
       <title>カメラを買った</title>
       <link>https://inody.github.io/posts/buy-camera/</link>
       <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
@@ -41,17 +52,6 @@ AF: 動体（子ども）が合わない。コントラストAFであること�
       
       <guid>https://inody.github.io/posts/singularity/</guid>
       <description>概要 現職場環境からアクセスできるスパコンで、gpuを使ったコードを実行しようとする時、singularity経由でないとcudaの設定周りで怒られることがある。 例えばjuliaのコードはコンテナを経由せずとも実行できたが、pythonでは怒られが発生してしまう。 このためやむを得ずコンテナに入門することになった。 docker hubやsingularity hubのコンテナを利用するのが手っ取り早いが、勉強のためにdockerのコンテナを一から作って、singularityのコンテナに変換してみることにした。 作業内容をここにメモしておく。 dockerのインストール 公式ページを参考にしたが、何かしらのエラーが出てしまった。ここ を参考にするとうまくいった。 プロキシ設定 dockerからプロキシが見えるように、以下を作成 $ sudo mkdir -p /etc/systemd/system/docker.service.d $ sudo vim /etc/systemd/system/docker.service.d/http-proxy.conf 以下を記述 [Service] Environment=&amp;#34;HTTP_PROXY=http://proxy_address:port&amp;#34; Environment=&amp;#34;HTTPS_PROXY=http://proxy_address:port&amp;#34; Environment=&amp;#34;NO_PROXY=localhost&amp;#34; dockerを再起動 $ sudo systemctl daemon-reload $ sudo systemctl restart docker コンテナが作成されたときにプロキシが設定されるよう、以下を作成 $ mkdir ~/.docker $ vim ~/.docker/config.json 以下を記述 { &amp;#34;proxies&amp;#34;: { &amp;#34;default&amp;#34;: { &amp;#34;httpProxy&amp;#34;: &amp;#34;http://proxy_address:port&amp;#34;, &amp;#34;httpsProxy&amp;#34;: &amp;#34;http://proxy_address:port&amp;#34;, &amp;#34;noProxy&amp;#34;: &amp;#34;localhost&amp;#34; } } } pythonの実行環境を作成： ここ を参照 ディレクトリ構成は下記のようにする . ├── docker-compose.yml ├── Dockerfile ├── .env ├── requirements.</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://inody.github.io/publication/</link>
-      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://inody.github.io/publication/</guid>
-      <description>Preprint Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations&amp;rdquo;, January 18, 2023, (link).
-Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;A Fictitious-play Finite-difference Method for Linearly Solvable Mean Field Games&amp;rdquo;, April 15, 2022, (link).
-Journal (Refereed) A. Okada, D. Inoue, S. Koyama, T. Matsumori, and H. Yoshida, &amp;ldquo;Dynamical Cooperation Model for Mitigating the Segregation Phase in Schelling’s Model.</description>
     </item>
     
     <item>
