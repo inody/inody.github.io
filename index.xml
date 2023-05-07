@@ -11,6 +11,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 25 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Publications</title>
+      <link>https://inody.github.io/publication/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://inody.github.io/publication/</guid>
+      <description>Preprint Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations,&amp;rdquo; January 18, 2023, (link). Journal (Refereed) D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;A fictitious-play finite-difference method for linearly solvable mean field games,&amp;rdquo; accepted in ESAIM: Mathematical Modelling and Numerical Analysis (ESAIM: M2AN), to appear. (link) A. Okada, D. Inoue, S. Koyama, T. Matsumori, and H.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://inody.github.io/research/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://inody.github.io/research/</guid>
+      <description>I am interested in modeling and control of large-scale dynamical systems. The followings are descriptions of some of the published research topics I have worked on.
+Controlling population dynamics using mean-field games (2019 &amp;ndash; Present) When controlling a large system, the larger the number of control targets, the longer it takes to compute the appropriate control inputs. To address this problem, we focus on a concept called the mean-field game, which approximates the optimal control system for a large number of populations.</description>
+    </item>
+    
+    <item>
       <title>さらば東京</title>
       <link>https://inody.github.io/posts/bye_tokyo/</link>
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
@@ -32,17 +51,6 @@
 毎日の生活はどこにいても大差ないはずなのに、何が違うのだろうか。 自分はその土地の何が好きだったんだろうか。 思いつく点を挙げてみる。
 水辺であること。野生動物のようで認めたくないが、自分は川や湖の近くに住むとテンションが上がるらしい。京都は鴨川、東京は神田川や、愛知は堀川（伏見）がお気に入りだった。 公園があること。1. と関わるが、緑や事前を適度に感じる場所が必要。東京に来て驚いたのがこの点。これまで住んできたどの街より、公園が充実していた。 歩行者が多いこと。移動を目的とした人でなく、移動自体を楽しんでいる人が往来している場所が好き。観光地はもちろんだが、商店街に魅力を感じる。 公共交通機関とのアクセスが良いこと。自分は運転が苦手であり、近場からバスや電車に乗って、外をぼんやり眺めながら移動するのが好き。車での移動を前提とした愛知の暮らしはあまりしっくり来なかった。 友達がいること。関東にも関西にも、数は少ないが学生時代の友人がおり、折につけて会うことができる。残念ながら愛知には会社の知り合い以外に気軽に会える人がおらず、家族以外の人間関係が希薄である。 以上を一言でまとめると「賑わいのある街」になるだろうか。 自分は人見知りの部類であり、あまり親しくない知人と会う予定があると、気疲れしてしまう。 こうした気質から不足する他人との繋がりを、人が往来する街を歩くことで、都合よく実感しようとしているのかもしれない。
 愛知に戻るのは少し残念だが、仕事の内容は楽しいし、勤務地を理由に会社を辞めることはない。 引っ越しにあたっては、上記の点がなるべく満たされるような場所を選びたい。</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://inody.github.io/publication/</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://inody.github.io/publication/</guid>
-      <description>Preprint Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations&amp;rdquo;, January 18, 2023, (link).
-Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;A Fictitious-play Finite-difference Method for Linearly Solvable Mean Field Games&amp;rdquo;, April 15, 2022, (link).
-Journal (Refereed) A. Okada, D. Inoue, S. Koyama, T. Matsumori, and H. Yoshida, &amp;ldquo;Dynamical Cooperation Model for Mitigating the Segregation Phase in Schelling’s Model.</description>
     </item>
     
     <item>
@@ -121,23 +129,6 @@ webカメラ（logicool brio）をハブに接続すると入力切り替えの�
       <guid>https://inody.github.io/biography/</guid>
       <description>Daisuke Inoue is a researcher at Toyota Central R&amp;amp;D Labs,. Inc. He is also a Ph.D. student at the University of Tokyo. He received a B.E. degree in engineering from Osaka University in 2014 and an M.S. degree in informatics from Kyoto University in 2017. His current research interests include control engineering, multi-agent systems, and swarm intelligence.
 If you are interested in my research, please feel free to contact me!</description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>https://inody.github.io/research/</link>
-      <pubDate>Tue, 03 May 2022 15:06:39 +0900</pubDate>
-      
-      <guid>https://inody.github.io/research/</guid>
-      <description>大規模な動的システムのモデリングや数値計算、制御手法の開発に興味があります。 下記は、これまでに取り組んだ研究テーマのうち公開済みのものの説明です。
-平均場ゲームを用いた集団の制御 (2019 &amp;ndash; Present) 大規模なシステムを制御する際、規模が大きくなるほど、最適な制御入力を計算するための時間が爆発的に大きくなってしまうという問題があります。この問題を解決するため、私たちは平均場ゲームと呼ばれる、集団の最適制御系を近似する概念（偏微分方程式系）に着目しています。平均場ゲームでは「1対1」の相互作用が「1対その他全員」と近似されるため、計算量の削減に繋がります。一方、平均場ゲームそのものも通常の計算では解きづらい方程式系であるため、数値計算の工夫が必要です。私たちは、この平均場ゲームの数値計算を、高速・高精度に行う手法を研究しています。
-提案制御則を用いて1000台のエージェント群を制御したときのアニメーション。各エージェントはそれぞれの利得関数を最大化するように、左下から右上に移動します。
-関連文献
-D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Model Predictive Mean Field Games for Controlling Multi-Agent Systems,&amp;rdquo; IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2021
-最適輸送を用いた集団の制御 (2020 &amp;ndash; Present) 物質をある場所から別の場所までコストを最小にするよう輸送する問題を、最適輸送問題といいます。最適輸送自体は古くからある概念ですが、制御工学との関連が見出されたのは比較的新しく、業界のホットトピックの一つと言えます。私たちは、マルチエージェントの被覆制御問題を、最適輸送のアイデアを用いて整理することで、新しい制御法を提案しました。この手法は、あるパラメータを固定することで、ある既存手法と等価になる（つまり提案手法は既存手法を含む）という特徴を持ちます。数値計算により提案手法は既存手法より被覆性能に優れていることが示されました。
-提案制御則を用いて25台のエージェント群を制御したときのアニメーション。黒点がエージェントの位置を表します。
-関連文献
-D. Inoue, Y. Ito, and H. Yoshida, &amp;ldquo;Optimal Transport-based Coverage Control for Swarm Robot Systems: Generalization of the Voronoi Tessellation-based Method,&amp;rdquo; in IEEE Control Systems Letter, 2020</description>
     </item>
     
     <item>
