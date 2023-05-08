@@ -12,6 +12,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 25 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About me</title>
+      <link>https://inody.github.io/biography/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://inody.github.io/biography/</guid>
+      <description>Daisuke Inoue is a researcher at Toyota Central R&amp;amp;D Labs,. Inc. He is also a Ph.D. student at the University of Tokyo. He received a B.E. degree in engineering from Osaka University in 2014 and an M.S. degree in informatics from Kyoto University in 2017. His current research interests include control engineering, multi-agent systems, and swarm intelligence.
+If you are interested in my research, please feel free to contact me!</description>
+    </item>
+    
+    <item>
       <title>Publications</title>
       <link>https://inody.github.io/publication/</link>
       <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
@@ -120,16 +130,6 @@ webカメラ（logicool brio）をハブに接続すると入力切り替えの�
       
       <guid>https://inody.github.io/posts/wanna-buy-monitor/</guid>
       <description> 今使っているモニタ（これ）はusb-cでmacbook airに接続・給電できるので、特に不満なく使っていた 買いたいと思ったきっかけは、デスクトップPCを購入して2台体制になったこと KVMを購入してモニタとusbデバイスを共有させようとした 初めに買ったのはサンワサプライのこれ。 usb-cとhdmiを切り替えできて、usb-cの方には給電もできるものはこれくらいしかなかった 一応動作したが、下記に不満があった このKVMを通して接続できる端子がusb2.0のみ 片方の接続が切れると、もう片方に勝手に切り替わる 切り替えが遅い（10秒以上） KVMを通してキーボードとマウスを繋いだだけで、電力不足を警告され、接続をOS側で勝手に切られる 特に最後が致命的だった 次に買ったのは、CKLauのこれ。 usb-cの入力を許容するKVMはほとんどないので、usb-c&amp;lt;-&amp;gt;HDMI+usb-aのハブとHDMI+usb-a同士を切り替えるKVMを組み合わせようとした usb3.0で接続できるKVMはこれくらいしかなかった 聞き慣れないメーカーなので不安だった。届いたら案の定、前面のusb端子が全く反応しなかったので返品 この辺りで、最近のモニタにはKVM機能付きのものが出てきていると知る GIGABYTE, JAPANNEXT, Dellなどが出していたが、口コミを見るとDellの機能が一番安定していそう どうせ買い替えるなら4Kとかウルトラワイドにしてみたいと欲が出てくる 4Kはnon-integer scalingするとGPUを消費するという情報を以前見かけたが、m1 macだとそこまで影響はないと判断した(https://forums.macrumors.com/threads/m1-mba-and-external-4k-monitor-scaling.2304916/) 候補は U3219Q U3223QE S3423DWC S3423DWCはウルトラワイドだが、ゲームとかあまりしないので保留（値段も4Kのものよりちょっとだけ高い） U3223QEはU3219Qの後継で、どちらも4K 色々機能が足されているが、自分の用途的にはU3219Qでも十分に思われた 一方、U3219Qはusb-c接続の時にusb2.0の速度しか出ないと言う情報を見かけた（ここ） なら現行機のU3223QEがいいよね けど価格が高い（2022.8月現在99800円） ボーナスもらったしいけるか！？となりかけているが、一度冷静になるために、ここまでの流れを記録している（&amp;lt;-イマココ） 結論 しばらくウォッチして、安くなったら買いたい。 買ったらここで報告します。 </description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>https://inody.github.io/biography/</link>
-      <pubDate>Tue, 03 May 2022 15:06:39 +0900</pubDate>
-      
-      <guid>https://inody.github.io/biography/</guid>
-      <description>Daisuke Inoue is a researcher at Toyota Central R&amp;amp;D Labs,. Inc. He is also a Ph.D. student at the University of Tokyo. He received a B.E. degree in engineering from Osaka University in 2014 and an M.S. degree in informatics from Kyoto University in 2017. His current research interests include control engineering, multi-agent systems, and swarm intelligence.
-If you are interested in my research, please feel free to contact me!</description>
     </item>
     
     <item>
