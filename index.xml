@@ -10,7 +10,17 @@
       <link>https://inody.github.io/47</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Sat, 25 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>https://inody.github.io/publication/</link>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://inody.github.io/publication/</guid>
+      <description>Preprint Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations,&amp;rdquo; January 18, 2023, (link). Journal (Refereed) D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Partially Centralized Model-Predictive Mean Field Games for Controlling Multi-Agent Systems,&amp;rdquo; IFAC Journal of Systems and Control, vol. 24, p. 100217, 2023 (link) D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;A fictitious-play finite-difference method for linearly solvable mean field games,&amp;rdquo; accepted in ESAIM: Mathematical Modelling and Numerical Analysis (ESAIM: M2AN), to appear.</description>
+    </item>
+    
     <item>
       <title>About me</title>
       <link>https://inody.github.io/biography/</link>
@@ -19,15 +29,6 @@
       <guid>https://inody.github.io/biography/</guid>
       <description>Daisuke Inoue is a researcher at Toyota Central R&amp;amp;D Labs,. Inc. He is also a Ph.D. student at the University of Tokyo. He received a B.E. degree in engineering from Osaka University in 2014 and an M.S. degree in informatics from Kyoto University in 2017. His current research interests include control engineering, multi-agent systems, and swarm intelligence.
 If you are interested in my research, please feel free to contact me!</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://inody.github.io/publication/</link>
-      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://inody.github.io/publication/</guid>
-      <description>Preprint Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations,&amp;rdquo; January 18, 2023, (link). Journal (Refereed) D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Partially Centralized Model-Predictive Mean Field Games for Controlling Multi-Agent Systems,&amp;rdquo; accepted in IFAC Journal of Systems and Control, to appear. D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;A fictitious-play finite-difference method for linearly solvable mean field games,&amp;rdquo; accepted in ESAIM: Mathematical Modelling and Numerical Analysis (ESAIM: M2AN), to appear.</description>
     </item>
     
     <item>
