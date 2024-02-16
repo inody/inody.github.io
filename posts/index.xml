@@ -11,8 +11,19 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jan 2024 21:29:46 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 16 Feb 2024 16:16:32 +0900</lastBuildDate>
     <atom:link href="https://inody.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOSでHHKBを使いながらwin機へRDPする時のキー設定</title>
+      <link>https://inody.github.io/posts/keysetting/</link>
+      <pubDate>Fri, 16 Feb 2024 16:16:32 +0900</pubDate>
+      <guid>https://inody.github.io/posts/keysetting/</guid>
+      <description>概要 macでは修飾キーがcmdだけど、win, linuxにRDPした時はctrlで、押下するキーが異なるのが、ずっともどかしく思っていた。 また、macではkarabinarの設定で左cmdでIME off、右cmdでIME onにできていたが、RDP先ではうまく設定できずにいた。 ここに、愛用しているHHKBのキー配列が絡むので、問題がややこしくなっている。 重い腰を上げて、キー設定を整えたので、メモしておく。
+できること コピペとかの修飾キーを全てtabの下のキーで、IMEオンオフを全てスペースバーの左右のキーで行えるようになる。 具体的には：
+mac内蔵キー caps lockをcmdにする 左右cmdキー空打ちで、IMEをオンオフする HHKB ctrlをcmdに、左cmdをctrlにする 置換されたctrl（ex左cmd）と右cmd空打ちで、IMEをオンオフする RDP接続時（全キーボード） cmdを全てctrlにする 置換された左右ctrl空打ちで、IMEをオンオフする 手順 まず、simple modificationsで画像のように変更する。
+次に、complex modificationsで、下記のようなjsonファイルを作成する：
+{ &amp;#34;description&amp;#34;: &amp;#34;my karabinar setting&amp;#34;, &amp;#34;manipulators&amp;#34;: [ { &amp;#34;conditions&amp;#34;: [ { &amp;#34;identifiers&amp;#34;: [ { &amp;#34;vendor_id&amp;#34;: 1452 } ], &amp;#34;type&amp;#34;: &amp;#34;device_if&amp;#34; }, { &amp;#34;bundle_identifiers&amp;#34;: [ &amp;#34;^com\\.2X\\.Client\\.Mac$&amp;#34;, &amp;#34;^com\\.microsoft\\.rdc\\.macos$&amp;#34; ], &amp;#34;type&amp;#34;: &amp;#34;frontmost_application_unless&amp;#34; } ], &amp;#34;from&amp;#34;: { &amp;#34;key_code&amp;#34;: &amp;#34;left_command&amp;#34;, &amp;#34;modifiers&amp;#34;: { &amp;#34;optional&amp;#34;: [ &amp;#34;any&amp;#34; ] } }, &amp;#34;parameters&amp;#34;: { &amp;#34;basic.</description>
+    </item>
     <item>
       <title>博士論文を提出しました</title>
       <link>https://inody.github.io/posts/submit_thesis/</link>
