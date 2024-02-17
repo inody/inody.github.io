@@ -18,11 +18,12 @@
       <link>https://inody.github.io/posts/keysetting/</link>
       <pubDate>Fri, 16 Feb 2024 16:16:32 +0900</pubDate>
       <guid>https://inody.github.io/posts/keysetting/</guid>
-      <description>概要 macでは修飾キーがcmdだけど、win, linuxにRDPした時はctrlで、押下するキーが異なるのが、ずっともどかしく思っていた。 また、macではkarabinarの設定で左cmdでIME off、右cmdでIME onにできていたが、RDP先ではうまく設定できずにいた。 ここに、愛用しているHHKBのキー配列が絡むので、問題がややこしくなっている。 重い腰を上げて、キー設定を整えたので、メモしておく。
+      <description>概要 macでは修飾キーがcmdだけど、win, linuxにRDPした時はctrlであり、それぞれで押下するキーが異なるのがずっともどかしく思っていた。 また、macではkarabinerの設定で左cmdでIME off、右cmdでIME onにできていたが、RDP先ではうまく設定できずにいた。 ここに、愛用しているHHKBのキー配列が絡むので、問題がややこしくなっている。 今回重い腰を上げてキー設定を整えたので、メモしておく。
 できること コピペとかの修飾キーを全てtabの下のキーで、IMEオンオフを全てスペースバーの左右のキーで行えるようになる。 具体的には：
-mac内蔵キー caps lockをcmdにする 左右cmdキー空打ちで、IMEをオンオフする HHKB ctrlをcmdに、左cmdをctrlにする 置換されたctrl（ex左cmd）と右cmd空打ちで、IMEをオンオフする RDP接続時（全キーボード） cmdを全てctrlにする 置換された左右ctrl空打ちで、IMEをオンオフする 手順 まず、simple modificationsで画像のように変更する。
+mac内蔵キー caps lockをcmdにする 左右cmdキー空打ちで、IMEをオンオフする HHKB ctrlをcmdに、左cmdをctrlにする 置換されたctrl（ex左cmd）と右cmd空打ちで、IMEをオンオフする RDP接続時（全キーボード） cmdを全てctrlにする 置換された左右ctrl空打ちで、IMEをオンオフする 手順 mac本体のキーは変更せず、全ての設定をkarabiner-elementsで行う。
+まず、simple modificationsで画像のように変更する。
 次に、complex modificationsで、下記のようなjsonファイルを作成する：
-{ &amp;#34;description&amp;#34;: &amp;#34;my karabinar setting&amp;#34;, &amp;#34;manipulators&amp;#34;: [ { &amp;#34;conditions&amp;#34;: [ { &amp;#34;identifiers&amp;#34;: [ { &amp;#34;vendor_id&amp;#34;: 1452 } ], &amp;#34;type&amp;#34;: &amp;#34;device_if&amp;#34; }, { &amp;#34;bundle_identifiers&amp;#34;: [ &amp;#34;^com\\.2X\\.Client\\.Mac$&amp;#34;, &amp;#34;^com\\.microsoft\\.rdc\\.macos$&amp;#34; ], &amp;#34;type&amp;#34;: &amp;#34;frontmost_application_unless&amp;#34; } ], &amp;#34;from&amp;#34;: { &amp;#34;key_code&amp;#34;: &amp;#34;left_command&amp;#34;, &amp;#34;modifiers&amp;#34;: { &amp;#34;optional&amp;#34;: [ &amp;#34;any&amp;#34; ] } }, &amp;#34;parameters&amp;#34;: { &amp;#34;basic.</description>
+{ &amp;#34;description&amp;#34;: &amp;#34;my karabiner setting&amp;#34;, &amp;#34;manipulators&amp;#34;: [ { &amp;#34;conditions&amp;#34;: [ { &amp;#34;identifiers&amp;#34;: [ { &amp;#34;vendor_id&amp;#34;: 1452 } ], &amp;#34;type&amp;#34;: &amp;#34;device_if&amp;#34; }, { &amp;#34;bundle_identifiers&amp;#34;: [ &amp;#34;^com\\.2X\\.Client\\.Mac$&amp;#34;, &amp;#34;^com\\.microsoft\\.rdc\\.macos$&amp;#34; ], &amp;#34;type&amp;#34;: &amp;#34;frontmost_application_unless&amp;#34; } ], &amp;#34;from&amp;#34;: { &amp;#34;key_code&amp;#34;: &amp;#34;left_command&amp;#34;, &amp;#34;modifiers&amp;#34;: { &amp;#34;optional&amp;#34;: [ &amp;#34;any&amp;#34; ] } }, &amp;#34;parameters&amp;#34;: { &amp;#34;basic.</description>
     </item>
     <item>
       <title>博士論文を提出しました</title>
@@ -32,7 +33,7 @@ mac内蔵キー caps lockをcmdにする 左右cmdキー空打ちで、IMEをオ
       <description>1月5日に博論を提出した。 まだ全然振り返る心境にはないけど、肩の荷が一つ下ろせた気分。 次は1月の後半の発表に向けて準備を進めなければいけない。
 博士を取れた後もしばらくやることが続く。
 まず、住居。 博士取得に専念するという目的のもと、今は会社のある愛知に物件を借りて、三重の妻の実家と行き来しつつ生活していたが、 これを一拠点に集約しなければいけない。 年末年始で妻とよく話し合い、愛知と三重の物件をそれぞれ見学したりしていたが、今の妻の実家からご両親が移動しそうなことがわかり、じゃあこのままここに住み続ければいいだろう、となったのが今日までの判断。 ただそうなると通勤時間が2時間半となり、いつまで在宅勤務を全力活用できるのか不安でもある。 また4月までに状況が変わっているかもしれない。
-次に転職。 前々から学位取得したらやってみたいと思っていた。 今の職場に不満は全くない。 こんなに自由でおおらかに仕事ができる職場は全国を見てもかなり少ないはず。 しかし上記のように生活の基盤が揺らいでいることからも、いっそ気分を変えて都内とかに引っ越してもいいのでは、という気分になっている。 とりあえず年末にエージェントサイトに登録して、2人のエージェントとリモートで話をしてみた。 しかし全然気持ちが傾かないのは、今の職場が好きだからなんだろうな、とも思う。 優先順位は低いけど、マイペースで続けていきたい。
+次に転職活動。 前々から学位取得したらやってみたいと思っていた。 今の職場に不満は全くない。 こんなに自由でおおらかに仕事ができる職場は全国を見てもかなり少ないはず。 しかし上記のように生活の基盤が揺らいでいることからも、いっそ気分を変えて都内とかに引っ越してもいいのでは、という気分になっている。 とりあえず年末にエージェントサイトに登録して、2人のエージェントとリモートで話をしてみた。 しかし全然気持ちが傾かないのは、今の職場が好きだからなんだろうな、とも思う。 優先順位は低いけど、マイペースで続けていきたい。
 最後に新しい研究テーマの探索。 次年度から職場でのチームが変わり、新規のテーマに取り組む必要がある。 ここ数年、博士取得と関連づけたテーマに注力していたこともあり、新テーマの起案は久しぶり。 じっくり色々考えているけど、どうもいいテーマが思いつかない。 これまでのパターンとして、心の琴線に触れる研究とエンカウントするまでひたすら論文を読みあさっていたことを、最近ようやく思い出した。 年末年始にいくつか読む時間ができたので、ぼんやり形が見えてきているところ。 職場の最強研究者軍団に相談しながら、テーマを固めていきたい。
 2023年は博士取得という長いトンネルの出口がようやく見えた年だった。 2024年は公私ともに新しい取り組みが増えそうで、不安と期待とが入り混ざっている。 家族を大事にすること、楽しむことを優先して、自分のペースで取り組んでいきたい。</description>
     </item>
