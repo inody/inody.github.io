@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>inosite</title>
-    <link>http://localhost:1313/</link>
+    <link>https://inody.github.io/</link>
     <description>Recent content on inosite</description>
     <image>
       <title>inosite</title>
-      <url>http://localhost:1313/47</url>
-      <link>http://localhost:1313/47</link>
+      <url>https://inody.github.io/47</url>
+      <link>https://inody.github.io/47</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 17 Feb 2024 13:48:02 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博士号の授与が決まりました</title>
-      <link>http://localhost:1313/posts/finishphd/</link>
+      <link>https://inody.github.io/posts/finishphd/</link>
       <pubDate>Sat, 17 Feb 2024 13:48:02 +0900</pubDate>
-      <guid>http://localhost:1313/posts/finishphd/</guid>
+      <guid>https://inody.github.io/posts/finishphd/</guid>
       <description>概要 先日、2021年4月から始まった社会人博士取得の取り組みが一段落した。 3年で学位を取るという当初掲げた目標は達成したので、結果としては大変満足している。 忘れっぽい将来の自分のために、そして社会人博士に興味のあるどこかの誰かのために、今のうちに体験してみての所感をメモしておく。
 なぜ社会人博士を選択したか 多くの人がストレートでの博士進学を躊躇する理由に、経済面の懸念があると思う。 自分もその一人で、当時障害持ちの親から仕送りを急かされていて、そうでなくとも自費での修士の生活にかなり苦労していたため、就職することにした。 修士までに得た知識を活かした仕事をしたく、また研究を生業にすることにはもともと興味があったため、企業の研究所に的を絞った。 いくつかの企業に応募し、最初に内定をいただいたところに入社することにした。
 入社後、入学までの経緯 社会人博士を始められたのは、配属部署・上司・受け入れ先の先生のそれぞれに恵まれたおかげである。 配属部署では論文が成果として認められ、大学の研究室と変わらないフェーズの研究が可能だった。 特許化や受託開発を主業とする部署では、博士を目指すのにもう少し時間がかかると思う。 また、上司は配属当初から博士を目指すという私の要望を受け入れ、事あるごとに親身に相談に乗ってくれた。 入学先は巡り合わせで決まった。 社内で新プロジェクトが始まるにあたり、これまで関わりの少なかった数学系の研究室と組むことになり、上司を通して恐る恐る先生に進学可否を尋ねたところ、快諾していただいた（上司に感謝）。
@@ -42,9 +42,9 @@
     </item>
     <item>
       <title>macOSでHHKBを使いながらwin機へRDPする時のキー設定</title>
-      <link>http://localhost:1313/posts/keysetting/</link>
+      <link>https://inody.github.io/posts/keysetting/</link>
       <pubDate>Fri, 16 Feb 2024 16:16:32 +0900</pubDate>
-      <guid>http://localhost:1313/posts/keysetting/</guid>
+      <guid>https://inody.github.io/posts/keysetting/</guid>
       <description>概要 macでは修飾キーがcmdだけど、win, linuxにRDPした時はctrlであり、それぞれで押下するキーが異なるのがずっともどかしく思っていた。 また、macではkarabinerの設定で左cmdでIME off、右cmdでIME onにできていたが、RDP先ではうまく設定できずにいた。 ここに、愛用しているHHKBのキー配列が絡むので、問題がややこしくなっている。 今回重い腰を上げてキー設定を整えたので、メモしておく。
 できること コピペとかの修飾キーを全てtabの下のキーで、IMEオンオフを全てスペースバーの左右のキーで行えるようになる。 具体的には：
 mac内蔵キー caps lockをcmdにする 左右cmdキー空打ちで、IMEをオンオフする HHKB ctrlをcmdに、左cmdをctrlにする 置換されたctrl（ex左cmd）と右cmd空打ちで、IMEをオンオフする RDP接続時（全キーボード） cmdを全てctrlにする 置換された左右ctrl空打ちで、IMEをオンオフする 手順 mac本体のキーは変更せず、全ての設定をkarabiner-elementsで行う。
@@ -54,9 +54,9 @@ mac内蔵キー caps lockをcmdにする 左右cmdキー空打ちで、IMEをオ
     </item>
     <item>
       <title>博士論文を提出しました</title>
-      <link>http://localhost:1313/posts/submit_thesis/</link>
+      <link>https://inody.github.io/posts/submit_thesis/</link>
       <pubDate>Mon, 08 Jan 2024 21:29:46 +0900</pubDate>
-      <guid>http://localhost:1313/posts/submit_thesis/</guid>
+      <guid>https://inody.github.io/posts/submit_thesis/</guid>
       <description>1月5日に博論を提出した。 まだ全然振り返る心境にはないけど、肩の荷が一つ下ろせた気分。 次は1月の後半の発表に向けて準備を進めなければいけない。
 博士を取れた後もしばらくやることが続く。
 まず、住居。 博士取得に専念するという目的のもと、今は会社のある愛知に物件を借りて、三重の妻の実家と行き来しつつ生活していたが、 これを一拠点に集約しなければいけない。 年末年始で妻とよく話し合い、愛知と三重の物件をそれぞれ見学したりしていたが、今の妻の実家からご両親が移動しそうなことがわかり、じゃあこのままここに住み続ければいいだろう、となったのが今日までの判断。 ただそうなると通勤時間が2時間半となり、いつまで在宅勤務を全力活用できるのか不安でもある。 また4月までに状況が変わっているかもしれない。
@@ -66,41 +66,41 @@ mac内蔵キー caps lockをcmdにする 左右cmdキー空打ちで、IMEをオ
     </item>
     <item>
       <title>Publications</title>
-      <link>http://localhost:1313/publication/</link>
+      <link>https://inody.github.io/publication/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/</guid>
+      <guid>https://inody.github.io/publication/</guid>
       <description>Preprint Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations,&amp;rdquo; January 18, 2023, (link). Journal (Refereed) D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Partially Centralized Model-Predictive Mean Field Games for Controlling Multi-Agent Systems,&amp;rdquo; IFAC Journal of Systems and Control, vol. 24, p. 100217, 2023 (link) D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;A fictitious-play finite-difference method for linearly solvable mean field games,&amp;rdquo; ESAIM: Mathematical Modelling and Numerical Analysis (ESAIM: M2AN), vol.</description>
     </item>
     <item>
       <title>About me</title>
-      <link>http://localhost:1313/biography/</link>
+      <link>https://inody.github.io/biography/</link>
       <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/biography/</guid>
+      <guid>https://inody.github.io/biography/</guid>
       <description>Daisuke Inoue is a researcher at Toyota Central R&amp;amp;D Labs,. Inc. He received a B.E. degree in engineering from Osaka University in 2014 and an M.S. degree in informatics from Kyoto University in 2017. He received a Ph.D. degree in mathematical science from the University of Tokyo in 2024. His current research interests include control engineering, multi-agent systems, and swarm intelligence.
 If you are interested in my research, please feel free to contact me!</description>
     </item>
     <item>
       <title>Research</title>
-      <link>http://localhost:1313/research/</link>
+      <link>https://inody.github.io/research/</link>
       <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/</guid>
+      <guid>https://inody.github.io/research/</guid>
       <description>I am interested in modeling and control of large-scale dynamical systems. The followings are descriptions of some of the published research topics I have worked on.
 Controlling population dynamics using mean-field games (2019 &amp;ndash; Present) When controlling a large system, the larger the number of control targets, the longer it takes to compute the appropriate control inputs. To address this problem, we focus on a concept called the mean-field game, which approximates the optimal control system for a large number of populations.</description>
     </item>
     <item>
       <title>さらば東京</title>
-      <link>http://localhost:1313/posts/bye_tokyo/</link>
+      <link>https://inody.github.io/posts/bye_tokyo/</link>
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/bye_tokyo/</guid>
+      <guid>https://inody.github.io/posts/bye_tokyo/</guid>
       <description>先ほど全ての荷物が搬出され、荷物より少し先に名古屋に新幹線で向かっている最中。 一つ前の記事でも書いたけど、「賑わい」のある東京を離れるのは正直名残惜しい。 またいつかチャンスがあれば滞在したいと思う。
 東京での一番の進捗は、博士課程を始められたことだ。 慣れない数学分野での挑戦は、とても不安だったし、今も周りの凄すぎるプレイヤーに萎縮する一方だけど、大学と会社の両方に相談相手がいるおかげで、ジリジリと前に進むことができていると思う。 経済的な心配が薄いのと、困ったら社内の仕事に切り替えて気分転換できるのは、社会人博士ならではの強みだ。 相変わらず時間は全然足りないけど。 嬉しいニュースとして、先日ようやくちゃんとした雑誌に論文を通すことができた。 あと1本投稿中の原稿は、卒業までに決着させたいし、今進めているアイデアも投稿までは漕ぎ着けたい。
 しばらくは新居を拠点に、愛知の本社、東京の研究室、三重の妻の実家の3箇所を行き来する生活を送ることになりそう。 いろいろなことが少しずつ不安だけど、これまでも何とかなったし、これからも何とかなるはず。 未来はきっと明るい。</description>
     </item>
     <item>
       <title>愛知に戻ります</title>
-      <link>http://localhost:1313/posts/relocation/</link>
+      <link>https://inody.github.io/posts/relocation/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/relocation/</guid>
+      <guid>https://inody.github.io/posts/relocation/</guid>
       <description>先日、会社から愛知に戻るよう内示を受けた。 こちらに転勤してきて4年、そろそろかな、と心構えをしていたつもりだったが、意外と動揺する自分を発見した。
 自分は大学に入るまでの18年間を北陸の地方都市で過ごし、その後大学で大阪、大学院で京都、就職で愛知、転勤で東京、と約3年ごとに拠点を移してきた。 特定の土地に思い入れがあることに気づいたのは、京都の大学を卒業して愛知に就職した時だった。 就活をしていた当時は留学から帰ってきた直後ということもあり、日本食が食べられるのならどこでも、という感じだったのだが、就職してから思いの外京都を懐かしく感じることに気づいた。 そして帰任準備を始める今も、すでにこの地を離れがたい気持ちになっている。
 毎日の生活はどこにいても大差ないはずなのに、何が違うのだろうか。 自分はその土地の何が好きだったんだろうか。 思いつく点を挙げてみる。
@@ -109,17 +109,17 @@ Controlling population dynamics using mean-field games (2019 &amp;ndash; Present
     </item>
     <item>
       <title>カメラを買った</title>
-      <link>http://localhost:1313/posts/buy-camera/</link>
+      <link>https://inody.github.io/posts/buy-camera/</link>
       <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/buy-camera/</guid>
+      <guid>https://inody.github.io/posts/buy-camera/</guid>
       <description>買ってしまいました、E-M1 mark iii。
 よかった点 AFが早い！令和の世に位相差AFを初体験して感動した。 動画が綺麗！クロップなし4Kは使いやすい。ホームビデオ目的だとlog撮影は面倒だし、30p 8bitで全然十分に感じる。 UIがサクサク！E-M5 mark iiは撮れた画像を消去するのにちょっと時間がかかっていたが、本機種では一瞬で消去できるのがストレスフリー。 いまいちだった点 流石にこっちに向かってくる子供をC-AFで連写してもピントが全部合う感じではなかった。この辺SonyやCanonはすごいんだろうなー。 画質はE-M5 mark iiと変化なし。いまだにFujiのフィルムシミュレーションについての解説記事とか読んじゃう。 ショット数を調べると50000回超えてた。キタムラの状態Aを信用して買ったので、ちょっとショックだった。外観は説明通り無傷なので致し方なしか。 懸案事項 以前は撮れた写真はプライベートな順に、iCloudの共有アルバム、Facebook、Tumblrにアップしてたが、最近は後者2つは使わなくなってしまった。 Facebookの代わりにインスタに上げたりもたまにしてるんだけど、正方形クロップにいまだに抵抗がある：調べたらアスペクト比は変えられるんですね。情弱の極み。 ブログ機能をこのサイトに移管したつもりだが、ストレージ容量に限りがあるため（1GB?）、写真は引き続きTumblrに上げていっても良い気もする 総じていい買い物をしたと思います。</description>
     </item>
     <item>
       <title>カメラを買いたい！</title>
-      <link>http://localhost:1313/posts/wanna-buy-camera/</link>
+      <link>https://inody.github.io/posts/wanna-buy-camera/</link>
       <pubDate>Sun, 11 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/wanna-buy-camera/</guid>
+      <guid>https://inody.github.io/posts/wanna-buy-camera/</guid>
       <description>学生時代はPentaxのK-30とK-S1を使っていた。 選んだ理由はシンプルにカタログスペック上のコスパが良いと感じたから。 実際使ってみると、旅行先で風景写真を撮るなどの用途には不満を感じなかった。
 就職してから妻（当時の彼女）がOlympusのカメラを購入するのを横目に眺め、マイクロフォーサーズのコンパクトさとミラーレスカメラの充実した機能を羨ましく思うようになり、気づけば自分も同じマウントでE-M5 mark IIを購入していた。 レンズは12-40mm F2.8を使っていて、後から軽さと明るさを求めてPanasonicの25mm F1.4を買い足した。
 子どもが生まれて、元気に歩き回るまで成長してから、E-M5 mark IIのAFに不満を感じるようになった。 2022現在、OlympusはOMDSに名前を変え、OM-1やOM-5など新しいカメラを手掛けていた。 そこまでお金に余裕があるわけではないが、これら同一メーカーの機種だけでなく、他のメーカーへの乗り換えも検討してみることにした。 なお、APS-Cとフルサイズでマウントを共用しているC, N, S社は、AF性能で比べると間違いなく筆頭候補だが、予算的に許容できるAPS-Cを買うと、将来フルサイズへのコンプが刺激されそうで怖いので、見送ることにした。
@@ -129,16 +129,16 @@ AF: 動体（子ども）が合わない。コントラストAFであること�
     </item>
     <item>
       <title>プロキシ環境でスクラッチからsingularityコンテナの作成</title>
-      <link>http://localhost:1313/posts/singularity/</link>
+      <link>https://inody.github.io/posts/singularity/</link>
       <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/singularity/</guid>
+      <guid>https://inody.github.io/posts/singularity/</guid>
       <description>概要 現職場環境からアクセスできるスパコンで、gpuを使ったコードを実行しようとする時、singularity経由でないとcudaの設定周りで怒られることがある。 例えばjuliaのコードはコンテナを経由せずとも実行できたが、pythonでは怒られが発生してしまう。 このためやむを得ずコンテナに入門することになった。 docker hubやsingularity hubのコンテナを利用するのが手っ取り早いが、勉強のためにdockerのコンテナを一から作って、singularityのコンテナに変換してみることにした。 作業内容をここにメモしておく。 dockerのインストール 公式ページを参考にしたが、何かしらのエラーが出てしまった。ここ を参考にするとうまくいった。 プロキシ設定 dockerからプロキシが見えるように、以下を作成 $ sudo mkdir -p /etc/systemd/system/docker.service.d $ sudo vim /etc/systemd/system/docker.service.d/http-proxy.conf 以下を記述 [Service] Environment=&amp;#34;HTTP_PROXY=http://proxy_address:port&amp;#34; Environment=&amp;#34;HTTPS_PROXY=http://proxy_address:port&amp;#34; Environment=&amp;#34;NO_PROXY=localhost&amp;#34; dockerを再起動 $ sudo systemctl daemon-reload $ sudo systemctl restart docker コンテナが作成されたときにプロキシが設定されるよう、以下を作成 $ mkdir ~/.docker $ vim ~/.docker/config.json 以下を記述 { &amp;#34;proxies&amp;#34;: { &amp;#34;default&amp;#34;: { &amp;#34;httpProxy&amp;#34;: &amp;#34;http://proxy_address:port&amp;#34;, &amp;#34;httpsProxy&amp;#34;: &amp;#34;http://proxy_address:port&amp;#34;, &amp;#34;noProxy&amp;#34;: &amp;#34;localhost&amp;#34; } } } pythonの実行環境を作成： ここ を参照 ディレクトリ構成は下記のようにする . ├── docker-compose.yml ├── Dockerfile ├── .env ├── requirements.</description>
     </item>
     <item>
       <title>日本応用数理学会の年会で発表してきました</title>
-      <link>http://localhost:1313/posts/jsiam-presentation/</link>
+      <link>https://inody.github.io/posts/jsiam-presentation/</link>
       <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/jsiam-presentation/</guid>
+      <guid>https://inody.github.io/posts/jsiam-presentation/</guid>
       <description> 日本応用数理学会の年会で口頭発表してきました。
 内容は、平均場ゲームの数値計算についてです。
 平均場ゲームとは、非常に数の多い多体の最適制御問題を近似する偏微分方程式です。 平均場ゲームを数値計算したいのですが、以下の難しさがあります。 一つが、方程式が非線形であることです。 もう一つが、2本の連立方程式になっており、それぞれの変数が相互依存してしまっていることです。 これらの問題に対して Cole-Hopf変換と呼ばれる変換によって、方程式を線形化し、 Fictitous Playと呼ばれる反復計算によって、相互依存の問題を解消しました。 これらの変換を実施した系に対して、標準的な陽的差分スキームを提案し、提案スキームが平均場ゲームに対して収束性を持つことを証明しました。 提案スキームを1,2次元の制御問題に適用し、妥当な結果を与えることを確認しました。 発表資料をここに置いておきます。興味のある方はご覧ください。
@@ -148,9 +148,9 @@ AF: 動体（子ども）が合わない。コントラストAFであること�
     </item>
     <item>
       <title>モニタを買った</title>
-      <link>http://localhost:1313/posts/buy-monitor/</link>
+      <link>https://inody.github.io/posts/buy-monitor/</link>
       <pubDate>Tue, 09 Aug 2022 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/buy-monitor/</guid>
+      <guid>https://inody.github.io/posts/buy-monitor/</guid>
       <description>U3223QE 買ってしまった…
 良かったこと
 画面が綺麗。ベゼルも狭い。 KVM機能が優秀。マウス・キーボード・usb-dacを切り替えてくれる。以前より配線がスッキリして気持ちいい。 dell display managerが優秀。キーボードショートカットで画面を触らず入力切り替えできるし、画面の輝度はじめとする設定も全部ここからできる。 微妙だったこと
@@ -158,23 +158,23 @@ webカメラ（logicool brio）をハブに接続すると入力切り替えの�
     </item>
     <item>
       <title>モニタを買いたい</title>
-      <link>http://localhost:1313/posts/wanna-buy-monitor/</link>
+      <link>https://inody.github.io/posts/wanna-buy-monitor/</link>
       <pubDate>Wed, 03 Aug 2022 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/wanna-buy-monitor/</guid>
+      <guid>https://inody.github.io/posts/wanna-buy-monitor/</guid>
       <description> 今使っているモニタ（これ）はusb-cでmacbook airに接続・給電できるので、特に不満なく使っていた 買いたいと思ったきっかけは、デスクトップPCを購入して2台体制になったこと KVMを購入してモニタとusbデバイスを共有させようとした 初めに買ったのはサンワサプライのこれ。 usb-cとhdmiを切り替えできて、usb-cの方には給電もできるものはこれくらいしかなかった 一応動作したが、下記に不満があった このKVMを通して接続できる端子がusb2.0のみ 片方の接続が切れると、もう片方に勝手に切り替わる 切り替えが遅い（10秒以上） KVMを通してキーボードとマウスを繋いだだけで、電力不足を警告され、接続をOS側で勝手に切られる 特に最後が致命的だった 次に買ったのは、CKLauのこれ。 usb-cの入力を許容するKVMはほとんどないので、usb-c&amp;lt;-&amp;gt;HDMI+usb-aのハブとHDMI+usb-a同士を切り替えるKVMを組み合わせようとした usb3.0で接続できるKVMはこれくらいしかなかった 聞き慣れないメーカーなので不安だった。届いたら案の定、前面のusb端子が全く反応しなかったので返品 この辺りで、最近のモニタにはKVM機能付きのものが出てきていると知る GIGABYTE, JAPANNEXT, Dellなどが出していたが、口コミを見るとDellの機能が一番安定していそう どうせ買い替えるなら4Kとかウルトラワイドにしてみたいと欲が出てくる 4Kはnon-integer scalingするとGPUを消費するという情報を以前見かけたが、m1 macだとそこまで影響はないと判断した(https://forums.macrumors.com/threads/m1-mba-and-external-4k-monitor-scaling.2304916/) 候補は U3219Q U3223QE S3423DWC S3423DWCはウルトラワイドだが、ゲームとかあまりしないので保留（値段も4Kのものよりちょっとだけ高い） U3223QEはU3219Qの後継で、どちらも4K 色々機能が足されているが、自分の用途的にはU3219Qでも十分に思われた 一方、U3219Qはusb-c接続の時にusb2.0の速度しか出ないと言う情報を見かけた（ここ） なら現行機のU3223QEがいいよね けど価格が高い（2022.8月現在99800円） ボーナスもらったしいけるか！？となりかけているが、一度冷静になるために、ここまでの流れを記録している（&amp;lt;-イマココ） 結論 しばらくウォッチして、安くなったら買いたい。 買ったらここで報告します。 </description>
     </item>
     <item>
       <title>重い腰を上げてGithub pagesにポートフォリオサイトを作成した</title>
-      <link>http://localhost:1313/posts/portfolio-blog-hugo/</link>
+      <link>https://inody.github.io/posts/portfolio-blog-hugo/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/portfolio-blog-hugo/</guid>
+      <guid>https://inody.github.io/posts/portfolio-blog-hugo/</guid>
       <description> 今まで研究者としてのポートフォリオはGoogle Siteを、ブログはTumblrを用いていた それぞれのアドレスは下記 https://sites.google.com/view/d-inoue/home https://inody.tumblr.com どちらも投稿時はWebの投稿画面にアクセスする必要があり、煩雑に感じていた 前からやろうやろうと思っていた、Github pagesでポートフォリオサイトを公開する作業に取り組んだ ジェネレータにはよく見かけるHugoを、テンプレートにはStar数の多いPaperModを使用することにした 作業には https://zenn.dev/okaponta/articles/c302f58507febc が参考になった これまでのポートフォリオサイトの内容をコピペし、ブログ記事も移行した 最初自動化しようと思ったが、そんなに記事の本数も多くなかったため、手作業で行った 過去のブログとmarkdownやlatexのレンダリング方法が異なるため、表示がかなり崩れている 修正は面倒なので、後回しにすることにする -&amp;gt; たぶん完了。 今後、Google SiteやTumblrの更新を止め、こちらのサイトで情報を更新しようと思う いろんなところに貼っているGoogle SiteやTumblrへのリンクもこちらのサイトに張り替えなければならない -&amp;gt; これも多分完了。 git pushすれば記事が公開できるようになったため、執筆のハードルが下がったと思う 自分へのメモ： contentsにmarkdownファイルを作成 inositeでhugo publicでgit push origin main こんなことやってる時間があったら研究しましょう </description>
     </item>
     <item>
       <title>WSLのインストールから、外部からのSSH環境構築までの備忘録</title>
-      <link>http://localhost:1313/posts/wsl-ssh/</link>
+      <link>https://inody.github.io/posts/wsl-ssh/</link>
       <pubDate>Sun, 16 Jan 2022 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/wsl-ssh/</guid>
+      <guid>https://inody.github.io/posts/wsl-ssh/</guid>
       <description>インストール ここを参考にした。 以前WSL1を触った時はMicrosoftストアからイメージをDLする感じだったと記憶しているが、コマンドだけでインストールできた。 Powershellでのコマンド：
 wsl --install これだけでUbuntu20.04が自動でインストールされた。
 イメージの移動 デフォルトではCドライブにインストールされる。 しかし後々ディスク容量を逼迫することが目に見えたので、別ドライブにイメージを移動させた。 ここを参考にした。 Fドライブに1TBのSSDを増設したので、基本ここの直下を使うことにした。 Powershellでのコマンド：
@@ -189,9 +189,9 @@ for /F %%i in (&#39;wsl -d Ubuntu exec hostname -I&#39;) do set ip=%%i netsh int
     </item>
     <item>
       <title>計算機を購入した</title>
-      <link>http://localhost:1313/posts/buy-pc/</link>
+      <link>https://inody.github.io/posts/buy-pc/</link>
       <pubDate>Sun, 16 Jan 2022 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/buy-pc/</guid>
+      <guid>https://inody.github.io/posts/buy-pc/</guid>
       <description>購入理由 正月で帰省中、ふと計算機がほしくなった。 会社のネットワークはsshがブロックされているため、家から繋ぐにはRDP接続する必要がある。 通信がラグい時もあり、ストレスで出社したりしていた。 家に計算機があれば、ちょっとした計算を家で回すことができると考えた。 （家族のいない間ゲームをしたい気持ちもあった）
 要件 せっかくなので、最近話題のIntel12世代CPUを積んだやつがいい。 GPUはあんまり使わないだろうけど、機械学習に興味がなくはない（本音はゲームがしたい）ので、それなりのやつを積んでた方が良い。 メモリは32GBあれば十分だけど、16GBでも良いかもしれない。 価格は高くても25万円くらいで抑えたい。
 調査 初めはフロンティアやドスパラなどのBTOを探したけど、途中から欲が出て自作したくなった。 ただ今はあらゆるパーツが高騰していて、自作するとBTOより高くつくことがわかった。 年末年始で各社がセールを行なっており、パソコン工房の自作キットが魅力的だったので（これ）、新年早々寒空の下店舗に並ぶなどしてみたが、惜しくも購入できなかった。
@@ -203,9 +203,9 @@ for /F %%i in (&#39;wsl -d Ubuntu exec hostname -I&#39;) do set ip=%%i netsh int
     </item>
     <item>
       <title>仕事と学業と育児のトリレンマ</title>
-      <link>http://localhost:1313/posts/trilemma/</link>
+      <link>https://inody.github.io/posts/trilemma/</link>
       <pubDate>Sun, 20 Jun 2021 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/trilemma/</guid>
+      <guid>https://inody.github.io/posts/trilemma/</guid>
       <description>社会人博士として大学に入学してそろそろ2か月になります。 現状を俯瞰すると、いろいろとまずい状態にあるように思われるので、問題点を列挙してみようと思います。
 まず、平日に仕事と学業が思ったほど両立できていません。 今の研究室とは共同研究のご縁で配属させていただいたため、昨年度までは業務内容と学業の内容にオーバーラップがありました。 これを利用して学位取得のための研究を進められると踏んでいたのですが、現状そうはなっていません。 というのも、今年度から組織編成が変わり、業務内容が変更されたためです。 今のところ、上司は過去の業務を精算する時間として、昨年度の研究に時間を割くことを大目に見てくれています。 しかし、そのうち新しい業務項目に本格的に携わることになるのは不可避でしょう。 また、ここ最近書類の作成業務が重なったことも、研究の進捗を阻んでいるように思います。
 また、平日の夜は一瞬で過ぎます。 子どものご飯を上げる、お風呂、寝かしつけなどをしていると気づけば22:00を回ります。 この時間以降に勉強を進めようとしていた時期もあったのですが、子どもが夜中に目覚めることが多く、その結果自分も寝不足になるため、最近は一緒の時間に寝てしまっています。
@@ -219,9 +219,9 @@ for /F %%i in (&#39;wsl -d Ubuntu exec hostname -I&#39;) do set ip=%%i netsh int
     </item>
     <item>
       <title>子の寝かしつけ</title>
-      <link>http://localhost:1313/posts/sleep-baby/</link>
+      <link>https://inody.github.io/posts/sleep-baby/</link>
       <pubDate>Sun, 20 Jun 2021 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/sleep-baby/</guid>
+      <guid>https://inody.github.io/posts/sleep-baby/</guid>
       <description>娘が大きくなってきた。
 以前は寝かしつけに相当苦労した。 縦抱っこをしながら子守唄を歌う。 寝息を立て始めてしばらくして大きな吐息が聞こえたら、そっとベッドに寝かせる。 少しでも乱暴な置き方をするとパチリと目が覚め大泣きされる。 こうした動作を繰り返すうちに1時間は余裕で経過する。
 今は違う。 初めからベッドでごろごろさせながら一緒に遊んでいるうちに、そのまま寝息を立て始めることが増えた。 寝かしつけが随分と楽になった。
@@ -230,9 +230,9 @@ for /F %%i in (&#39;wsl -d Ubuntu exec hostname -I&#39;) do set ip=%%i netsh int
     </item>
     <item>
       <title>博士課程に進学しました</title>
-      <link>http://localhost:1313/posts/start-phd/</link>
+      <link>https://inody.github.io/posts/start-phd/</link>
       <pubDate>Sat, 03 Apr 2021 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/start-phd/</guid>
+      <guid>https://inody.github.io/posts/start-phd/</guid>
       <description>この4月から、東京大学の数理科学研究科に博士後期課程の学生として入学することになりました。
 入社当初から会社の上司には学位を取りたいと伝えていたのですが、足掛け5年でようやくスタートを切ることができた次第です。
 入社時は学生時代の指導教員が会社の近くに研究室を構えていたため、そこに通うことを狙っていたのですが、東京転勤によって難しくなってしまいました。
@@ -249,9 +249,9 @@ for /F %%i in (&#39;wsl -d Ubuntu exec hostname -I&#39;) do set ip=%%i netsh int
     </item>
     <item>
       <title>2020年の振り返り</title>
-      <link>http://localhost:1313/posts/lookback-2020/</link>
+      <link>https://inody.github.io/posts/lookback-2020/</link>
       <pubDate>Thu, 31 Dec 2020 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/lookback-2020/</guid>
+      <guid>https://inody.github.io/posts/lookback-2020/</guid>
       <description>気づけば年の瀬です。 今年はコロナ禍で在宅勤務が一定期間続いたためか、矢のように時間が過ぎたと感じます。
 自分は割と一人が好きなので、はじめのうちはリモートワークを歓迎し、集中して作業を進めることができました。 しかし後半になると、生活リズムがずれるとともに倦怠感を覚え始め、作業効率がガタ落ちしてしまいました。
 そのせいか、今年度のアウトプット目標は「年度末までに3本投稿」でしたが、今の所2本しか投稿できていません。 うち1本はリジェクト、もう1本はアクセプトでした。 どちらも自分としてはハードルが高い雑誌だったので、1本アクセプトされたことは十分検討したとも言えそうです。 ただ、あと1本投稿できる見込みはまったく立っていません。 なんとか希望が見えるところまで頑張りたいです。
@@ -267,9 +267,9 @@ Amazonウィッシュリスト</description>
     </item>
     <item>
       <title>LaTeXで2カラムの原稿の両側にページごとの行番号を振る</title>
-      <link>http://localhost:1313/posts/latex-two-cols/</link>
+      <link>https://inody.github.io/posts/latex-two-cols/</link>
       <pubDate>Sun, 08 Nov 2020 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/latex-two-cols/</guid>
+      <guid>https://inody.github.io/posts/latex-two-cols/</guid>
       <description>タイトルについてです。
 lineno.styを使うのですが、そのまま用いても以下の問題がありました。
 右ページの番号が真ん中に来ちゃう ページごとに番号が改まらない 数式のところでカウントがバグる ちょっと長いですが、以下のようにすると解決しました。 オプションにpagewiseを指定するのがポイントです。
@@ -277,17 +277,17 @@ lineno.styを使うのですが、そのまま用いても以下の問題があ�
     </item>
     <item>
       <title>latexdiffでコンパイルエラーを回避したい</title>
-      <link>http://localhost:1313/posts/latexdiff-tips/</link>
+      <link>https://inody.github.io/posts/latexdiff-tips/</link>
       <pubDate>Fri, 03 Apr 2020 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/latexdiff-tips/</guid>
+      <guid>https://inody.github.io/posts/latexdiff-tips/</guid>
       <description>大体の問題は、数式か引用文献で発生するので、これらをdiffから除外してあげればよい：
 latexdiff old.tex new.tex &amp;gt; diff.tex --exclude-safecmd=&amp;#34;cite&amp;#34; --math-markup=0 </description>
     </item>
     <item>
       <title>Dropboxの同時接続端末数制限を突破したい</title>
-      <link>http://localhost:1313/posts/dropbox-free/</link>
+      <link>https://inody.github.io/posts/dropbox-free/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/dropbox-free/</guid>
+      <guid>https://inody.github.io/posts/dropbox-free/</guid>
       <description>概要 Dropbox便利ですよね。 何が便利って、真にマルチプラットフォームのクラウドストレージって、これくらいしかないという点です。
 Google-Driveは便利ですが、何故かDebianに公式アプリが提供されておらず、サードパーティ製のアプリでなんとかする必要があります。 griveやgoogle drive ocamlfuseなどがあるなかで、自分は一時期rcloneを使って運用していました。 cronと組み合わせることでほぼリアルタイムな動機ができるのですが、API制限に引っかかると同期されないことがあるのが厄介でした。
 また一時期はiCloudDriveにもトライしていました。 Apple製品で閉じているときは便利ですが、ubuntuとの連携はほとんど不可能といってよさそうです。
@@ -298,9 +298,9 @@ Google-Driveは便利ですが、何故かDebianに公式アプリが提供さ�
     </item>
     <item>
       <title>macからubuntu mateにxrdpでリモートログイン</title>
-      <link>http://localhost:1313/posts/ubuntu-mate-xrdp/</link>
+      <link>https://inody.github.io/posts/ubuntu-mate-xrdp/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/ubuntu-mate-xrdp/</guid>
+      <guid>https://inody.github.io/posts/ubuntu-mate-xrdp/</guid>
       <description>概要 最近のコロナの騒ぎを受けて、弊社でもリモートワークが始まりました。 今まで社内では、macbookからデスクトップubuntuにsshでログインして作業していたんですが、異なるネットワークを介して接続したことはありませんでした。 弊社のネットワークはセキュリティを意識してか、vpn環境に入るとsshできず、rdpならできるという謎仕様なので、それならということでubuntuにxrdpサーバーを立ち上げてみました。 同様の記事は他にもたくさんあるのですが（例えばこことか）、あちこち情報が散らばってて設定に苦労したので、備忘録として残しておきます。
 環境 繋ぐ方：macOS 繋がれる方：ubuntu mate 18.04 ubuntu側の設定 まずRDPをするのに必要なパッケージをインストールします。
 sudo apt install xrdp xorg xorgxrdp xorgxrdpを入れるのを忘れていると、リモートログイン出来ても、その後ブラックスクリーンになるので注意します（ここでハマった）。
@@ -317,9 +317,9 @@ PC name: ubuntuのipアドレス user account: ubuntuのユーザ名とパスワ
     </item>
     <item>
       <title>15万円で揃える在宅環境</title>
-      <link>http://localhost:1313/posts/wfh/</link>
+      <link>https://inody.github.io/posts/wfh/</link>
       <pubDate>Fri, 17 Jan 2020 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/wfh/</guid>
+      <guid>https://inody.github.io/posts/wfh/</guid>
       <description>最近引っ越しました。 WFHも続きそうだし、これまでちょっとずつ揃えてきたデスク周りの環境をまとめておきます。 全体像はこんな感じ。
 机（17k）
 IKEAで買ったテーブルトップに脚をくっつけたもの。脚を細いやつにしたためちょっとぐらつくけど、許容範囲内。 https://www.ikea.com/jp/ja/p/gerton-table-top-beech-30162246/ https://www.ikea.com/jp/ja/p/olov-leg-adjustable-black-90264303/ 椅子（20k）
@@ -335,9 +335,9 @@ OnkyoのGX-100HD。アンプ内蔵、デジタル入力（光ケーブル or 同
     </item>
     <item>
       <title>新年を迎えて</title>
-      <link>http://localhost:1313/posts/new-year-2020/</link>
+      <link>https://inody.github.io/posts/new-year-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/new-year-2020/</guid>
+      <guid>https://inody.github.io/posts/new-year-2020/</guid>
       <description>約一年ぶりのブログ更新です。 昨年は、公私ともに転換点を迎えた年でした。
 仕事では愛知から東京への転勤を経験しました。 基本的に業務内容は地続きで、愛知での研究テーマに引き続き取り組んでいました。 対外的なアウトプットとして、査読付き国際学会採択2本、査読付き論文誌採択2本、特許出願1件を経験することができました。
 またプライベートでは、実家にいた父が亡くなりました。 父は10年の長きに渡り心の病気に苦しみつづけていました。 病気の苦しみは家族に向かい、僕は逃げることしかできなかった。 訃報を聞いたときは、正直悲しみより安堵を感じてしまいました。 それまで生活を共にしていた祖母も叔父の家に越すことになり、実家には母だけが残る形になりました。 父の死に対して自分がベストを尽くしたとは到底言えないし、罪悪感で今も父の悪夢を見る。 罪滅ぼしかもしれませんが、せめてこれからはずっと味方でいてくれた母の力になれたらと思います。
@@ -346,9 +346,9 @@ OnkyoのGX-100HD。アンプ内蔵、デジタル入力（光ケーブル or 同
     </item>
     <item>
       <title>2018年に読んでよかった本 &amp; 2019年の目標</title>
-      <link>http://localhost:1313/posts/goal-2019/</link>
+      <link>https://inody.github.io/posts/goal-2019/</link>
       <pubDate>Thu, 03 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/goal-2019/</guid>
+      <guid>https://inody.github.io/posts/goal-2019/</guid>
       <description>久しぶりの投稿、しかも旬がすぎたタイトルでの投稿です。
 2018年は大企業特有の闇の1年研修を終え、ようやく研究業務を始められた年でした。 企業研究所の研究環境といえば、先日kumagi氏の例の記事がバズりましたね。 記事を読んで、企業研究所の研究環境はどこも似たり寄ったりで、弊社の研究環境も他と同程度には恵まれているのかなという感じがしました。 いろいろ言いたいことはありますが、自分は配属がアタリで、大学のように自由に研究させてもらえる部署だったこともあり、文句を言う前に成果を出さねばと言う気持ちです。
 業務内容は物理に近い分野で、自分に馴染みが薄かったため、足りない知識を補うための勉強からはじめました。 業務時間に学べる環境は大変ありがたく、色々な本を発注しては読みふける日々を送っています。 初めのうちは熱統計や流体力学の本を読んでいたのですが、気がつけば仕事に直結しない数学の本まで仕入れ始めていました。
@@ -365,9 +365,9 @@ OnkyoのGX-100HD。アンプ内蔵、デジタル入力（光ケーブル or 同
     </item>
     <item>
       <title>Langevin方程式とFokker-Planck方程式の対応</title>
-      <link>http://localhost:1313/posts/langevin-fokkerplanck/</link>
+      <link>https://inody.github.io/posts/langevin-fokkerplanck/</link>
       <pubDate>Fri, 24 Aug 2018 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/langevin-fokkerplanck/</guid>
+      <guid>https://inody.github.io/posts/langevin-fokkerplanck/</guid>
       <description>$x(t)\in\mathbb R$の時間発展が、つぎの非線形ランジュバン方程式 $$ \dot x(t) = f(x(t)) + R(t) $$ で表されるとする。 ここで、$f:\mathbb R\to\mathbb R$は関数、$R:\mathbb R\to\mathbb R$はランダム力である。 $R(t)$はつぎの仮定を満たすとする。
 $R(t)$はガウス過程。 すなわち、$t_1,\ldots,t_k$を選んだとき、$R(t_1,\ldots,t_k):=(R(t_1),\ldots,R(t_k))$が多次元正規分布に従う。 $\mathbb E[R(t)] = 0. $ $\mathbb E[R(t)R(t&amp;rsquo;)] = D\delta(t-t&amp;rsquo;)$, ただし$D$は正の定数。 $x(t)$と$R(t&amp;rsquo;)$が$t&amp;lt;t&amp;rsquo;$で独立。 時刻$t$に$x(t)$が$[x,x+dx]$にある確率を$p(x,t)dx$と定義する。 $p(x,t)$を分布関数という。 $p(x,t)$はつぎの仮定を満たすとする。
 $x\to\pm\infty$で$p(x,t)\to 0. $ $x\to\pm\infty$で$\frac{\partial p(x,t)}{\partial x}\to 0. $ このとき、$p(x,t)$はつぎのフォッカープランク方程式に従う。 $$ \frac{\partial p(x,t)}{\partial t} = \left( -\frac{\partial }{\partial x}f(x) + \frac{\partial^2}{\partial x^2}\frac{D}{2} \right) p(x,t) $$
@@ -375,9 +375,9 @@ $x\to\pm\infty$で$p(x,t)\to 0. $ $x\to\pm\infty$で$\frac{\partial p(x,t)}{\par
     </item>
     <item>
       <title>OpenCV/ArUcoライブラリで物体位置計測</title>
-      <link>http://localhost:1313/posts/opencv/</link>
+      <link>https://inody.github.io/posts/opencv/</link>
       <pubDate>Sun, 18 Mar 2018 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/opencv/</guid>
+      <guid>https://inody.github.io/posts/opencv/</guid>
       <description>OpenCVは画像処理に触れたことのある人ならば知らない人はいないと言われるほど有名なライブラリですが、本日はそのモジュールの一つである、AR用ライブラリArUcoを用いて、物体の位置計測をしてみます。
 ネットにはC++の記事がたくさん転がっているのですが、Pythonを用いた記事が少ないように感じたため、備忘録としてブログに残そうと思った次第です。
 やりたいこと 机の上に座標系を設定し（横の辺が$x$軸、縦の辺が$y$軸とか）、机の上を動き回る物体（小型ロボットとか）の位置座標を、机を撮影するカメラの映像から推定したいです。
@@ -396,9 +396,9 @@ marker_coordinates = np.float32(moments) true_coordinates = np.</description>
     </item>
     <item>
       <title>デルタ関数とは、超関数とは</title>
-      <link>http://localhost:1313/posts/generalized-function/</link>
+      <link>https://inody.github.io/posts/generalized-function/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/generalized-function/</guid>
+      <guid>https://inody.github.io/posts/generalized-function/</guid>
       <description>デルタ関数って結局何なの？ 工学の至る所で現れるデルタ関数。これはよく $$ \delta(t):= \begin{cases} \infty, &amp;amp; t=0\\newline 0, &amp;amp; t\ne 0 \end{cases}, $$ $$ \int_\infty^\infty \delta(x-y)f(y)dy = f(x), $$ $$ \int_\infty^\infty \delta(t)dt = 1 $$ を満たす関数 $\delta$ という風に定義されていますが、「 $t=0$ は測度0なので、その積分は0になるのでは」と考えたことがある人は多いのではないでしょうか。 実はこの定義は不正確なものであり、「超関数」という概念によって、正確に定義することができます。
 超関数の定義 ある数値を入力するとある数値を出力する装置のことを、関数といいます。 これに対して、ある関数を入力するとある複素数を出力するような装置のことを、汎関数といいます。 汎関数 $F$ に関数 $\phi$ を入力した時の出力値を $F[\phi]$ 、または $\langle F, \phi \rangle$ と書きます。以下では後者の書き方を用います。
 全区間で無限回微分可能で、関数値が0でないところが有界区間に限られるような関数の全体からなる集合を $\mathcal D$ とします。 $\mathcal D$ 上に属する関数 $\phi$ をテスト関数と呼びます。 また、 $\mathcal D$ を定義域とする汎関数を $\mathcal D$ 上の汎関数と呼びます。
@@ -408,9 +408,9 @@ $\langle F, \phi_1 + \phi_2\rangle = \langle F, \phi_1\rangle + \langle F, \phi_
     </item>
     <item>
       <title>カーネル型機械学習入門</title>
-      <link>http://localhost:1313/posts/kernel-machine-learning/</link>
+      <link>https://inody.github.io/posts/kernel-machine-learning/</link>
       <pubDate>Sun, 23 Jul 2017 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/kernel-machine-learning/</guid>
+      <guid>https://inody.github.io/posts/kernel-machine-learning/</guid>
       <description>$d$個の数値を並べた変数$\mathbf{x}=(x_1,x_2,\ldots,x_d)^{\mathrm T}$から、 $y$という変数を推定する多変量の回帰問題を考えます。 サンプルデータは$n$組あるとし、$i$番目のサンプルを$\mathbf{x}^{(i)}, y^{(i)}$と書くことにします。
 線形モデル まず、カーネルを使わない線形モデル
 $$y = \mathbf w^\mathrm T \mathbf x$$
@@ -425,9 +425,9 @@ $$R(\mathbf{w})=(\mathbf y-X\mathbf w)^\mathrm T(\mathbf y-X\mathbf w)$$</descri
     </item>
     <item>
       <title>日経平均株価をLSTMを用いて予測してみた</title>
-      <link>http://localhost:1313/posts/lstm-market/</link>
+      <link>https://inody.github.io/posts/lstm-market/</link>
       <pubDate>Sun, 16 Jul 2017 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/lstm-market/</guid>
+      <guid>https://inody.github.io/posts/lstm-market/</guid>
       <description>概要 今流行りの深層学習で日経平均株価を予想してみました。 結論から言えば、全く予想できず、惨敗でした。
 LSTMとは LSTMとはリカレントニューラルネットワーク（RNN）と呼ばれる機械学習手法の一つです。 RNNを用いることで、現在と過去一定時間の時系列データから、未来のデータを予測することができます。 また、RNNを改良したLSTMでは、長期のトレンドが反映されやすいとされています。
 詳しくはこちらのサイトをご覧ください。
@@ -437,9 +437,9 @@ LSTMとは LSTMとはリカレントニューラルネットワーク（RNN）�
     </item>
     <item>
       <title>一色正彦ら著『理系のための交渉学入門』を読みました</title>
-      <link>http://localhost:1313/posts/read-isshiki/</link>
+      <link>https://inody.github.io/posts/read-isshiki/</link>
       <pubDate>Sun, 29 Jan 2017 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/read-isshiki/</guid>
+      <guid>https://inody.github.io/posts/read-isshiki/</guid>
       <description>交渉というと、心理的駆け引きがものをいう、才能が支配する活動であり、自分のような口下手には縁遠いものだという印象がありました。 しかしながら、本書は「交渉には理論があり、後天的に交渉力は獲得できる」という立場のもと、その基礎的な理論を紹介しています。
 もっとも基礎的なこととして、交渉は準備が8割であり、始める前につぎの3つを決めるべきだとあります。
 ミッション（Mission）：交渉の軸となるもの。 ゾーパ（ZOPA, Zone Of Possible Agreement）最高と最低の2段構えの幅のある目標 バトナ（Best Alternative To Negotiated Agreement）：ミッションを達成できなかったときの代替選択肢。 また、これらを定める前後で、違いを取り巻く状況を把握するために、マップやツリーを書いてみることは、状況を俯瞰したり、問題点を分解したりする際に役立ちます。
@@ -451,9 +451,9 @@ LSTMとは LSTMとはリカレントニューラルネットワーク（RNN）�
     </item>
     <item>
       <title>GPIFのデータをもとに最適ポートフォリオ問題を解いてみた（3）</title>
-      <link>http://localhost:1313/posts/portfolio3/</link>
+      <link>https://inody.github.io/posts/portfolio3/</link>
       <pubDate>Mon, 09 Jan 2017 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/portfolio3/</guid>
+      <guid>https://inody.github.io/posts/portfolio3/</guid>
       <description>GPIFによるデータ GPIF（年金積立金管理運用独立行政法人）は、厚生年金と国民年金の積立金の管理・運用を行っている団体です。 この団体は、定期的に各金融商品のリスクとリターン、相関係数について評価しており、それらをもとに積立金の運用のためのポートフォリオを決定しています。 ただし、ここでの金融商品とは、会社ごとの株式などではなく、TOPIXや日経225などに代表される、株式市場の株価指数を指すこMとに注意してください。
 GPIFは、金融商品を
 国内債券 国内株式 海外債権 海外株式 の4つに分けて評価をおこなっており、それぞれのリターン、リスク、相関係数の値は2016年公開のこちらの資料によると、つぎのようになっています。
@@ -466,9 +466,9 @@ CVXOPTを用いた最適化 さて、以上のデータを用いて前回紹介�
     </item>
     <item>
       <title>GPIFのデータをもとに最適ポートフォリオ問題を解いてみた（2）</title>
-      <link>http://localhost:1313/posts/portfolio2/</link>
+      <link>https://inody.github.io/posts/portfolio2/</link>
       <pubDate>Sun, 08 Jan 2017 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/portfolio2/</guid>
+      <guid>https://inody.github.io/posts/portfolio2/</guid>
       <description>ポートフォリオ最適化 複数の金融商品の組み合わせのことを「ポートフォリオ」といいます。 あなたはAとBを購入する際、そのポートフォリオを調節することで、リスクをできるだけ小さくしながら、リターンをできるだけ大きくしようと思っています。 けれども、「ハイリスクハイリターンの原則」により、それらを限りなく小さくすることはできません。 しかしながら、あなたがもし「望ましいリターン」を決めたときに、「そのリターンを達成し、かつ最もリスクを小さくするポートフォリオ」を求めることは可能です。 このことを「ポートフォリオ最適化」といいます。
 この問題を数学的に記述しましょう。 $n$個の金融商品を考えます。 それぞれの商品には$1,\ldots,n$とラベルが振られているとします。 それぞれの商品のリターンを$\mu_1,\ldots,\mu_n$とします。 それぞれの商品のリスクを$\sigma_1,\ldots,\sigma_n$とし、それらを対角に並べたものを$\Sigma$とします。 つまり $$ \Sigma = \begin{bmatrix} \sigma_1 &amp;amp; \cdots &amp;amp; 0\ \vdots &amp;amp; \ddots &amp;amp; \vdots\ 0 &amp;amp; \cdots &amp;amp; \sigma_n \end{bmatrix} $$ です。 商品$i$と$j$の間の相関係数を$r_{ij}$とし、それらを縱橫にならべたものを$R$としましょう。 つまり $$ R = \begin{bmatrix} r_{11} &amp;amp; \cdots &amp;amp; r_{1n}\ \vdots &amp;amp; \ddots &amp;amp; \vdots\ r_{n1} &amp;amp; \cdots &amp;amp; r_{nn} \end{bmatrix} $$ です。
 それぞれの商品の購入割合（つまりポートフォリオ）を$w_1,\ldots,w_n$とし、これらを縦に並べたものを$w$とします。 あなたはポートフォリオ$w$を決めることで期待リターン$\nu$を達成したいとしましょう。 このとき、ポートフォリオ最適化問題はつぎのように定式化できます。
@@ -477,9 +477,9 @@ CVXOPTを用いた最適化 さて、以上のデータを用いて前回紹介�
     </item>
     <item>
       <title>GPIFのデータをもとに最適ポートフォリオ問題を解いてみた（1）</title>
-      <link>http://localhost:1313/posts/portfolio1/</link>
+      <link>https://inody.github.io/posts/portfolio1/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/portfolio1/</guid>
+      <guid>https://inody.github.io/posts/portfolio1/</guid>
       <description>なぜ分散投資が有効なのか ここに2つの金融商品があったとしましょう。 それぞれの金融商品は「リスク」と「リターン」という特徴量を持っているとします。 リスクは将来予想される値動きの幅を表し、リターンは将来予想される価値の上昇率を表します。 確率の言葉を使うと、リスクは標準偏差、リターンは平均に対応しています。
 経済学の言葉に、「ハイリスクハイリターンの原則」というものがあります。 これは、ローリスクかつハイリターンな商品はあり得ないということを表すものです。 例えば、銀行の定期預金などはローリスクである代わりに、リターンも小さくなります。 一方で、株式などはハイリターンが期待できますが、値動きが読めない分ハイリスクであると言えます。
 また、2つの金融商品のペアは、「相関係数」という特徴量を持っているとします。 これは、2つの金融商品がどの程度連動して値動きするかを表します。 例えば相関係数が正の値なら、片方の商品が値上がりしたとき、もう片方の商品も値上がりすることが多いことを意味し、相関係数が負の値なら、片方の商品が値上がりしたとき、もう片方の商品は値下がりすることが多いことを意味します。
@@ -491,9 +491,9 @@ CVXOPTを用いた最適化 さて、以上のデータを用いて前回紹介�
     </item>
     <item>
       <title>資格取得と人生設計</title>
-      <link>http://localhost:1313/posts/license-life/</link>
+      <link>https://inody.github.io/posts/license-life/</link>
       <pubDate>Mon, 26 Dec 2016 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/license-life/</guid>
+      <guid>https://inody.github.io/posts/license-life/</guid>
       <description>簿記3級に合格してから、ファイナンシャルプランニング技能検定3級の勉強を進めています。
 はじめは「社会に出るにあたって資格の一つや二つ取ったほうがいいだろう」と気軽な気持ちで始めた資格勉強ですが、簿記の合格を契機にその楽しさに目覚めてしまいました。 なんというか、やればやるだけ強くなれるところがRPGと似ていて癖になります。 また、TOEICなどのスコア式の資格と違い、受かるか落ちるかのどちらかである点も、ゲーム性を上げているように思います。
 また一度ハマってしまったからには、より上位の資格にも手を出したくなります。 これらの資格は2級以上でないと転職などに役立たないと聞きますし、FP3級の受験が終わったら受けてみようかと検討中です。
@@ -504,17 +504,17 @@ CVXOPTを用いた最適化 さて、以上のデータを用いて前回紹介�
     </item>
     <item>
       <title>簿記3級に受かりました</title>
-      <link>http://localhost:1313/posts/bookkeeping/</link>
+      <link>https://inody.github.io/posts/bookkeeping/</link>
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/bookkeeping/</guid>
+      <guid>https://inody.github.io/posts/bookkeeping/</guid>
       <description>就職を春に控え、一般常識で欠けている知識を補うために受験した簿記検定3級。 本番で解答用紙の下書きを消し忘れるという手痛いミスをしてしまいましたが、本日結果を確認すると、しっかり点が加算されていました。 参考書として使ったのは、TAC出版のスッキリわかる 日商簿記3級 第7版 [テキスト&amp;amp;問題集]です。 全体的にコンパクトにまとまっており、無駄なく勉強することができました。
 つぎはファイナンシャルプランナー検定を受験したいと思います。</description>
     </item>
     <item>
       <title>LaTeXで図を作成するときにおすすめの方法</title>
-      <link>http://localhost:1313/posts/latex-figure/</link>
+      <link>https://inody.github.io/posts/latex-figure/</link>
       <pubDate>Fri, 30 Sep 2016 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/latex-figure/</guid>
+      <guid>https://inody.github.io/posts/latex-figure/</guid>
       <description>研究者の皆さんは，論文を作成するときにIllustratorなどのベクターイメージ編集ソフトを使っていることと存じます． しかしながら，こうしたソフトは一般に有償であり，学生には手が届かないもの． 中にはInkscapeなどのフリーソフトもあるため，そちらを使っている方もいるかもしれません（僕も少し前までこの方法でした）． 今回僕が紹介する手法は，皆さんおなじみのPowerPointやKeynoteなどのプレゼンテーションソフトを使う方法です．
 本手法には，
 ほとんどどのPCにもビルドインされているプレゼンソフトを使って作図できる（もちろんベクター画像として） 作成した図をそのままプレゼンの素材として流用できる プレゼンソフトの拡張機能を用いて，LaTeXコードで書かれた数式を自由に挿入・変更できる などのメリットがあります．
@@ -536,9 +536,9 @@ LaTeXコードをコンパイルします
     </item>
     <item>
       <title>モーパッサン『女の一生』を読みました</title>
-      <link>http://localhost:1313/posts/read-maupassant/</link>
+      <link>https://inody.github.io/posts/read-maupassant/</link>
       <pubDate>Fri, 26 Aug 2016 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/read-maupassant/</guid>
+      <guid>https://inody.github.io/posts/read-maupassant/</guid>
       <description>二人の人間が、本当に魂の底まで、思いの奥底までひとつになることはできないのだと、ジャンヌは初めて思った。肩を並べて歩き、ときに抱き合うことはあっても、ひとつに溶け合うことはなく、心の底では誰もが生涯一人ぼっちなのだと。
 モーパッサン『女の一生』光文社古典新訳文庫
 光文社古典新訳文庫のシリーズが軒並みKindle Unlimitedの対象になっていたので、読書欲が際限なく刺激される今日この頃。 最近は新書を読むことが多かったので、久しぶりに読む小説は新鮮に感じられました。
@@ -557,9 +557,9 @@ LaTeXコードをコンパイルします
     </item>
     <item>
       <title>カメラを新調しました</title>
-      <link>http://localhost:1313/posts/purchase-camera/</link>
+      <link>https://inody.github.io/posts/purchase-camera/</link>
       <pubDate>Mon, 08 Aug 2016 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/purchase-camera/</guid>
+      <guid>https://inody.github.io/posts/purchase-camera/</guid>
       <description>昨年度留学していた時にカメラを盗まれて以来，ずっと再購入しようと思っていたのですが，就活や研究などで忙しく，買う機会を逃し続けていました． 先日友人と祇園祭を見て回った時に，ファインダーを覗く友人の姿が羨ましく思ったことが，再購入を決断したきっかけです．
 購入に際しては，第一に値段，第二に軽さを重視することにしました． 値段については，学生ゆえに金銭的余裕がなく，どうせお金をかけるならレンズに投資したいからであり， 軽さについては言わずもがな，少しでもコンパクトなほうが持ち出す機会も自ずと増えるからです．
 手元にはまだDA 35mmF2.8 Macro Limitedが残っていたので，引き続きK-マウントのボディだけ買うか，他のマウントに手をだすか迷ったのですが，数年間使い続けた愛着もあることから，前者を選ぶことにしました． 暗所でのAFの遅さとか，動体へのAFの遅さとか，あとライブビュー時のAFの遅さとか，他社と比べて何かと残念なPentaxの製品ですが，不器用なところがなんだか憎めないんですよね．
@@ -568,18 +568,18 @@ LaTeXコードをコンパイルします
     </item>
     <item>
       <title>就活が終わりました</title>
-      <link>http://localhost:1313/posts/finish-job-hunting/</link>
+      <link>https://inody.github.io/posts/finish-job-hunting/</link>
       <pubDate>Sun, 19 Jun 2016 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/finish-job-hunting/</guid>
+      <guid>https://inody.github.io/posts/finish-job-hunting/</guid>
       <description>先日、日本での就職活動を終えました。 今年は例年と異なるスケジュールで、僕の帰国が遅れたこともあり、うまくいくか不安もあったのですが、売り手市場の後押しもあってか、最終的に幾つかの企業から内定を頂くことができました。 その中で一社を選択する際、勤務地や待遇などで一時期迷ったのですが、結局最後は「研究職としてのキャリアが積めそうか」に的を絞ることで、納得のいく選択ができたと思います。 進路先は、メーカーから独立した研究機関なので、とにかく何かしらの研究活動ができるであろうことや、企業の研究部門とは違い、目先の営利から少し離れた萌芽的な研究もできそうなことなどが魅力でした。
 こちらの記事に書いた通り、ベルギーの企業からも魅力的なオファーを頂いているので、もしかすると春までに心変わりする可能性もゼロではありません。 しかしながら、帰国後2か月経って思うことは、自分が日本を以前にも増して好きだということです。 確かに日本の労働環境は、お世辞にも優れているとは言えないでしょう。 ただそれを補って余りある、日本語と、日本人と、日本の文化への愛着を感じる自分がいます。 極論、自分がどこで死にたいかを考えたとき、日本がいいと思えるのです。
 終身雇用制が崩れた現代においても、ファーストキャリアの選択は重要だと思われます。 有難いことに、ベルギーの企業からは返事までにまだ時間を頂いているので、それまで進路のことは頭の片隅で意識しながら、卒業研究に力を入れたいと思います。</description>
     </item>
     <item>
       <title>WindowsにHaskellをインストール時にcabalが動作しない時の対処法</title>
-      <link>http://localhost:1313/posts/windows-cabal/</link>
+      <link>https://inody.github.io/posts/windows-cabal/</link>
       <pubDate>Tue, 24 May 2016 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/windows-cabal/</guid>
+      <guid>https://inody.github.io/posts/windows-cabal/</guid>
       <description>新しいWindowsマシンにHaskell環境を整えていたとき、
 cabal update 時に、
 cabal.exe: Codec.Compression.Zlib: premature end of compressed stream と表示され、アップデートが進まない現象に遭遇しました。 しばらく四苦八苦していたのですが、ググったらこちらのページに遭遇。
@@ -589,16 +589,16 @@ C:\Program Files\Haskell Platform\7.10.3\bin にコピーしたらあっさり�
     </item>
     <item>
       <title>帰国報告</title>
-      <link>http://localhost:1313/posts/return-japan/</link>
+      <link>https://inody.github.io/posts/return-japan/</link>
       <pubDate>Thu, 07 Apr 2016 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/return-japan/</guid>
+      <guid>https://inody.github.io/posts/return-japan/</guid>
       <description>先日無事日本に帰国しました。 帰国の前日にベルギーの空港でテロがあり、帰国便がキャンセルになってしまいましたが、不幸中の幸いというべきか、パリからの便に空きがあったため、フライトを変更してもらい、無事に帰国することができました。 一昨日に復学の手続きを終え、さっそく残る一年の修士課程に取り組み始めています。 研究活動に加え、就職活動も並行しておこなっているため、しばらくはまた忙しくなりそうです。 元同期がつぎつぎと社会に羽ばたいていく中、アラサーとなった自分が未だ大学に残っている事実に少し焦りを感じなくもありませんが、あまり深刻に捉えず、今年も自分らしい道を歩んでいきたいと思います。</description>
     </item>
     <item>
       <title>（続）ベルギーでの企業研修を終えました</title>
-      <link>http://localhost:1313/posts/finish-belgium2/</link>
+      <link>https://inody.github.io/posts/finish-belgium2/</link>
       <pubDate>Mon, 21 Mar 2016 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/finish-belgium2/</guid>
+      <guid>https://inody.github.io/posts/finish-belgium2/</guid>
       <description>前回の記事では、ベルギーでの企業研修を終えたこと、今後は日本企業に就職していずれは社会人博士を目指したいことをお話ししました。 しかしながら、企業研修を終える間際、上司に以下のことを言われたのです。
 「もし君が望むなら、卒業後うちに来てPhDやらないか」
 青天の霹靂とはこのことです。 前回お話しした通り、僕の部署では、大学と会社の両方に籍をおき、それぞれから奨学金と給料をもらいながら、PhDの取得を目指している方が何人もおられます。 提携先の大学は、地元のKU Leuvenであったり、イギリスのBristol Universityであったりと様々です。 うちの部署の上司は、そうした産学連携研究のパートナーを見つけるのが得意だそうで、僕が望めばどこかしらの大学の研究室に在籍させてもらい、さらに生活に必要な奨学金も整えてくれるとおっしゃってくれました。
@@ -614,9 +614,9 @@ C:\Program Files\Haskell Platform\7.10.3\bin にコピーしたらあっさり�
     </item>
     <item>
       <title>ベルギーでの企業研修を終えました</title>
-      <link>http://localhost:1313/posts/finish-belgium/</link>
+      <link>https://inody.github.io/posts/finish-belgium/</link>
       <pubDate>Sun, 20 Mar 2016 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/finish-belgium/</guid>
+      <guid>https://inody.github.io/posts/finish-belgium/</guid>
       <description>昨年の8月から、ベルギーのSiemens Industry Software NVという会社でインターン生として働いていたのですが、今日が研修最終日でした。 最終プレゼンも無事に終わり、いよいよ一年間の海外生活も幕を閉じつつあります。
 一年間を通じて、英語を用いた交流経験、エンジニアとしての労働経験、異文化の体験など、日本では決して得られなかった経験ができて、本当によかったと思います。 以下では、得られたこと、これからのことを簡単にまとめたいと思います。
 はじめ4か月のアイルランドでの語学研修は、文字通り初めての海外生活でした。 それまで英語で人と会話することがほとんどなかったこともあり、はじめは戸惑い、まともに挨拶もできない状態でした。 しかしながら、時が経つにつれ、これまで学校で学んできた文法や単語の知識が、会話においても十分役立つことがわかり、少なくとも英語での交流を恐れる気持ちは払拭出来ました。
@@ -637,9 +637,9 @@ C:\Program Files\Haskell Platform\7.10.3\bin にコピーしたらあっさり�
     </item>
     <item>
       <title>ジャレド・ダイアモンド著の『銃・病原菌・鉄』を読みました</title>
-      <link>http://localhost:1313/posts/read-jaredo/</link>
+      <link>https://inody.github.io/posts/read-jaredo/</link>
       <pubDate>Mon, 07 Mar 2016 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/read-jaredo/</guid>
+      <guid>https://inody.github.io/posts/read-jaredo/</guid>
       <description>大作と呼ばれる本作品、昨年末から積ん読していたのですが、この度の旅行のお供にした結果、ようやく読了に至る運びとなりました。
 著者の主張は一貫して明らかで、「地球上の文明の進歩に差がついたのは、地理的・生態的な要因によるものだ」というものです。 例えば、「ユーラシア大陸がアメリカ大陸を侵略して、逆ではなかったのはなぜか」という問いに対する究極の答えは、「ユーラシア大陸の方が多様な動植物が住んでおり、かつ東西に長い形をしていたから」と述べられています。
 順番としてはこうです。 ある土地に多様な動植物が分布しているとします。 すると、これら動植物を狩猟して、ヒトは増えることができます。 つぎに、ヒトはそれらの動植物を栽培・家畜化しようと考えます。 たくさんの動植物がいると、その中で栽培・家畜化可能な動植物が存在する確率は上がります。 栽培・家畜化が成功すると、人々の分業が進みます。 分業により人々の暇な時間が増えることで、さらなる栽培・家畜化のみならず、武器や移動手段などの発明が進みます。 ここで、文化や発明などは、南北方向より、東西方向に広がりやすいことが知られています。 東西方向の方が、気候や植生などの環境が似通っているからです。 大陸が東西に長いと、文化や発明の交流が活発に進みます。 逆に、南北方向に長いと、砂漠などの異なる気候がヒトの移動を阻み、交流が起きづらくなります。
@@ -650,9 +650,9 @@ C:\Program Files\Haskell Platform\7.10.3\bin にコピーしたらあっさり�
     </item>
     <item>
       <title>複数の専門をもつことの重要性</title>
-      <link>http://localhost:1313/posts/multi-major/</link>
+      <link>https://inody.github.io/posts/multi-major/</link>
       <pubDate>Fri, 12 Feb 2016 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/multi-major/</guid>
+      <guid>https://inody.github.io/posts/multi-major/</guid>
       <description>技術者として生きていく上で、複数の専門をもつというのは、重要な戦略になることを最近実感している。
 例えば、僕の専門は制御工学であり、学部・大学院とともに、紙とペンを用いて理論寄りのテーマを研究してきた。 研究を通じて統計学や最適化、授業を通じて機械工学や電気・電子工学などを幅広く学んではきたが、それでも「専門」として答えられる分野は制御くらいしかない。
 翻って今の上司を見てみると、航空工学と統計学のダブルディグリーで修士号を取得後、博士では航空機に対する状態推定と制御に関する研究をしている。 さらにソフトウェアの開発にも精通していて、趣味としてモバイルアプリの開発もおこなうという多才ぶりだ。
@@ -667,9 +667,9 @@ C:\Program Files\Haskell Platform\7.10.3\bin にコピーしたらあっさり�
     </item>
     <item>
       <title>Markdownを使って論文っぽい文章を書く</title>
-      <link>http://localhost:1313/posts/markdown-paper-writing/</link>
+      <link>https://inody.github.io/posts/markdown-paper-writing/</link>
       <pubDate>Tue, 08 Dec 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/markdown-paper-writing/</guid>
+      <guid>https://inody.github.io/posts/markdown-paper-writing/</guid>
       <description>概要 インターン先で進捗をレポートにまとめるよう言われたので、この機会を利用して、Markdownで全部書いてみようと思い至りました。 Markdownはとても便利な記法ですが、引用や相互参照については少し手が届かないところがあります。 そこで今回、pandocとその拡張ツールであるpandoc-citeproc及びpandoc-cross-refを用いて、論文（っぽく見える文章）をMarkdownで書く環境を整えてみました。 あわよくば修論をこれで書きたい。
 僕の環境 OS X El Capitan MacTeX 2015 cabalのインストール 今回使うツールであるpandocをインストールするために、cabalを導入します。 cabalとはHaskellのライブラリ管理ツールです（Pythonでいうpipみたいなもの）。 cabalはbrewからインストール可能です。
 brew install cabal ついで
@@ -688,9 +688,9 @@ pandoc-citeprocの使い方を説明します。 いつも使っている.bibフ
     </item>
     <item>
       <title>LQG/LTR制御を学んだ</title>
-      <link>http://localhost:1313/posts/lqg-ltr/</link>
+      <link>https://inody.github.io/posts/lqg-ltr/</link>
       <pubDate>Fri, 04 Dec 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/lqg-ltr/</guid>
+      <guid>https://inody.github.io/posts/lqg-ltr/</guid>
       <description>LQG/LTR (Linear Quadratic Gaussian / Loop Transfer Recovery) とは LQGとは、カルマンフィルタを用いて推定した状態に対して、最適レギュレータを用いて状態フィードバックをおこなう、よく知られた制御法です。 LQGが時間領域での制御器設計であるのに対して、周波数領域での設計も考慮するのが、LQG/LTRです。 今回はStein G and Micheal A. The LQG/LTR procedure for multivariable feedback control designを参考にしました。
 問題設定 今、制御対象が伝達関数行列$G(s)$としてモデリングされているとします。 ここで、制御対象は非最小位相系であり、同数の入出力をもつとします。
 我々の目標は制御対象の出力$y$と参照入力$r$との偏差$e:=r-y$を受け取り、制御入力$u$を生成する制御器$K(s)$を実装することです。 ここで、制御器$K(s)$は以下の要求を満たすことを求められます。
@@ -700,9 +700,9 @@ pandoc-citeprocの使い方を説明します。 いつも使っている.bibフ
     </item>
     <item>
       <title>ボストンキャリアフォーラムに参加してきました</title>
-      <link>http://localhost:1313/posts/boston/</link>
+      <link>https://inody.github.io/posts/boston/</link>
       <pubDate>Thu, 26 Nov 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/boston/</guid>
+      <guid>https://inody.github.io/posts/boston/</guid>
       <description>得られたもの ボストンキャリアフォーラム（以下BCF）に参加してきました。 自分は17年度卒なので、就活には少し早いのですが、今年は経団連の指示で採用活動が早まるのと、帰ってから就活に時間を奪われるのが嫌で、あらかじめ選考を進められたらという思いもあっての参加です。
 結論から言うと、やはり経団連のパワーのせいか「内定」とはっきりと言ってくれる会社はありませんでした。 しかしながら、ESを提出したのはおよそ10社のうち、4社から「合格」とメールで通知後、内定者の方々が参加するディナーへのお誘いをいただくことができました。 中には「いつまでなら返事をしてくれるか」とオワハラっぽいことをしてきた企業もありました。 今振り返ると、調子のいい言葉や美味しいご飯を使って、学生を確保しておきたい企業の意図を感じないでもないのですが、そのあたりは性善説で解釈したいと思います。
 また、およそ1か月前から少しずつ準備をする中で、基本的な自己分析や業界研究を大分進めることができました。 おかげで帰国後の就活がスムーズに進みそうなのは、嬉しい副作用です。
@@ -714,9 +714,9 @@ pandoc-citeprocの使い方を説明します。 いつも使っている.bibフ
     </item>
     <item>
       <title>最適制御3</title>
-      <link>http://localhost:1313/posts/optimal-control3/</link>
+      <link>https://inody.github.io/posts/optimal-control3/</link>
       <pubDate>Sun, 08 Nov 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/optimal-control3/</guid>
+      <guid>https://inody.github.io/posts/optimal-control3/</guid>
       <description>概要 前回はいわゆるフィードフォワードの最適制御について考えた。 すなわち、ある初期時刻$t_0$と初期状態$x(t_0)$が一つ与えられたときに、終端時刻$t_f$までに加える最適入力$u(t)$を求めようとした。 そして、最適な$u(t)$を求めるためには、オイラー・ラグランジュ方程式という微分方程式を解かなくてはならないことが示された。 このアプローチでは、初期状態$x(t_0)$が少しでも変化すると、オイラー・ラグランジュ方程式を新たに解き直す必要があり、とても時間が掛かる。
 そこでここからは、フィードバックの最適制御について考える。 すなわち、任意の時刻$t$と状態$x(t)$が与えられたときに、終端時刻までに加える最適制御$u(x,t)$を求めたいのである。
 問題 連続時間の非線形ダイナミクス $$\dot x = f(x,u,t)$$ にしたがうシステムに対して、状態フィードバック$u=u(x,t)$を設計することで、評価関数 $$J = \phi(x(t_f),t_f) + \int_{t}^{t_f}L(x(\tau),u(\tau),t)d\tau$$ を最小化したい。 ここで初期値$x,t$は任意であるとする。
@@ -725,9 +725,9 @@ pandoc-citeprocの使い方を説明します。 いつも使っている.bibフ
     </item>
     <item>
       <title>最適制御2</title>
-      <link>http://localhost:1313/posts/optimal-control2/</link>
+      <link>https://inody.github.io/posts/optimal-control2/</link>
       <pubDate>Fri, 06 Nov 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/optimal-control2/</guid>
+      <guid>https://inody.github.io/posts/optimal-control2/</guid>
       <description>概要 今回からダイナミクスを持つシステムへの最適制御を考える。 考え方は前回の場合とそれほど変わらず、ダイナミクスを制約条件として考えると、必要条件として、二点の境界条件をもつ微分方程式が導出される。 今回はその導出と、問題を解くための数値計算法を紹介する。 教科書は引き続きE. Brysdn, Jr. Yu-Chi Ho, &amp;ldquo;Applied Optimal Control&amp;rdquo;, CRC Press, 1975を用いる。
 離散時間システムの場合 問題 非線形の差分方程式で表されるつぎのシステムを考える。 $$ x(i+1) = f(x(i),u(i)), \quad x(0):\text{given}, \quad i = 0,\cdots,N-1. \tag{2.2.1} $$ ただし、$x(i)\in R^n$は状態ベクトル、$u(i)\in R^m$は入力ベクトルである。
 以下の評価関数 $$J = \phi(x(N)) + \sum_{i=0}^{N-1}L(x(i),u(i))$$ を最小化する$u$を求めたい。
@@ -735,9 +735,9 @@ pandoc-citeprocの使い方を説明します。 いつも使っている.bibフ
     </item>
     <item>
       <title>kivyを用いたマルチプラットフォームアプリの開発環境を整える</title>
-      <link>http://localhost:1313/posts/kivy/</link>
+      <link>https://inody.github.io/posts/kivy/</link>
       <pubDate>Wed, 04 Nov 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/kivy/</guid>
+      <guid>https://inody.github.io/posts/kivy/</guid>
       <description>kivyとは PythonのNUI(Natural User Interface)でのマルチタッチアプリケーション開発のためのオープンソースライブラリ。 一つのソースコードからAndroid、iOS、Linux、MacOSX、Windowsへと出力できるうえ、ライセンスフリーで使用できる。
 今回はそんなkivyの本体と、OSX及びiOSへのパッケージング環境の導入に挑戦したが、情報が少なく結構苦労したので、メモしておく。
 自分の環境 MacOSX 10.11 Yosemite Xcode 7.1 homebrew, pip導入済み kivyのインストール この辺を参考にしてインストールした。
@@ -750,9 +750,9 @@ import kivy kivy.require(&#39;1.8.0&#39;) ## replace with your current kivy vers
     </item>
     <item>
       <title>最適制御1</title>
-      <link>http://localhost:1313/posts/optimal-control/</link>
+      <link>https://inody.github.io/posts/optimal-control/</link>
       <pubDate>Sun, 25 Oct 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/optimal-control/</guid>
+      <guid>https://inody.github.io/posts/optimal-control/</guid>
       <description>概要 非線形最適制御の勉強を始めた。 実は去年授業で単位は取得したのだけれど、ほとんど覚えていないも同然なので、はじめからやり直すことにする。 教科書はE. Brysdn, Jr. Yu-Chi Ho, &amp;ldquo;Applied Optimal Control&amp;rdquo;, CRC Press, 1975を用いた。 式番号は教科書に倣った。 今回はとりあえず、ダイナミクスなしの最適化問題について、ざっと復習する。
 制約なし最小化問題 問題 決定変数$u=[u_1 \ \cdots \ u_m]^T\in R^m$を決めることで、評価関数 $$L(u):R^m\rightarrow R$$ を最小化したい。
 必要条件 $L$が$C^2$級の関数であるとき、$u$が最小値であるのための必要条件は $$\frac{\partial L}{\partial u} = 0 \tag{1.1.3}$$ 及び $$\frac{\partial^2 L}{\partial u^2} \succeq 0$$ が成り立つことである。 $(1.1.3)$を満たす$u$を停留点という。
@@ -762,9 +762,9 @@ import kivy kivy.require(&#39;1.8.0&#39;) ## replace with your current kivy vers
     </item>
     <item>
       <title>10月の雑記</title>
-      <link>http://localhost:1313/posts/idea-october/</link>
+      <link>https://inody.github.io/posts/idea-october/</link>
       <pubDate>Sat, 24 Oct 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/idea-october/</guid>
+      <guid>https://inody.github.io/posts/idea-october/</guid>
       <description>自分には昔から何事においても、与えられた目標に対して最小限の努力でアプローチしようとする悪い癖がある。
 この癖は多分、中高の陸上部時代に、きつい練習の中で少しずつ形成されはじめ、いつの間にか凝固してしまったものなんだと思う。
 今まではそれでも誤魔化しながらなんとかやってきたのだけれど、今後大きなしっぺ返しを食らう予感もしていて、どうにか直したいと思っている。 そしてそのために「血反吐を吐くような努力をもってして、なお目標を達成できない」という経験は、失敗できる学生時代のうちに必要な経験だと感じていた（自分で書いていてマゾいと思う）。
@@ -781,9 +781,9 @@ import kivy kivy.require(&#39;1.8.0&#39;) ## replace with your current kivy vers
     </item>
     <item>
       <title>線形適応制御入門</title>
-      <link>http://localhost:1313/posts/adaptive-control/</link>
+      <link>https://inody.github.io/posts/adaptive-control/</link>
       <pubDate>Sat, 17 Oct 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/adaptive-control/</guid>
+      <guid>https://inody.github.io/posts/adaptive-control/</guid>
       <description>概要 制御対象のパラメータを同定しながら制御する制御法。 通常の制御法と違い、制御則の他に、適応則というのを設計する。 今回は、モデル規範型適応制御 (MRAC : Model Refference Adaptive Control) と呼ばれる手法を紹介する。 詳しくはJ. E. Slotine, W. Li, &amp;ldquo;Applied Nonlinear Control&amp;rdquo;, 1991を参照。
 問題 次のシステムを制御したいとする。
 $$a_ny^{(n)} + a_{n-1}y^{(n-1)} + \cdots +a_0y = u$$
@@ -797,9 +797,9 @@ $$z := y_m^{(n)} - \beta_{n-1}e^{(n-1)} - \cdots - \beta_0e$$
     </item>
     <item>
       <title>スライディングモード制御入門</title>
-      <link>http://localhost:1313/posts/sliding-mode-control/</link>
+      <link>https://inody.github.io/posts/sliding-mode-control/</link>
       <pubDate>Thu, 08 Oct 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/sliding-mode-control/</guid>
+      <guid>https://inody.github.io/posts/sliding-mode-control/</guid>
       <description>対象システムが構造的不確かさをもつ場合に有効なロバスト制御法。 今回はSISOシステムのみ取り上げるが、MIMOにも拡張可能。 詳しくはJ. E. Slotine, W. Li, &amp;ldquo;Applied Nonlinear Control&amp;rdquo;, 1991を参照。
 仮定 次のシステムを制御したいとする。 $$x^{(n)} = f({\bf x}) + b({\bf x})u$$ ここで、${\bf x}=[x \ \dot x \cdots x^{(n-1)}]^T$は状態ベクトル, $u$はスカラーの入力である。 また、$f$は不確かさを含む関数であるとする。 具体的には、我々は推定値$\hat f$のみを知ることができるものとし、これらの関数はある既知の関数$F({\bf x})$に対して $$\left|\hat f-f\right|\le F$$ を満たすとする。$b$もまた $$0 &amp;lt; b_{min} \le b \le b_{max}$$ の不確かさを持つとし、我々が知ることのできる値は推定値 $$\hat b = (b_{min} b_{max})^{1/2}$$ のみであるとする。
 問題 ${\bf x}$を望ましい状態${\bf x}_d=[x_d \ \dot x_d \cdots x^{(n-1)}_d]$に追従させる$u$を設計せよ。 ただし、望ましい状態${\bf x}_d$は${\bf x}_d(0) = {\bf x}(0)$を満たすとする (テクニカルな仮定。ここでは説明しない) 。
@@ -807,9 +807,9 @@ $$z := y_m^{(n)} - \beta_{n-1}e^{(n-1)} - \cdots - \beta_0e$$
     </item>
     <item>
       <title>ベルギーで働いて感じたこと</title>
-      <link>http://localhost:1313/posts/idea-belgium/</link>
+      <link>https://inody.github.io/posts/idea-belgium/</link>
       <pubDate>Fri, 25 Sep 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/idea-belgium/</guid>
+      <guid>https://inody.github.io/posts/idea-belgium/</guid>
       <description>ヨーロッパに来て半年になるので、つらつらと思うことを書き残しておく。
 #研修内容について
 今年度は、ヴルカヌス・プログラムという奨学金付きのインターンシッププログラムに参加しており、ベルギーにあるシーメンスのソフトウェア部門で航空機の制御に関わる仕事をしている。
@@ -832,9 +832,9 @@ $$z := y_m^{(n)} - \beta_{n-1}e^{(n-1)} - \cdots - \beta_0e$$
     </item>
     <item>
       <title>Xcodeアップデート時に起きるMatlabのMexのエラーを修正</title>
-      <link>http://localhost:1313/posts/xcode-matlab/</link>
+      <link>https://inody.github.io/posts/xcode-matlab/</link>
       <pubDate>Tue, 22 Sep 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/xcode-matlab/</guid>
+      <guid>https://inody.github.io/posts/xcode-matlab/</guid>
       <description>###概要 XCodeのバージョンを7にアップデートした際にMexがコンパイルエラーを吐くようになった。 こちらに解決法が載っていたので、そのまま紹介。
 ###自分の環境
 OSX Yosemite (10.10.5) Matlab R2014b ###解決法 Matlabのコンソールで
@@ -847,9 +847,9 @@ edit ([matlabroot &amp;#39;/bin/maci64/mexopts/clang_maci64.xml&amp;#39;]) と�
     </item>
     <item>
       <title>京大情報学研究科システム科学専攻入試攻略</title>
-      <link>http://localhost:1313/posts/kyoto-univ-exam/</link>
+      <link>https://inody.github.io/posts/kyoto-univ-exam/</link>
       <pubDate>Tue, 22 Sep 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/kyoto-univ-exam/</guid>
+      <guid>https://inody.github.io/posts/kyoto-univ-exam/</guid>
       <description>概要 もう2年前のことになるが、当時大学院入試を控えていた僕は、いろいろ考えた末に京都大学の情報学研究科システム科学専攻を受験することに決めた。
 そこで今日は自分がどのように入試に臨んだかを書き記しておく。
 過去問 まずはなんといっても過去問。 システム科学専攻の公式HPに置いてある。 試験内容は
@@ -869,9 +869,9 @@ edit ([matlabroot &amp;#39;/bin/maci64/mexopts/clang_maci64.xml&amp;#39;]) と�
     </item>
     <item>
       <title>入出力線形化</title>
-      <link>http://localhost:1313/posts/io-stabilization/</link>
+      <link>https://inody.github.io/posts/io-stabilization/</link>
       <pubDate>Sat, 19 Sep 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/io-stabilization/</guid>
+      <guid>https://inody.github.io/posts/io-stabilization/</guid>
       <description>入出力線形化 (フィードバック線形化) とは 非線形システムに、非線形性を打ち消すような入力を加える事で、閉ループ系を線形化する制御法。 安定化が目的ではないので、得られた線形システムに対して線形制御法を適用する必要がある。
 利点として
 通常の(ヤコビアンを用いる)線形化と違って、近似を用いない 欠点として
@@ -884,9 +884,9 @@ edit ([matlabroot &amp;#39;/bin/maci64/mexopts/clang_maci64.xml&amp;#39;]) と�
     </item>
     <item>
       <title>金井壽宏『働くひとのためのキャリアデザイン(PHP新書)』感想</title>
-      <link>http://localhost:1313/posts/read-kanei/</link>
+      <link>https://inody.github.io/posts/read-kanei/</link>
       <pubDate>Thu, 04 Jun 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/read-kanei/</guid>
+      <guid>https://inody.github.io/posts/read-kanei/</guid>
       <description>筆者は終始「節目の期間はしっかりキャリアについて考える。それ以外の期間では目の前のことに打ち込み、時には偶然に流される(ドリフトする)ことも必要」という主張に徹する。 なので、この主張を真に理解している人は本書を手にする必要はないと思う。
 本書のメインターゲットは就活生とミドル世代の2種類である。 また本書では、これらの層を想定したいくつかのエピソードやエクササイズが紹介されていて、キャリアデザインを「自分の問題」として考えさせる工夫が凝らされている。
 個人的に、以下の自己イメージに関するエクササイズに考えさせられた。
@@ -902,9 +902,9 @@ edit ([matlabroot &amp;#39;/bin/maci64/mexopts/clang_maci64.xml&amp;#39;]) と�
     </item>
     <item>
       <title>橘玲『臆病者のための株入門(PHP新書)』感想</title>
-      <link>http://localhost:1313/posts/read-tachibana/</link>
+      <link>https://inody.github.io/posts/read-tachibana/</link>
       <pubDate>Sat, 16 May 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/read-tachibana/</guid>
+      <guid>https://inody.github.io/posts/read-tachibana/</guid>
       <description>某有名投資家のおすすめ書籍として紹介されていたことをきっかけに読み始めた。
 株そのものに興味があるというよりも、日々ブログや経済ニュースで目にする用語を理解したかった。
 全体として初学者にもわかりやすく、経済学の知見とそれに基づく著者の意見が記述されている。
@@ -915,9 +915,9 @@ edit ([matlabroot &amp;#39;/bin/maci64/mexopts/clang_maci64.xml&amp;#39;]) と�
     </item>
     <item>
       <title>カルマンフィルタの更新式まとめ</title>
-      <link>http://localhost:1313/posts/kalman-filter/</link>
+      <link>https://inody.github.io/posts/kalman-filter/</link>
       <pubDate>Sun, 12 Apr 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/kalman-filter/</guid>
+      <guid>https://inody.github.io/posts/kalman-filter/</guid>
       <description>##カルマンフィルタとは
 「離散時間システムの出力から、システムの状態を最小二乗の意味で推定する」
 ##問題設定
@@ -944,9 +944,9 @@ $\hat x(k) = E[x(k)|Y_1^k, U_0^{k-1}]$</description>
     </item>
     <item>
       <title>アイルランドのSIM事情</title>
-      <link>http://localhost:1313/posts/sim-ireland/</link>
+      <link>https://inody.github.io/posts/sim-ireland/</link>
       <pubDate>Tue, 07 Apr 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/sim-ireland/</guid>
+      <guid>https://inody.github.io/posts/sim-ireland/</guid>
       <description>アイルランドに来て3日経ちました。 入国後まずはじめにしたことが、通信環境を整えること。 アイルランドには主にVodafone, Meteor, 3(Three)などのキャリア会社がありますが、今回はMeteorのSIMカードを購入しました。
 購入したのは月に15GBのデータ通信が使えるプランで、価格はなんと14.99€(日本円でおよそ2000円)。 ただしこちらは3Gの通信帯域のみでのプランです。 購入の際には、パスポートを提示したうえで、契約書にサインを求められます。 渡されたSIMを挿入し、付属のカードに書かれているPINコードを入力すれば、すぐに使うことが出来ました。 こちらはプリペイドタイプのSIMではなく、月ごとにカードを通して引き落としされる契約なので、解約の際にはショップに出向く必要があるそうです。
 また、僕の場合は日本で購入してきたモバイルルータを使う都合、電話環境を整えられなかったのですが、必要な方には、3(Three)が提供している、月15GBのデータ通信に電話もかけ放題のプランをおすすめします。 こちらも価格は月に20€でとてもお買い得な上に、4G/LTEの帯域が使用可能です。 契約もプリペイドタイプなのでとても安心で、非の打ち所がありません。
@@ -954,9 +954,9 @@ $\hat x(k) = E[x(k)|Y_1^k, U_0^{k-1}]$</description>
     </item>
     <item>
       <title>ヴルカヌス・プログラム出発にあたって</title>
-      <link>http://localhost:1313/posts/vine2/</link>
+      <link>https://inody.github.io/posts/vine2/</link>
       <pubDate>Tue, 31 Mar 2015 00:00:01 +0900</pubDate>
-      <guid>http://localhost:1313/posts/vine2/</guid>
+      <guid>https://inody.github.io/posts/vine2/</guid>
       <description>ヴルカヌス・イン・ヨーロッパに参加しますに記載したとおり、1年間の語学研修とインターンシップに参加してきます。 僕の場合は、4ヶ月間アイルランドのダブリンで英語の語学研修を、残る8ヶ月間ベルギーのルーヴェンで企業研修を行います。
 そもそもなぜこのようなプログラムに参加することになったのか。 海外への興味はもともとあったのですが、どちらかと言えば迫り来る就活時期を前に、自分がどんな分野で働きたいかが未だ見えず、焦っていたことが大きいように思います。
 もともと重工系の企業に関心があり、なんとなく参加した夏のインターンシップ。 そこで得た結論は、「仕事にやりがいを感じられないと働くことはかなりつらい」ということでした。 このことはほとんど自明な事実だとは思うのですが、自分はもともと「やりがいなんてなくていいからまったり働きたい」という人間だったため、この発見はとても大きかったです。
@@ -972,9 +972,9 @@ $\hat x(k) = E[x(k)|Y_1^k, U_0^{k-1}]$</description>
     </item>
     <item>
       <title>内藤正典著『ヨーロッパとイスラーム 共生は可能か(岩波新書)』を読みました</title>
-      <link>http://localhost:1313/posts/read-naito/</link>
+      <link>https://inody.github.io/posts/read-naito/</link>
       <pubDate>Sat, 21 Mar 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/read-naito/</guid>
+      <guid>https://inody.github.io/posts/read-naito/</guid>
       <description>感想 4月からヨーロッパで過ごすこともあり、ホットなタイトルだったのでジャケ買いして読み始めました。
 日々世間を騒がす報道について、理解のない自分でも前提知識なしで読むことが出来ました。
 2004年に書かれた本なので、今世間を騒がすイスラーム国の事件については触れられませんが、現在のイスラーム圏とヨーロッパ圏の衝突が、どのような背景のもと起こったものなのかを理解するのにいい本だと思います。
@@ -1001,9 +1001,9 @@ $\hat x(k) = E[x(k)|Y_1^k, U_0^{k-1}]$</description>
     </item>
     <item>
       <title>田中素香『ユーロ 危機の中の統一通貨 (岩波新書)』を読みました</title>
-      <link>http://localhost:1313/posts/read-tanaka/</link>
+      <link>https://inody.github.io/posts/read-tanaka/</link>
       <pubDate>Fri, 06 Mar 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/read-tanaka/</guid>
+      <guid>https://inody.github.io/posts/read-tanaka/</guid>
       <description>感想とメモ 少し旬が過ぎてしまったが、4月からユーロ圏で過ごすこともあり、通読した。 気まぐれに、得られた知識をメモしておきたいと思う。
 第I章では、ユーロ導入でどのような効果があったのかを概観する、
 ユーロが主として物価安定と低金利化をもたらしたことがデータをもとに示されており、本章を立ち読みするだけでも得るものがあると思う。
@@ -1030,9 +1030,9 @@ $\hat x(k) = E[x(k)|Y_1^k, U_0^{k-1}]$</description>
     </item>
     <item>
       <title>線形回帰手法まとめ</title>
-      <link>http://localhost:1313/posts/linear-regression/</link>
+      <link>https://inody.github.io/posts/linear-regression/</link>
       <pubDate>Fri, 30 Jan 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/linear-regression/</guid>
+      <guid>https://inody.github.io/posts/linear-regression/</guid>
       <description>概要 最近学んだ線形回帰手法の特徴についてまとめる．
 具体的には，特定のデータセットに対して，重回帰(Ordinary Least Squares: OLS)，リッジ回帰(Ridge Regression: RR)，部分最小自乗回帰(Partial Least Squares: PLS)の3つの線形回帰手法を適用し，結果を考察する．
 重回帰 説明変数$ X$および目的変数$ y$が与えられているとき，
@@ -1051,9 +1051,9 @@ $ b = ( X^T X + \lambda I)^{-1} X^T y$</description>
     </item>
     <item>
       <title>モンテカルロ法で次元の呪い</title>
-      <link>http://localhost:1313/posts/monte-carlo/</link>
+      <link>https://inody.github.io/posts/monte-carlo/</link>
       <pubDate>Tue, 20 Jan 2015 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/monte-carlo/</guid>
+      <guid>https://inody.github.io/posts/monte-carlo/</guid>
       <description>概要 モンテカルロ法で次元の呪いを体験するを読んで，自分も最近似たような体験をしたことを思い出したので，メモしておく．
 問題 $N$行$N$列の行列の各要素に$1$から$N$までの数字が入っているものとする． 各列，各行に数字の重複を許さない行列は全部で何通りあるかを推定せよ．
 はじめ，ランダムに$1$から$N$までの数字を格納した2次元配列を用意して，各行と列に重複がないかチェックし，重複がない試行の確率を求める方法をとった．以下，作成したPythonのコード(クソコードなのはご愛嬌)．
@@ -1061,9 +1061,9 @@ $ b = ( X^T X + \lambda I)^{-1} X^T y$</description>
     </item>
     <item>
       <title>三菱重工のインターンシップに参加しました</title>
-      <link>http://localhost:1313/posts/intern-mhi/</link>
+      <link>https://inody.github.io/posts/intern-mhi/</link>
       <pubDate>Thu, 04 Dec 2014 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/intern-mhi/</guid>
+      <guid>https://inody.github.io/posts/intern-mhi/</guid>
       <description>概要 本格的就活シーズンの到来に先駆け，少し古い話になるが，今年の夏に三菱重工のインターンに参加したことについて備忘録を残す． おそらく社外秘につき触れてはいけない点が多々あるため，特に技術的な点については触れないことにする．
 なぜ三菱重工なのか 僕は制御工学を研究している． 制御工学は，対象が特定の形式でモデル化されていれば，（そのスケールに関わらず）それが制御可能であるか，可能であればどうすれば制御できるか，などをある程度体系的に取り扱う事ができる． 僕はこの分野横断的な要素に惹かれており，制御工学がどの程度大きな対象に対象にまで応用されているかに興味をもっていた． 重工系の企業を選んだのはこれが理由． そのなかで，三菱重工を選んだのは，単に自分のなかでもっとも有名な企業だったためと言ってしまってよい．
 あとはざっくりと社会人ってどういう感じなのか知りたかった．
@@ -1079,9 +1079,9 @@ $ b = ( X^T X + \lambda I)^{-1} X^T y$</description>
     </item>
     <item>
       <title>ヴルカヌス・イン・ヨーロッパに採択された </title>
-      <link>http://localhost:1313/posts/vine/</link>
+      <link>https://inody.github.io/posts/vine/</link>
       <pubDate>Tue, 25 Nov 2014 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/vine/</guid>
+      <guid>https://inody.github.io/posts/vine/</guid>
       <description>概要 理系の大学生，大学院生を対象にした，1年間の奨学金付きインターンプログラム．
 日欧産業協力センター(以下センター)によって実施されている．詳しくはこちらを参照．
 ヴルカヌス・イン・ヨーロッパ
