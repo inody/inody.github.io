@@ -11,8 +11,36 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Feb 2024 13:48:02 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 11 May 2024 15:00:00 +0900</lastBuildDate>
     <atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024年5月の近況</title>
+      <link>https://inody.github.io/posts/202405/</link>
+      <pubDate>Sat, 11 May 2024 15:00:00 +0900</pubDate>
+      <guid>https://inody.github.io/posts/202405/</guid>
+      <description>愛知県から転出しました 昨年会社から愛知に戻ってくるよう命を受け、県内に転居していたのですが、妻と子は三重の実家に住んでおり、別居婚状態でした。 当初は学位が取れていなかった＆転勤直後で出社頻度が読めなかったことに加え、会社の家賃補助制度が後押しして、こうした生活を送ることになったのですが、これらの問題は落ち着いたので、家を引き払った次第です。 晴れて健全な同居状態に着地できたわけですが、通勤時間は2.5時間。毎日出社を命ぜられた途端詰んじゃうと感じています。 転居後は、三重での生活を充実させるための活動と、三重を脱出するための活動を並行して緩く取り組んでいく所存です。
+論文を投稿しました 学位論文の内容のうち、未投稿だった論文を仕上げ、論文誌に投稿しました。 初めは理論的に詰めが甘いところが多々あったのですが、毎日共著者に助けてもらいながら、なんとか投稿に辿り着くことができました。
+内容は、Kolmogorov方程式と呼ばれる、いろんな物理現象を記述するのに便利な偏微分方程式（PDE）の数値計算です（熱方程式のお化けみたいなやつ）。
+このPDEは変数係数とはいえ線形PDEなので、差分法や有限要素法で解けるのですが、複雑形状や高次元問題を扱う場合など、メッシュサイズが大きい場合に解くのに時間がかかるという問題があります。 これに対して、近年、Feynman-Kac公式と呼ばれる公式に基づくモンテカルロ法が注目されています。 これは、熱方程式がブラウン運動のアンサンブルを用いて解表示できるのと同じく、Kolmogorov方程式を、対応する確率微分方程式のアンサンブル平均として解表示する公式です。 この手法だと、メッシュサイズが大きい時もPDEが解けるのですが、今度は、解が選んだ時空間上の一点でしか求められず、時空間全体の解を求めるためには、複数の点としての解を何かしらの手法で補間する必要が生じます。 先行研究でニューラルネットに基づく補間法が提案されていますが、どの程度精度良く補間できるかの定量化にはあまりアドレスされていませんでした。
+そこでこの論文では、補間手法として、ガウス過程回帰（GPR）を用いる手法を提案しています。 GPRは、ニューラルネットより古典的な回帰手法ですが、回帰結果として、回帰の不確かさ、つまり真の関数形と回帰結果がどの程度乖離しているかという情報を返してくれます。 これを通常の数値計算法の誤差解析に相当する情報として用いてあげようというわけです。 またこの論文では、GPRのカーネルやノイズモデルに、PDEに関する事前知識やモンテカルロ法のサンプルサイズの情報を陽に与えることで、補間精度を向上させる提案もしています。 実際、代表的な高次元PDEを用いた数値計算により、提案手法が既存手法と比べて不確かさを評価しながら高精度に解を求めることができるとわかりました。
+この論文で登場するツールは、どれも最先端のものではありませんが、GPRとモンテカルロ法の間には、組み合わせの妙があると感じており、論文の執筆が進むにつれ、愛着が強くなるのを感じました。 興味をもってくださる方がいらっしゃれば、読んでいただければと思います： https://arxiv.org/abs/2405.05626
+国際学会に参加します 上記の内容に関して、7月にシンガポールの国際学会で発表してくる予定です。 今後会社の留学制度を利用して、3年くらい海外で研究したいという希望があり、 この出張にはそのツテを探すという裏目的があります。 こういう時、まず留学したい研究室にコンタクトをとるのが普通なのでしょうが、残念ながら自分はまず留学という手段に対する熱意が先走っており、留学先でどんな研究をしたいかも定まっていない状況です。 このため、半ばセレンディピティに頼るために上記の出張を希望しました。 何かきっかけだけでも持ち帰ってきたいです。</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>https://inody.github.io/biography/</link>
+      <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://inody.github.io/biography/</guid>
+      <description>I am a researcher at Toyota Central R&amp;amp;D Labs,. Inc. I received a B.E. degree in engineering from Osaka University in 2014, an M.S. degree in informatics from Kyoto University in 2017, and a Ph.D. degree in mathematical science from the University of Tokyo in 2024. My current research interests include controlling large-scale multi-agent systems and solving high-dimensional partial differential equations.
+I would like to stay in a laboratory outside Japan for 3 or 4 years to do collaborative research together.</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>https://inody.github.io/publication/</link>
+      <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://inody.github.io/publication/</guid>
+      <description>Preprint Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;An Uncertainty-aware, Mesh-free Numerical Method for Kolmogorov PDEs,&amp;rdquo; May, 9, 2024, (link). Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations,&amp;rdquo; January 18, 2023, (link). Journal (Refereed) D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Partially Centralized Model-Predictive Mean Field Games for Controlling Multi-Agent Systems,&amp;rdquo; IFAC Journal of Systems and Control, vol.</description>
+    </item>
     <item>
       <title>博士号の授与が決まりました</title>
       <link>https://inody.github.io/posts/finishphd/</link>
@@ -65,26 +93,11 @@ mac内蔵キー caps lockをcmdにする 左右cmdキー空打ちで、IMEをオ
 2023年は博士取得という長いトンネルの出口がようやく見えた年だった。 2024年は公私ともに新しい取り組みが増えそうで、不安と期待とが入り混ざっている。 家族を大事にすること、楽しむことを優先して、自分のペースで取り組んでいきたい。</description>
     </item>
     <item>
-      <title>Publications</title>
-      <link>https://inody.github.io/publication/</link>
-      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://inody.github.io/publication/</guid>
-      <description>Preprint Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations,&amp;rdquo; January 18, 2023, (link). Journal (Refereed) D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Partially Centralized Model-Predictive Mean Field Games for Controlling Multi-Agent Systems,&amp;rdquo; IFAC Journal of Systems and Control, vol. 24, p. 100217, 2023 (link) D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;A fictitious-play finite-difference method for linearly solvable mean field games,&amp;rdquo; ESAIM: Mathematical Modelling and Numerical Analysis (ESAIM: M2AN), vol.</description>
-    </item>
-    <item>
-      <title>About me</title>
-      <link>https://inody.github.io/biography/</link>
-      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://inody.github.io/biography/</guid>
-      <description>Daisuke Inoue is a researcher at Toyota Central R&amp;amp;D Labs,. Inc. He received a B.E. degree in engineering from Osaka University in 2014 and an M.S. degree in informatics from Kyoto University in 2017. He received a Ph.D. degree in mathematical science from the University of Tokyo in 2024. His current research interests include control engineering, multi-agent systems, and swarm intelligence.
-If you are interested in my research, please feel free to contact me!</description>
-    </item>
-    <item>
       <title>Research</title>
       <link>https://inody.github.io/research/</link>
       <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
       <guid>https://inody.github.io/research/</guid>
-      <description>I am interested in modeling and control of large-scale dynamical systems. The followings are descriptions of some of the published research topics I have worked on.
+      <description>I am interested in modeling and control of large-scale dynamical systems. The following are descriptions of some of the published research topics I have worked on.
 Controlling population dynamics using mean-field games (2019 &amp;ndash; Present) When controlling a large system, the larger the number of control targets, the longer it takes to compute the appropriate control inputs. To address this problem, we focus on a concept called the mean-field game, which approximates the optimal control system for a large number of populations.</description>
     </item>
     <item>
