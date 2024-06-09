@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 May 2024 15:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 09 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>https://inody.github.io/publication/</link>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://inody.github.io/publication/</guid>
+      <description>Preprint Daisuke Inoue, Hiroshi Yamashita, Kazuyuki Aihara, Hiroaki Yoshida, &amp;ldquo;AMPIC: Adaptive Model Predictive Ising Controller for large-scale urban traffic signals,&amp;rdquo; Jun. 05, 2024, (link). Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;An Uncertainty-aware, Mesh-free Numerical Method for Kolmogorov PDEs,&amp;rdquo; May, 9, 2024, (link). Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations,&amp;rdquo; January 18, 2023, (link). Journal (Refereed) D.</description>
+    </item>
     <item>
       <title>2024年5月の近況</title>
       <link>https://inody.github.io/posts/202405/</link>
@@ -33,13 +40,6 @@
       <guid>https://inody.github.io/biography/</guid>
       <description>I am a researcher at Toyota Central R&amp;amp;D Labs,. Inc. I received a B.E. degree in engineering from Osaka University in 2014, an M.S. degree in informatics from Kyoto University in 2017, and a Ph.D. degree in mathematical science from the University of Tokyo in 2024. My current research interests include controlling large-scale multi-agent systems and solving high-dimensional partial differential equations.
 I would like to stay in a laboratory outside Japan for 3 or 4 years to do collaborative research together.</description>
-    </item>
-    <item>
-      <title>Publications</title>
-      <link>https://inody.github.io/publication/</link>
-      <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://inody.github.io/publication/</guid>
-      <description>Preprint Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;An Uncertainty-aware, Mesh-free Numerical Method for Kolmogorov PDEs,&amp;rdquo; May, 9, 2024, (link). Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations,&amp;rdquo; January 18, 2023, (link). Journal (Refereed) D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Partially Centralized Model-Predictive Mean Field Games for Controlling Multi-Agent Systems,&amp;rdquo; IFAC Journal of Systems and Control, vol.</description>
     </item>
     <item>
       <title>博士号の授与が決まりました</title>
