@@ -466,8 +466,8 @@ GPRは、ニューラルネットより古典的な回帰手法ですが、回�
       <guid>https://inody.github.io/research/</guid>
       <description>&lt;p&gt;I am interested in modeling and control of large-scale dynamical systems.
 The following are descriptions of some of the published research topics I have worked on.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;!-- 大規模な動的システムのモデリングや数値計算、制御手法の開発に興味があります。
+下記は、これまでに取り組んだ研究テーマのうち公開済みのものの説明です。 --&gt;
 &lt;h2 id=&#34;controlling-population-dynamics-using-mean-field-games-2019----present&#34;&gt;Controlling population dynamics using mean-field games (2019 &amp;ndash; Present)&lt;/h2&gt;
 &lt;p&gt;When controlling a large system, the larger the number of control targets, the longer it takes to compute the appropriate control inputs.
 To address this problem, we focus on a concept called the mean-field game, which approximates the optimal control system for a large number of populations.
@@ -1111,7 +1111,7 @@ DDR5メモリが枯渇する中、上記スペックのものとしては結構�
       <link>https://inody.github.io/posts/start-phd/</link>
       <pubDate>Sat, 03 Apr 2021 00:00:00 +0900</pubDate>
       <guid>https://inody.github.io/posts/start-phd/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I am a student. &lt;a href=&#34;https://t.co/UxXYyHTY8E&#34;&gt;pic.twitter.com/UxXYyHTY8E&lt;/a&gt;&lt;/p&gt;&amp;mdash; inody (@inody_) &lt;a href=&#34;https://twitter.com/inody_/status/1377903730125807616?ref_src=twsrc%5Etfw&#34;&gt;April 2, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;p&gt;この4月から、東京大学の数理科学研究科に博士後期課程の学生として入学することになりました。&lt;br&gt;
 入社当初から会社の上司には学位を取りたいと伝えていたのですが、足掛け5年でようやくスタートを切ることができた次第です。&lt;br&gt;
 入社時は学生時代の指導教員が会社の近くに研究室を構えていたため、そこに通うことを狙っていたのですが、東京転勤によって難しくなってしまいました。&lt;br&gt;
@@ -1296,7 +1296,7 @@ unset SESSION_MANAGER
       <description>&lt;p&gt;最近引っ越しました。
 WFHも続きそうだし、これまでちょっとずつ揃えてきたデスク周りの環境をまとめておきます。
 全体像はこんな感じ。&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;!-- ![](https://64.media.tumblr.com/c07321b14c69ae3f4f62bccb6fc720e8/ba3599dfe968805d-fa/s540x810/4b663f784773fdd58afc7de999a3f0404876c5da.jpg) --&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://64.media.tumblr.com/e36348611b6cfdf07fb9637c93a88ac0/ba3599dfe968805d-ed/s1280x1920/4c70546830aaeaccfda5f4ac8dcea8f9c16d140f.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://64.media.tumblr.com/8d421f81f63503af2a9f347bf7c2f4fc/ba3599dfe968805d-6f/s1280x1920/544f9abc97461e1ff90bc65dfba4155ead8fa83a.jpg&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1332,8 +1332,10 @@ WFHも続きそうだし、これまでちょっとずつ揃えてきたデス�
 &lt;li&gt;HHKB Professional Type-S&lt;/li&gt;
 &lt;li&gt;職場で使っているキーボードに合わせて自宅でも購入。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;!-- * ~~第一世代のマジックキーボード。随分前にヤフオクで購入。~~
+* ~~職場ではHHKBを使っているため、そのギャップが最近苦しい。そろそろ買い替えたいけどふんぎりがつかない~~
+* ~~HHKBもいいけど、KeychronのK2ってやつが最近気になっている。~~
+* ~~https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard~~ --&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;ポインタ（4k）&lt;/p&gt;
@@ -1343,8 +1345,8 @@ WFHも続きそうだし、これまでちょっとずつ揃えてきたデス�
 &lt;li&gt;将来macOS以外のOSを導入したときのために導入。&lt;/li&gt;
 &lt;li&gt;MxErgoと迷ったが、HHKBと合わせて電池式にした。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;!-- * ~~第一世代のマジックトラックパッド。随分前にメルカリで購入。~~
+* ~~電池式なのでバッテリーのヘタリもなく、永遠に使える気がしている。~~ --&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;モニタ（33k）&lt;/p&gt;
@@ -1359,11 +1361,27 @@ WFHも続きそうだし、これまでちょっとずつ揃えてきたデス�
 &lt;ul&gt;
 &lt;li&gt;HPのモニタアーム。メルカリで購入。&lt;/li&gt;
 &lt;li&gt;モニタが重いため、少しぐらつく。&lt;/li&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;HP(ヒューレット・パッカード) HP(ヒューレット・パッカード) シングルモニターアーム BT861AA&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.amazon.co.jp/gp/product/B006PYJD44/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B006PYJD44&amp;linkCode=as2&amp;tag=inody1991-22&amp;linkId=fb3f4a411468f138e9a97edd7529d53c&#34;&gt;HP(ヒューレット・パッカード) HP(ヒューレット・パッカード) シングルモニターアーム BT861AA&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;PCスタンド（2k）&lt;/p&gt;</description>
+&lt;p&gt;PCスタンド（2k）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;クラムシェルモードでPC立てておくためのスタンド。木製でいい感じ。これもメルカリ。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;スピーカー（12k）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://64.media.tumblr.com/84c1756884a3ebc2059d651c9880ee3b/ba3599dfe968805d-d0/s1280x1920/c4a13eeec5d5831f7d4cb515a02cbb25262f7d4e.jpg&#34;&gt;&lt;/li&gt;
+&lt;li&gt;OnkyoのGX-100HD。アンプ内蔵、デジタル入力（光ケーブル or 同軸）が使える機種で探した（おなじみメルカリ）。&lt;/li&gt;
+&lt;li&gt;音の粒感が安いスピーカーとは違うので気に入っている。&lt;/li&gt;
+&lt;li&gt;低音が少し弱いというレビューも見かけるけど、自分にはちょうどよい。&lt;/li&gt;
+&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.amazon.co.jp/gp/product/B000XR2OC2/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B000XR2OC2&amp;linkCode=as2&amp;tag=inody1991-22&amp;linkId=f6171e7928cd5f3cc5905ea886e06a5a&#34;&gt;ONKYO WAVIO パワードスピーカーシステム 15W+15W GX-100HD(B)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;USB-DAC（3k）&lt;/p&gt;</description>
     </item>
     <item>
       <title>新年を迎えて</title>
@@ -1385,7 +1403,7 @@ WFHも続きそうだし、これまでちょっとずつ揃えてきたデス�
 &lt;p&gt;今年は東京ならではの業務が本格的に始まり、仕事がますます充実しそうです。
 ただ、それ以上に私生活が忙しくなりそうで、すべてを満足にこなすのは無理だと予想しています。
 自分にとって大事なものを見極め、身近な人たちに心を尽くすことを大事にして、日々を過ごそうと思います。&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;人生、最近になって好ましくない初期状態の影響がだいぶ緩和してきた気がする。それと同時にマルコフ性が強まってきたというか、今日の自分が昨日の自分に試されてる感じが出てきた。どうせなら楽しんで荷物を増やしていきたいな。&lt;/p&gt;&amp;mdash; inody (@inody_) &lt;a href=&#34;https://twitter.com/inody_/status/1203685655793950721?ref_src=twsrc%5Etfw&#34;&gt;December 8, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;p&gt;本年もよろしくお願いします。&lt;/p&gt;</description>
     </item>
     <item>
@@ -1406,50 +1424,20 @@ WFHも続きそうだし、これまでちょっとずつ揃えてきたデス�
 以前統計力学に触れたときは、何が仮定で何が結論かがわかりづらく感じたのですが、本書は納得できる仮定を列挙した上で、力学的な仕事をすべての出発点として議論を展開しているので、数学的にもWell-definedな本だと感じました。
 また数理物理の本は行間を推測させるような最小限の記述に留められることが多いと思いますが、本書はそれとは真逆の読み物のような文体で書かれているので、初学者にもとっつきやすく感じられました。
 とはいえ内容はしっかりしているため自分もすべて網羅できたわけではなく、今後も手に取り続ける本になりそうです。&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4563024376/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-fe.ssl-images-amazon.com/images/I/41bFrwVMbJL._SL160_.jpg&#34; alt=&#34;統計力学〈1〉 (新物理学シリーズ)&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4563024376/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;統計力学〈1〉 (新物理学シリーズ)&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 19.01.02&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;田崎 晴明 &lt;br /&gt;培風館 &lt;br /&gt;売り上げランキング: 32,590&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4563024376/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4563024384/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-fe.ssl-images-amazon.com/images/I/41YcM-k7kCL._SL160_.jpg&#34; alt=&#34;統計力学〈2〉 (新物理学シリーズ)&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4563024384/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;統計力学〈2〉 (新物理学シリーズ)&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 19.01.03&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;田崎 晴明 &lt;br /&gt;培風館 &lt;br /&gt;売り上げランキング: 23,957&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4563024384/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;次に山田先生の「工学のための関数解析」です。
 さまざまな分野に登場する関数解析ですが、自分はとある論文の中で偏微分方程式の解の存在証明に半群の理論が出てきたため、勉強し始めました。
 Twitterでおすすめされていた本書を試し読みなしにポチったのですが、これがかなり良くて、数学の厳密さを犠牲にすることなく、概念の「心」をしっかり伝えている本でした。
 関数の連続性や収束性と聞くと身構えてしまいますが、「解析の対象が関数になっても、関数を距離で実数に写してあげて、そこで連続性や収束性を考えればよい」と宣言してあるのは目から鱗でした。&lt;/p&gt;
 &lt;p&gt;こちらもまだ読了したわけではなく、会社の同期と読み会を進めているところです（いつ終わるのやら）。
 本書はスペクトル理論や半群の理論はカバーしていないため、読み終わったら次は黒田先生の「関数解析」を読もうと思います。&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4901683624/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-fe.ssl-images-amazon.com/images/I/41H1QFrTyKL._SL160_.jpg&#34; alt=&#34;工学のための関数解析 (工学のための数学)&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4901683624/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;工学のための関数解析 (工学のための数学)&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 19.01.02&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;山田 功 &lt;br /&gt;数理工学社 &lt;br /&gt;売り上げランキング: 5,731&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4901683624/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4320011066/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-fe.ssl-images-amazon.com/images/I/51F-CZ1r5rL._SL160_.jpg&#34; alt=&#34;関数解析 共立数学講座 (15)&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4320011066/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;関数解析 共立数学講座 (15)&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 19.01.03&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;黒田 成俊 &lt;br /&gt;共立出版 &lt;br /&gt;売り上げランキング: 192,246&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4320011066/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;最後に兼清先生の「確率微分方程式とその応用」です。
 確率過程は今まで何度も挑戦しようとした分野なのですが、前提知識が多すぎて挫折を繰り返してきました。
 確率を数学の土台に乗せるには測度論の知識が必要ですし、確率過程のサンプルパスは関数になるので、収束性の議論などに関数解析の知識が必要になります。
-そのため一から勉強を初めて確率過程の定義に辿り着くころには、土台の部分の知識を忘れてしまうという悲しい現実に直面します。&lt;/p&gt;
-&lt;p&gt;こんなときにありがたいのは、最小限の用語を定義しながら、時には証明を犠牲にして、ストーリーを重視して伝えてくれるような本であり、本書もまたそのような形式をとっています。
-フィルトレーションやマルチンゲールといったつまづきやすい概念の裏にある気持ちをしっかり伝えた上で定理を述べ、その使い方まで提示してくれているのはありがたい限りです（それでも理解できないのは僕の頭がポンコツなのでしょう）。
-似たテイストの本として、B.エクセンダールの黄色い本がありますが、自分には兼清本の方がまだリーダーフレンドリーに感じられました。
-本書は手にとって間も無く、まだ全然読み進められていないので、引き続き気合い入れて読んでいこうと思います。&lt;/p&gt;
-&lt;p&gt;余談ですが、確率自体を公理的に定義してしまえば、測度論なしに確率論を進められるっぽいです。
-また確率過程論も測度論なしに展開している本があるようで、小倉先生の「物理・工学のための確率過程論」がそれに当たります。
-自分は最初この本から勉強し始めたのですが、どうも本質から逃げているように感じてしまい、本棚に戻してしまいました。&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;以上、おすすめでした。&lt;/p&gt;
-&lt;p&gt;2018年はインプットは順調でしたが、満足にアウトプット出来なかったことが悔やまれます。
-2019年は、引き続き勉強を続けるとともに、アウトプットにも繋げられたらと思います。
-目標はつぎの3つです。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;論文3本投稿：
-昨年は一本しか書けませんでした。
-初年度にしては上々だと思っていたのですが、尊敬する若手の人たちのホームページを眺めると、いくつものpublicationや講演が並んでおり、悔しい気持ちになります。
-彼らに少しでも追いつくためにも、今年は最低3本は書きたいです。&lt;/li&gt;
-&lt;li&gt;Webサービス公開：
-毎年アウトプット欲が高まる時期に、フレームワークの勉強だけして、満足して何も作らず終わるという現象が続いています。
-去年はFlaskでRestAPIの実装をし、Herokuにアップロードするところまで体験できたので、今年は何かしらのサービスを作って実際に公開するところまで進めたいと思います。
-どれだけしょぼくてもいいので、見栄をはらずにアウトプットしたいです。目指せいつでも転職できる人材。&lt;/li&gt;
-&lt;li&gt;博士課程の行先の決定：
-過去に何度も進学を考えたことがあったのですが、資金面が主な理由で断念してきました。
-弊社の社会人博士制度は比較的整っており、社内のロビー活動さえうまくいけば、会社に勤めながら学位を目指すことができます。
-幸い上司は理解を示してくれており、あとは行き先だけという感じです。
-4月から少し職場環境が変わりそうなので、それを活かしていろんな先生に会ってみようと思います。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;みなさま今年もよろしくお願いします。&lt;/p&gt;</description>
+そのため一から勉強を初めて確率過程の定義に辿り着くころには、土台の部分の知識を忘れてしまうという悲しい現実に直面します。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Langevin方程式とFokker-Planck方程式の対応</title>
@@ -2060,10 +2048,10 @@ $$
       <guid>https://inody.github.io/posts/bookkeeping/</guid>
       <description>&lt;p&gt;就職を春に控え、一般常識で欠けている知識を補うために受験した簿記検定3級。
 本番で解答用紙の下書きを消し忘れるという手痛いミスをしてしまいましたが、本日結果を確認すると、しっかり点が加算されていました。
-参考書として使ったのは、TAC出版の&lt;!-- raw HTML omitted --&gt;スッキリわかる 日商簿記3級 第7版 [テキスト&amp;amp;問題集]&lt;!-- raw HTML omitted --&gt;です。
+参考書として使ったのは、TAC出版の&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4813264913/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;スッキリわかる 日商簿記3級 第7版 [テキスト&amp;amp;問題集]&lt;/a&gt;です。
 全体的にコンパクトにまとまっており、無駄なく勉強することができました。&lt;/p&gt;
 &lt;p&gt;つぎはファイナンシャルプランナー検定を受験したいと思います。&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4813264913/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51-s5TSz-ZL._SL160_.jpg&#34; alt=&#34;スッキリわかる 日商簿記3級 第7版 [テキスト&amp;問題集] (スッキリわかるシリーズ)&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4813264913/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;スッキリわかる 日商簿記3級 第7版 [テキスト&amp;問題集] (スッキリわかるシリーズ)&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 16.12.06&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;滝澤 ななみ &lt;br /&gt;TAC出版 (2016-02-26)&lt;br /&gt;売り上げランキング: 292&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4813264913/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>LaTeXで図を作成するときにおすすめの方法</title>
@@ -2191,7 +2179,7 @@ $$
 以前便利ズームを持っていた頃は，単焦点レンズの出番は少なかったのですが，盗まれたことで使わざるを得ない状況になり，自分で足を動かして撮る楽しさを再認識しました．
 手持ちのレンズを単焦点のみで構成するのも楽しそうです．
 またいい写真が取れたら，このブログにもupしたいと思います．&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00N3FR322/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/41IsXPhY1lL._SL160_.jpg&#34; alt=&#34;RICOH デジタル一眼レフ PENTAX K-S1 ボディ ブラック K-S1 BODY KIT BLACK 06415&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00N3FR322/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;RICOH デジタル一眼レフ PENTAX K-S1 ボディ ブラック K-S1 BODY KIT BLACK 06415&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 16.08.08&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;リコー (2014-09-26)&lt;br /&gt;売り上げランキング: 107,399&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00N3FR322/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>就活が終わりました</title>
@@ -2291,8 +2279,9 @@ $$
 &lt;p&gt;さて、長々と書き綴りましたが、結局どうするかはまだ決まっていません。
 幸い上司には、修士を終える数ヶ月前に連絡をするよう言われており、悩むにはまだ時間がありそうです（ただし、日本の民間奨学金の締め切りが8月に来るので、こちらがボトルネックになりそう）。
 それまで、日本での就活を通じて、研究職としてのキャリアを探りながら、いずれ決断したいと思います。&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
+&lt;!--stackedit_data:
+eyJoaXN0b3J5IjpbMjAyMDAzNTA3N119
+--&gt;</description>
     </item>
     <item>
       <title>ベルギーでの企業研修を終えました</title>
@@ -2918,14 +2907,14 @@ Matlabのコンソールで&lt;/p&gt;
 &lt;h2 id=&#34;参考書&#34;&gt;参考書&lt;/h2&gt;
 &lt;p&gt;頭のいい人なら過去問だけでもなんとかなるのだろうけど、僕のような凡人は問題集を使って足りない頭を補強することにした。&lt;/p&gt;
 &lt;p&gt;基礎科目である数学は、専門科目に比べ難易度が高めなため、極めれば得点源になる。
-自分は微積分と線形代数の勉強としてそれぞれ、&lt;!-- raw HTML omitted --&gt;演習大学院入試問題 &amp;lt;数学&amp;gt; I&lt;!-- raw HTML omitted --&gt;の1章と2章を取り組んだ。&lt;/p&gt;
+自分は微積分と線形代数の勉強としてそれぞれ、&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/478191361X/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;演習大学院入試問題 &amp;lt;数学&amp;gt; I&lt;/a&gt;の1章と2章を取り組んだ。&lt;/p&gt;
 &lt;p&gt;専門科目は制御工学と工業数学を選んだ (周りを見てもこの組み合わせが多かったように思う) 。&lt;br&gt;
 制御については
-&lt;!-- raw HTML omitted --&gt;フィードバック制御入門 (システム制御工学シリーズ)&lt;!-- raw HTML omitted --&gt;
+&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4339033030/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;フィードバック制御入門 (システム制御工学シリーズ)&lt;/a&gt;
 の各章の章末問題を解き、工業数学は
-&lt;!-- raw HTML omitted --&gt;演習大学院入試問題〈数学〉II&lt;!-- raw HTML omitted --&gt;
+&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4781908381/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;演習大学院入試問題〈数学〉II&lt;/a&gt;
 の2章をやった。また、万が一の予備科目として論理回路を
-&lt;!-- raw HTML omitted --&gt;論理回路の基礎&lt;!-- raw HTML omitted --&gt;
+&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4769202040/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;論理回路の基礎&lt;/a&gt;
 で勉強した。&lt;/p&gt;
 &lt;p&gt;僕の場合、春休みまでに英語の試験を受け終え、4月から基礎にじっくり取り組み、専門は残り1ヶ月程度取り組んだ。&lt;br&gt;
 要領のいい人なら合計2ヶ月弱で終えられると思う。&lt;/p&gt;
@@ -2935,7 +2924,18 @@ Matlabのコンソールで&lt;/p&gt;
 &lt;h2 id=&#34;その他&#34;&gt;その他&lt;/h2&gt;
 &lt;p&gt;下賤な話だが、本専攻の入試は他大学院に比べ設問自体少なく、各年の傾向も似通っているため、穴場だと思う。&lt;br&gt;
 とはいえ最も大事なのは、大学院で何をやりたいのか明確な目標をもつことだろう。
-目標をもつことは試験勉強のモチベーションに繋がるし、進学後にやるべきことも明確になる。&lt;/p&gt;</description>
+目標をもつことは試験勉強のモチベーションに繋がるし、進学後にやるべきことも明確になる。&lt;/p&gt;
+&lt;p&gt;具体的な目標をイメージしづらい人は、前もって研究室見学には行くといいだろう。
+現在主にどのような研究をしているのか、どんな実験器具があるのか、研究室の雰囲気はどうなのか、といった、ネットでは中々わからない情報が手に入る。
+研究室のメンバーも外部からの刺激に飢えている (?) ので、歓迎してくれるはず (もちろんアポは忘れないこと) 。&lt;br&gt;
+また余裕がある人は、研究室のメンバーが書いた論文を読んでみることをお薦めする。
+漠然とした研究内容を具体的に把握でき、やる気が高まるし、研究内容のミスマッチを防ぐこともできる。&lt;/p&gt;
+&lt;p&gt;本専攻ヒューマンシステム論分野にご在任の加納学教授のブログには、大学院進学に関してたくさんのアドバイスが書かれている。
+例えば&lt;a href=&#34;http://blog.chase-dream.com/2008/08/26/441&#34;&gt;このエントリ&lt;/a&gt;などは大学院進学を決意するにあたってはじめに読んでおきたい。&lt;/p&gt;
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/478191361X/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/41%2BCEw6EN-L._SL160_.jpg&#34; alt=&#34;演習大学院入試問題 数学 1&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/478191361X/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;演習大学院入試問題 数学 1&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 15.09.21&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;姫野 俊一 陳 啓浩 &lt;br /&gt;サイエンス社 &lt;br /&gt;売り上げランキング: 319,873&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/478191361X/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4781908381/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/41Hb9INzhYL._SL160_.jpg&#34; alt=&#34;演習大学院入試問題〈数学〉II&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4781908381/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;演習大学院入試問題〈数学〉II&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 15.09.21&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;姫野 俊一 陳 啓浩 &lt;br /&gt;サイエンス社 &lt;br /&gt;売り上げランキング: 293,218&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4781908381/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4339033030/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/510Sm8XqmCL._SL160_.jpg&#34; alt=&#34;フィードバック制御入門 (システム制御工学シリーズ)&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4339033030/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;フィードバック制御入門 (システム制御工学シリーズ)&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 15.09.21&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;杉江 俊治 藤田 政之 &lt;br /&gt;コロナ社 &lt;br /&gt;売り上げランキング: 8,808&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4339033030/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4769202040/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51LETHJNfGL._SL160_.jpg&#34; alt=&#34;論理回路の基礎&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4769202040/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;論理回路の基礎&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 15.09.21&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;田丸 啓吉 &lt;br /&gt;工学図書 &lt;br /&gt;売り上げランキング: 462,875&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4769202040/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>入出力線形化</title>
@@ -3021,7 +3021,7 @@ L_gh(x) = \frac{\partial h}{\partial x} g(x)$$
 &lt;p&gt;の4段階からなる。筆者によれば、このサイクルを螺旋状に上昇させていくことが、キャリアを発達させるために必要なことであり、上述の社長のようなサイクルは、望ましくないのだという(もちろん筆者は、エンジニアリング産業を批判したいわけではない)。&lt;/p&gt;
 &lt;p&gt;全体を通して、共感できないというか、納得できないというか、そういう記述もあり、それらはひとえに僕に社会人としての経験が不足していることによるものだと思う。
 もしかすると、10年後くらいにもう一度読み直すことになるかもしれない。&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/456961941X/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51JCW5V5M8L._SL160_.jpg&#34; alt=&#34;働くひとのためのキャリア・デザイン (PHP新書)&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/456961941X/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;働くひとのためのキャリア・デザイン (PHP新書)&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 15.06.02&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;金井 壽宏 &lt;br /&gt;PHP研究所 &lt;br /&gt;売り上げランキング: 5,724&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/456961941X/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>橘玲『臆病者のための株入門(PHP新書)』感想</title>
@@ -3038,8 +3038,8 @@ L_gh(x) = \frac{\partial h}{\partial x} g(x)$$
 また、確定拠出型年金に対するある種の最適戦略を与えており、就職後役立つ知識が得られたと思う。&lt;/p&gt;
 &lt;p&gt;以前、新保の『金融商品とどうつき合うか―仕組みとリスク (岩波新書)』を読んだが、重複する箇所も多少あった。
 比較的原理から説明してくれる本が『金融商品と〜』であり、より実践的なアドバイスが書かれているのが本書ということになると思う。&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4166605143/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/41Tm%2BDVUymL._SL160_.jpg&#34; alt=&#34;臆病者のための株入門 (文春新書)&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4166605143/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;臆病者のための株入門 (文春新書)&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 15.05.15&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;橘 玲 &lt;br /&gt;文藝春秋 &lt;br /&gt;売り上げランキング: 1,560&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4166605143/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4004311659/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/41nE3meOJuL._SL160_.jpg&#34; alt=&#34;金融商品とどうつき合うか―仕組みとリスク (岩波新書)&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4004311659/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;金融商品とどうつき合うか―仕組みとリスク (岩波新書)&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 15.05.15&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;新保 恵志 &lt;br /&gt;岩波書店 &lt;br /&gt;売り上げランキング: 423,798&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4004311659/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>カルマンフィルタの更新式まとめ</title>
@@ -3156,7 +3156,7 @@ draft: false&lt;/h2&gt;
 この国において、ムスリムはカトリックやプロテスタントと同じく、多分化主義に組み込まれている。&lt;br&gt;
 では、このような社会でムスリムへの批判が存在しうるのかというと、答えはイエスである。
 「個人が生きたいように生きる」とは、裏を返せば「他人に干渉されない」ことを重視することであり、異質な文化をもつ人間が増えることで、自分たちの権利が脅かされることを懸念する。&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;!-- オランダでは、「自分の子どもを移民と一緒に学ばせないことも個人の自由」であるから、結果として「白学校」「黒い学校」という隔離がおきている。 --&gt;
 &lt;p&gt;特に、テロを起こし、女性を抑圧し、ヨーロッパの普遍的価値を学ぼうとしない彼らに対して、オランダは「自分たちが築き上げた寛容の精神がイスラームの不寛容によって脅かされる」というレトリックを用いている。
 オランダにおいてイスラーム組織に対する規制が強化されるのは時間の問題だと筆者は意見を述べている。&lt;/p&gt;
 &lt;p&gt;最後にフランスであるが、フランス国民であることは、共和国の理念や原則を受け入れ、共和国と契約を結ぶことを意味する。
