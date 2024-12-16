@@ -15,12 +15,13 @@
       <guid>https://inody.github.io/publication/</guid>
       <description>&lt;h2 id=&#34;preprint&#34;&gt;Preprint&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;S. Koyama, D. Inoue, H. Yoshida, K. Aihara, and G. Tanaka, &amp;ldquo;Predicting unobserved climate time series data at distant areas via spatial correlation using reservoir computing,&amp;rdquo; Jun. 05, 2024. (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2406.03061&#34;&gt;link&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;An Uncertainty-aware, Mesh-free Numerical Method for Kolmogorov PDEs,&amp;rdquo; May, 9, 2024, (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2405.05626&#34;&gt;link&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations,&amp;rdquo; January 18, 2023, (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2301.06415&#34;&gt;link&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;journal-refereed&#34;&gt;Journal (Refereed)&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;D. Inoue, H. Yamashita, K. Aihara, and H. Yoshida, &amp;ldquo;Traffic signal optimization in large-scale urban road networks: an adaptive-predictive controller using Ising models,&amp;rdquo; IEEE Access, pp. 1–1, 2024. &lt;a href=&#34;https://10.1109/ACCESS.2024.3514162&#34;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;D. Inoue, H. Yamashita, K. Aihara, and H. Yoshida, &amp;ldquo;Traffic signal optimization in large-scale urban road networks: an adaptive-predictive controller using Ising models,&amp;rdquo; IEEE Access, pp. 1–1, 2024. (&lt;a href=&#34;https://10.1109/ACCESS.2024.3514162&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Partially Centralized Model-Predictive Mean Field Games for Controlling Multi-Agent Systems,&amp;rdquo; IFAC Journal of Systems and Control, vol. 24, p. 100217, 2023 (&lt;a href=&#34;https://doi.org/10.1016/j.ifacsc.2023.100217&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;A fictitious-play finite-difference method for linearly solvable mean field games,&amp;rdquo; ESAIM: Mathematical Modelling and Numerical Analysis (ESAIM: M2AN), vol. 57, no. 4, Art. no. 4, Jul. 2023 (&lt;a href=&#34;https://doi.org/10.1051/m2an/2023026&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;A. Okada, D. Inoue, S. Koyama, T. Matsumori, and H. Yoshida, &amp;ldquo;Dynamical Cooperation Model for Mitigating the Segregation Phase in Schelling’s Model.&amp;rdquo; The European Physical Journal B, 2022, 95, no. 10. (&lt;a href=&#34;https://doi.org/10.1140/epjb/s10051-022-00436-4&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
@@ -37,7 +38,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;conference-refereed&#34;&gt;Conference (Refereed)&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;T. Miyano, Y. Ito, D. Inoue, S. Koide, and T. Hatanaka, &amp;ldquo;Stability Analysis of Logit Dynamics with Committed Minority and Internal/External Conformity Biases,&amp;rdquo; Proc. 22nd IFAC World Congress, Yokohama, Japan, July 9-14, to appear, 2023.&lt;/li&gt;
+&lt;li&gt;T. Miyano, Y. Ito, D. Inoue, S. Koide, and T. Hatanaka, &amp;ldquo;Stability Analysis of Logit Dynamics with Committed Minority and Internal/External Conformity Biases,&amp;rdquo; Proc. 22nd IFAC World Congress, Yokohama, Japan, July 9-14, 2023. (&lt;a href=&#34;https://doi.org/10.1016/j.ifacol.2023.10.1646&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Model Predictive Mean Field Games for Controlling Multi-Agent Systems,&amp;rdquo; IEEE International Conference on Systems, Man, and Cybernetics 2021 (SMC 2021), Melbourne, Australia, 2021. (&lt;a href=&#34;https://doi.org/10.1109/SMC52423.2021.9658947&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;D. Inoue, Y. Ito, and H. Yoshida, &amp;ldquo;Optimal Transport-based Coverage Control for Swarm Robot Systems: Generalization of the Voronoi Tessellation-based Method,&amp;rdquo; American Control Conference 2021 (ACC 2021), New Orleans, USA, 2021. (&lt;a href=&#34;https://doi.org/10.1109/LCSYS.2020.3039008&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;S. Koyama, D. Inoue, A. Okada, and H. Yoshida, &amp;ldquo;Separation of Pedestrian Counter Flows with an Array of Obstacles,&amp;rdquo; The 3rd International Symposium on Swarm Behavior and Bio-Inspired Robotics (SWARM2019), Okinawa, Japan, pp. 314-318, 2019. (&lt;a href=&#34;https://doi.org/10.1007/s10015-020-00648-w&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
@@ -52,6 +53,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;conference-unrefereed&#34;&gt;Conference (Unrefereed)&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;An Uncertainty-aware, Mesh-free Numerical Method for Kolmogorov PDEs,&amp;rdquo; International Conference on Scientific Computation and Differential Equations 2024, Singapore, July, 16, 2024.&lt;/li&gt;
 &lt;li&gt;井上 大輔, 大規模マルチエージェントシステムの制御のための平均場モデルとその数値計算, 九州大学IMI研究集会「数値解析と機械学習の協同が拓く新時代の数理科学」, 2023&lt;/li&gt;
 &lt;li&gt;井上 大輔, 伊藤 優司, 吉田 広顕, 柏原 崇人, 齊藤 宣一, 平均場ゲーム方程式に対する繰り返し差分法とマルチエージェント制御問題への応用, 京都大学RIMS研究集会「新時代における高性能科学技術計算法の探究」, 2023&lt;/li&gt;
 &lt;li&gt;井上 大輔, 伊藤 優司, 吉田 広顕, 柏原 崇人, 齊藤 宣一, 平均場ゲーム方程式のCole-Hopf変換とFictitious Play反復による数値計算, 日本応用数理学会2022年度年会, 2022&lt;/li&gt;
