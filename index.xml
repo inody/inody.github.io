@@ -6,8 +6,88 @@
     <description>Recent content on inosite</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>https://inody.github.io/publication/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://inody.github.io/publication/</guid>
+      <description>&lt;h2 id=&#34;preprint&#34;&gt;Preprint&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;An Uncertainty-aware, Mesh-free Numerical Method for Kolmogorov PDEs,&amp;rdquo; May, 9, 2024, (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2405.05626&#34;&gt;link&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Daisuke Inoue, Yuji Ito, Takahito Kashiwabara, Norikazu Saito, Hiroaki Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations,&amp;rdquo; January 18, 2023, (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2301.06415&#34;&gt;link&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;journal-refereed&#34;&gt;Journal (Refereed)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;D. Inoue, H. Yamashita, K. Aihara, and H. Yoshida, &amp;ldquo;Traffic signal optimization in large-scale urban road networks: an adaptive-predictive controller using Ising models,&amp;rdquo; IEEE Access, pp. 1–1, 2024. &lt;a href=&#34;https://10.1109/ACCESS.2024.3514162&#34;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Partially Centralized Model-Predictive Mean Field Games for Controlling Multi-Agent Systems,&amp;rdquo; IFAC Journal of Systems and Control, vol. 24, p. 100217, 2023 (&lt;a href=&#34;https://doi.org/10.1016/j.ifacsc.2023.100217&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;A fictitious-play finite-difference method for linearly solvable mean field games,&amp;rdquo; ESAIM: Mathematical Modelling and Numerical Analysis (ESAIM: M2AN), vol. 57, no. 4, Art. no. 4, Jul. 2023 (&lt;a href=&#34;https://doi.org/10.1051/m2an/2023026&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;A. Okada, D. Inoue, S. Koyama, T. Matsumori, and H. Yoshida, &amp;ldquo;Dynamical Cooperation Model for Mitigating the Segregation Phase in Schelling’s Model.&amp;rdquo; The European Physical Journal B, 2022, 95, no. 10. (&lt;a href=&#34;https://doi.org/10.1140/epjb/s10051-022-00436-4&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;S. Koyama, D. Inoue, A. Okada, and H. Yoshida, &amp;ldquo;Electro-osmotic diode based on colloidal nano-valves between double membranes,&amp;rdquo;  Phys. Rev. Research, 2021, 3, 033289. (&lt;a href=&#34;https://doi.org/10.1103/PhysRevResearch.3.033289&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;D. Inoue, A. Okada, T. Matsumori, K. Aihara, and H. Yoshida, &amp;ldquo;Traffic Signal Optimization on a Square Lattice with Quantum Annealing,&amp;rdquo; Scientific Reports, 2021, 11, 3303. (&lt;a href=&#34;https://doi.org/10.1038/s41598-021-82740-0&#34;&gt;link&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;D. Inoue, Y. Ito, and H. Yoshida, &amp;ldquo;Optimal Transport-based Coverage Control for Swarm Robot Systems: Generalization of the Voronoi Tessellation-based Method,&amp;rdquo; IEEE Control Systems Letters, 2021, Vol. 5, Issue 4. (&lt;a href=&#34;https://doi.org/10.1109/LCSYS.2020.3039008&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;S. Koyama, D. Inoue, A. Okada, and H, Yoshida, &amp;ldquo;Separation of pedestrian counter flows with an array of obstacles,&amp;rdquo;  Artificial Life and Robotics 25, 2020, 529–536. (&lt;a href=&#34;https://doi.org/10.1007/s10015-020-00648-w&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;S. Koyama, D. Inoue, A. Okada, and H. Yoshida, &amp;ldquo;Membranes for spontaneous separation of pedestrian counterflows,&amp;rdquo; EPL (Europhysics Letters), 2020, Vol. 129, Issue 5. (&lt;a href=&#34;https://doi.org/10.1209/0295-5075/129/50005&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;D. Inoue and H. Yoshida, &amp;ldquo;Model Predictive Control for Finite Input Systems using the D-Wave Quantum Annealer,&amp;rdquo; Scientific Reports, 2020, 10, 1. (&lt;a href=&#34;https://doi.org/10.1038/s41598-020-58081-9&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;D. Inoue, D. Murai, Y. Ikuta, and H. Yoshida, &amp;ldquo;Distributed Range-based Localization and Control for Swarm Robot Systems,&amp;rdquo; Sensors &amp;amp; Transducers, 2019, Vol. 236, Issue 8, pp. 16-27. (&lt;a href=&#34;https://www.sensorsportal.com/HTML/DIGEST/P_3101.htm&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;井上 大輔, 東 俊一, 杉江 俊治, ネットワーク化単調システムの安定性解析, 計測自動制御学会論文集, 2017, 53 巻, 9 号, pp. 493-500. (&lt;a href=&#34;https://doi.org/10.11511/jacc.59.0_248&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;井上 大輔, 東 俊一, 杉江 俊治, 量子化観測を伴う移動ロボットシステムのランデブー制御, システム制御情報学会論文誌, 2016, 29 巻, 7 号, pp. 311-317. (&lt;a href=&#34;https://doi.org/10.5687/iscie.29.311&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;加嶋 健司, 井上 大輔, ネットワーク化制御系における確率雑音の白色化効果と非再現性の同時活用, 計測自動制御学会論文集, 2014, 50 巻, 10 号, pp. 712-720. (&lt;a href=&#34;https://doi.org/10.9746/sicetr.50.712&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conference-refereed&#34;&gt;Conference (Refereed)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;T. Miyano, Y. Ito, D. Inoue, S. Koide, and T. Hatanaka, &amp;ldquo;Stability Analysis of Logit Dynamics with Committed Minority and Internal/External Conformity Biases,&amp;rdquo; Proc. 22nd IFAC World Congress, Yokohama, Japan, July 9-14, to appear, 2023.&lt;/li&gt;
+&lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Model Predictive Mean Field Games for Controlling Multi-Agent Systems,&amp;rdquo; IEEE International Conference on Systems, Man, and Cybernetics 2021 (SMC 2021), Melbourne, Australia, 2021. (&lt;a href=&#34;https://doi.org/10.1109/SMC52423.2021.9658947&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;D. Inoue, Y. Ito, and H. Yoshida, &amp;ldquo;Optimal Transport-based Coverage Control for Swarm Robot Systems: Generalization of the Voronoi Tessellation-based Method,&amp;rdquo; American Control Conference 2021 (ACC 2021), New Orleans, USA, 2021. (&lt;a href=&#34;https://doi.org/10.1109/LCSYS.2020.3039008&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;S. Koyama, D. Inoue, A. Okada, and H. Yoshida, &amp;ldquo;Separation of Pedestrian Counter Flows with an Array of Obstacles,&amp;rdquo; The 3rd International Symposium on Swarm Behavior and Bio-Inspired Robotics (SWARM2019), Okinawa, Japan, pp. 314-318, 2019. (&lt;a href=&#34;https://doi.org/10.1007/s10015-020-00648-w&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;D. Inoue, D. Murai, and H. Yoshida, &amp;ldquo;Stochastic Self-Organizing Control for Swarm Robot Systems,&amp;rdquo; The Tenth International Conference on Swarm Intelligence (ICSI 2019), Chiang Mai, Thailand, pp. 405-416, 2019. (&lt;a href=&#34;https://doi.org/10.1007/978-3-030-26369-0_38&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;D. Inoue, D. Murai, Y. Ikuta, and H. Yoshida, &amp;ldquo;Distributed Range-based Localization for Swarm Robot Systems using Sensor-Fusion Technique,&amp;rdquo; SENSORNETS 2019, Prague, Czech Republic, pp. 13 - 22, 2019. (&lt;a href=&#34;https://doi.org/10.5220/0007258800130022&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;K. Kashima and D. Inoue, &amp;ldquo;Replay attack detection in control systems with quantized signals,&amp;rdquo; 2015 European Control Conference (ECC), Linz, pp. 782-787, 2015. (&lt;a href=&#34;https://doi.org/10.1109/ECC.2015.7330637&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;K. Kashima and D. Inoue, &amp;ldquo;Stationary performance evaluation of control systems with random dither quantization,&amp;rdquo; 2014 European Control Conference (ECC), Strasbourg, pp. 1625-1630, 2014. (&lt;a href=&#34;https://doi.org/10.1109/ECC.2014.6862294&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;japanese-journal&#34;&gt;Japanese Journal&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;井上 大輔, 大規模エージェントシステムの連続体近似制御-平均場ゲームと動的最適輸送, システム/制御/情報, vol. 68, no. 6, pp. 224–229, 2024.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conference-unrefereed&#34;&gt;Conference (Unrefereed)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;井上 大輔, 大規模マルチエージェントシステムの制御のための平均場モデルとその数値計算, 九州大学IMI研究集会「数値解析と機械学習の協同が拓く新時代の数理科学」, 2023&lt;/li&gt;
+&lt;li&gt;井上 大輔, 伊藤 優司, 吉田 広顕, 柏原 崇人, 齊藤 宣一, 平均場ゲーム方程式に対する繰り返し差分法とマルチエージェント制御問題への応用, 京都大学RIMS研究集会「新時代における高性能科学技術計算法の探究」, 2023&lt;/li&gt;
+&lt;li&gt;井上 大輔, 伊藤 優司, 吉田 広顕, 柏原 崇人, 齊藤 宣一, 平均場ゲーム方程式のCole-Hopf変換とFictitious Play反復による数値計算, 日本応用数理学会2022年度年会, 2022&lt;/li&gt;
+&lt;li&gt;井上 大輔, 量子アニーリングマシンを用いた大規模都市での信号制御, 第69回応用物理学会春季学術講演会, 2022（分科内招待公演）&lt;/li&gt;
+&lt;li&gt;井上 大輔, 量子アニーリングマシンを用いた大規模都市での信号制御, 量子コンピューティング技術シンポジウム2021 (&lt;a href=&#34;https://www.ipa.go.jp/jinzai/target/2021/quantum_symposium2021.html&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;井上 大輔, 伊藤 優司, 吉田 広顕, 柏原 崇人, 齊藤 宣一, Hamilton-Jacobi-Bellman方程式に対する風上差分法の収束証明, 日本応用数理学会2021年度年会, 2021&lt;/li&gt;
+&lt;li&gt;井上 大輔, 東 俊一, 杉江 俊治, ネットワーク化単調システムの安定性解析 , 第59回自動制御連合講演会, 2016 （優秀発表賞受賞）&lt;/li&gt;
+&lt;li&gt;井上 大輔, 加嶋 健司, ディザを有する制御系におけるリプレイアタック 検出, 第58回システム制御情報学会研究発表講演会, 2014 （研究奨励賞受賞）&lt;/li&gt;
+&lt;li&gt;井上 大輔, 加嶋 健司, ディザを有する制御系の定常特性解析 II：リプレイアタック検出, 第1回制御部門マルチシンポジウム , 2014 （制御部門研究奨励賞受賞）&lt;/li&gt;
+&lt;li&gt;井上 大輔, 加嶋 健司, ディザを有する制御系の定常特性解析 I: 不変確率測度の近似計算 , 第1回制御部門マルチシンポジウム , 2014&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;patent&#34;&gt;Patent&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;井上 大輔, 演算装置、演算システム、演算方法、およびコンピュータプログラム, 7040505号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;media-listing&#34;&gt;Media listing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;D-Wave Systems Inc. &lt;a href=&#34;https://www.dwavesys.com/sites/default/files/Dwave_Toyota_Case_Study_V4.2F.pdf&#34;&gt;Toyota Central R&amp;amp;D Labs: A Quantum Approach to Transportation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;東京大学 &lt;a href=&#34;https://www.u-tokyo.ac.jp/content/400154067.pdf&#34;&gt;量子コンピュータにより大規模信号機群を制御する最適化技術の開発に成功&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;日本経済新聞 &lt;a href=&#34;https://r.nikkei.com/article/DGXLRSP604758_Y1A200C2000000&#34;&gt;東大と豊田中央研究所、量子コンピュータを用いて大規模信号機群を制御する最適化技術を開発&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;日刊工業新聞 &lt;a href=&#34;https://www.nikkan.co.jp/articles/view/588009&#34;&gt;豊田中央研、量子コンピューターで信号機群制御　車両の流れやすさ10％向上&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Yahooニュース &lt;a href=&#34;https://news.yahoo.co.jp/articles/7eab0d041f58dd626b5bed2b547792eb6375ec1c&#34;&gt;量子コンピューターの一種で渋滞緩和を目指す。都市全体の信号機制御を最適化&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;awards&#34;&gt;Awards&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Dean&amp;rsquo;s Award, Graduate School of Mathematical Sciences, The University of Tokyo (2024, Mar)&lt;/li&gt;
+&lt;li&gt;Repayment Exemption for Students with Excellent Grades, Japan Student Services Organization  (2017, Jun)&lt;/li&gt;
+&lt;li&gt;Best presentation award at The 59th Japan Automatic Control Conference, The Society of Instrument and Control Engineer (2016 Nov)&lt;/li&gt;
+&lt;li&gt;Research Encouragement Award on The 58th Annual Conference of the Institute of Systems, Control and Information Engineers, The Institute of Systems, Control and Information Engineers (2015 Jun)&lt;/li&gt;
+&lt;li&gt;Research Encouragement Award on The 1st Multi-symposium on Control Systems, The Society of Instrument and Control Engineers (2014 Mar)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;grants&#34;&gt;Grants&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Vulcanus in Europe  2015  (15, 540 dollars), Selected students get to go to Europe to study the local language, and to have a working experience at EU-Japan Centre for Industrial Cooperation in Institute for International Studies and Training&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>About me</title>
       <link>https://inody.github.io/biography/</link>
