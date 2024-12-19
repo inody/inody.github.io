@@ -6,8 +6,19 @@
     <description>Recent content in Posts on inosite</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 May 2024 15:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2024 16:26:54 +0900</lastBuildDate>
     <atom:link href="https://inody.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ieee Accessから論文が出版されました</title>
+      <link>https://inody.github.io/posts/ieee-access/</link>
+      <pubDate>Thu, 19 Dec 2024 16:26:54 +0900</pubDate>
+      <guid>https://inody.github.io/posts/ieee-access/</guid>
+      <description>&lt;h2 id=&#34;交通流信号制御の論文が出版されました&#34;&gt;交通流信号制御の論文が出版されました&lt;/h2&gt;
+&lt;p&gt;今年度は一本も論文を出せていなかったのですが、ようやく一本捻り出せました。
+共著者・関係者の皆様に感謝です。
+引き続きよろしくお願いいたします。&lt;/p&gt;
+&lt;p&gt;D. Inoue, H. Yamashita, K. Aihara, and H. Yoshida, “Traffic signal optimization in large-scale urban road networks: an adaptive-predictive controller using Ising models,” IEEE Access, pp. 1–1, 2024, doi: 10.1109/ACCESS.2024.3514162.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2024年5月の近況</title>
       <link>https://inody.github.io/posts/202405/</link>
