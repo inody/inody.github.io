@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on inosite</title>
-    <link>https://inody.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on inosite</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
     <lastBuildDate>Fri, 03 Jan 2025 11:38:55 +0900</lastBuildDate>
-    <atom:link href="https://inody.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>明けましておめでとうございます</title>
-      <link>https://inody.github.io/posts/newyear2025/</link>
+      <link>http://localhost:1313/posts/newyear2025/</link>
       <pubDate>Fri, 03 Jan 2025 11:38:55 +0900</pubDate>
-      <guid>https://inody.github.io/posts/newyear2025/</guid>
+      <guid>http://localhost:1313/posts/newyear2025/</guid>
       <description>&lt;h1 id=&#34;振り返りと今年の目標&#34;&gt;振り返りと今年の目標&lt;/h1&gt;
 &lt;h2 id=&#34;振り返り仕事編&#34;&gt;振り返り：仕事編&lt;/h2&gt;
 &lt;p&gt;今年は仕事に対するやる気を維持するのに苦労した1年でした。学位取得後の燃え尽き感が大きく、在宅勤務の環境では周りの目が届かないため、ついダラダラとしたペースで仕事を進めてしまいました。特に締め切り直前になってから最低限の仕事を片付ける、というスタイルに陥ることが多かったです。出社する日はやる気が高まるものの、週に一度しか出社できず、通勤時間が増えたことも負担になっていました。&lt;/p&gt;
@@ -27,9 +27,9 @@
     </item>
     <item>
       <title>IEEE Accessから論文が出版されました</title>
-      <link>https://inody.github.io/posts/ieee-access/</link>
+      <link>http://localhost:1313/posts/ieee-access/</link>
       <pubDate>Thu, 19 Dec 2024 16:26:54 +0900</pubDate>
-      <guid>https://inody.github.io/posts/ieee-access/</guid>
+      <guid>http://localhost:1313/posts/ieee-access/</guid>
       <description>&lt;h2 id=&#34;交通信号制御の論文が出版されました&#34;&gt;交通信号制御の論文が出版されました&lt;/h2&gt;
 &lt;p&gt;今年度は一本も論文を出せていなかったのですが、ようやく一本捻り出せました。
 共著者・関係者の皆様に深く感謝いたします。
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>2024年5月の近況</title>
-      <link>https://inody.github.io/posts/202405/</link>
+      <link>http://localhost:1313/posts/202405/</link>
       <pubDate>Sat, 11 May 2024 15:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/202405/</guid>
+      <guid>http://localhost:1313/posts/202405/</guid>
       <description>&lt;h2 id=&#34;愛知県から転出しました&#34;&gt;愛知県から転出しました&lt;/h2&gt;
 &lt;p&gt;昨年会社から愛知に戻ってくるよう命を受け、県内に転居していたのですが、妻と子は三重の実家に住んでおり、別居婚状態でした。
 当初は学位が取れていなかった＆転勤直後で出社頻度が読めなかったことに加え、会社の家賃補助制度が後押しして、こうした生活を送ることになったのですが、これらの問題は落ち着いたので、家を引き払った次第です。
@@ -73,9 +73,9 @@ GPRは、ニューラルネットより古典的な回帰手法ですが、回�
     </item>
     <item>
       <title>博士号の授与が決まりました</title>
-      <link>https://inody.github.io/posts/finishphd/</link>
+      <link>http://localhost:1313/posts/finishphd/</link>
       <pubDate>Sat, 17 Feb 2024 13:48:02 +0900</pubDate>
-      <guid>https://inody.github.io/posts/finishphd/</guid>
+      <guid>http://localhost:1313/posts/finishphd/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;先日、2021年4月から始まった社会人博士取得の取り組みが一段落した。
 3年で学位を取るという当初掲げた目標は達成したので、結果としては大変満足している。
@@ -145,9 +145,9 @@ GPRは、ニューラルネットより古典的な回帰手法ですが、回�
     </item>
     <item>
       <title>macOSでHHKBを使いながらwin機へRDPする時のキー設定</title>
-      <link>https://inody.github.io/posts/keysetting/</link>
+      <link>http://localhost:1313/posts/keysetting/</link>
       <pubDate>Fri, 16 Feb 2024 16:16:32 +0900</pubDate>
-      <guid>https://inody.github.io/posts/keysetting/</guid>
+      <guid>http://localhost:1313/posts/keysetting/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;macでは修飾キーがcmdだけど、win, linuxにRDPした時はctrlであり、それぞれで押下するキーが異なるのがずっともどかしく思っていた。
 また、macではkarabinerの設定で左cmdでIME off、右cmdでIME onにできていたが、RDP先ではうまく設定できずにいた。
@@ -179,8 +179,8 @@ GPRは、ニューラルネットより古典的な回帰手法ですが、回�
 &lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
 &lt;p&gt;mac本体のキーは変更せず、全ての設定をkarabiner-elementsで行う。&lt;/p&gt;
 &lt;p&gt;まず、simple modificationsで画像のように変更する。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://inody.github.io/assets/karabinar1.png&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://inody.github.io/assets/karabinar2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/karabinar1.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/karabinar2.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;次に、complex modificationsで、下記のようなjsonファイルを作成する：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;description&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;my karabiner setting&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
@@ -363,9 +363,9 @@ GPRは、ニューラルネットより古典的な回帰手法ですが、回�
     </item>
     <item>
       <title>博士論文を提出しました</title>
-      <link>https://inody.github.io/posts/submit_thesis/</link>
+      <link>http://localhost:1313/posts/submit_thesis/</link>
       <pubDate>Mon, 08 Jan 2024 21:29:46 +0900</pubDate>
-      <guid>https://inody.github.io/posts/submit_thesis/</guid>
+      <guid>http://localhost:1313/posts/submit_thesis/</guid>
       <description>&lt;p&gt;1月5日に博論を提出した。
 まだ全然振り返る心境にはないけど、肩の荷が一つ下ろせた気分。
 次は1月の後半の発表に向けて準備を進めなければいけない。&lt;/p&gt;
@@ -397,9 +397,9 @@ GPRは、ニューラルネットより古典的な回帰手法ですが、回�
     </item>
     <item>
       <title>さらば東京</title>
-      <link>https://inody.github.io/posts/bye_tokyo/</link>
+      <link>http://localhost:1313/posts/bye_tokyo/</link>
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://inody.github.io/posts/bye_tokyo/</guid>
+      <guid>http://localhost:1313/posts/bye_tokyo/</guid>
       <description>&lt;p&gt;先ほど全ての荷物が搬出され、荷物より少し先に名古屋に新幹線で向かっている最中。
 一つ前の記事でも書いたけど、「賑わい」のある東京を離れるのは正直名残惜しい。
 またいつかチャンスがあれば滞在したいと思う。&lt;/p&gt;
@@ -415,9 +415,9 @@ GPRは、ニューラルネットより古典的な回帰手法ですが、回�
     </item>
     <item>
       <title>愛知に戻ります</title>
-      <link>https://inody.github.io/posts/relocation/</link>
+      <link>http://localhost:1313/posts/relocation/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://inody.github.io/posts/relocation/</guid>
+      <guid>http://localhost:1313/posts/relocation/</guid>
       <description>&lt;p&gt;先日、会社から愛知に戻るよう内示を受けた。
 こちらに転勤してきて4年、そろそろかな、と心構えをしていたつもりだったが、意外と動揺する自分を発見した。&lt;/p&gt;
 &lt;p&gt;自分は大学に入るまでの18年間を北陸の地方都市で過ごし、その後大学で大阪、大学院で京都、就職で愛知、転勤で東京、と約3年ごとに拠点を移してきた。
@@ -442,9 +442,9 @@ GPRは、ニューラルネットより古典的な回帰手法ですが、回�
     </item>
     <item>
       <title>カメラを買った</title>
-      <link>https://inody.github.io/posts/buy-camera/</link>
+      <link>http://localhost:1313/posts/buy-camera/</link>
       <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://inody.github.io/posts/buy-camera/</guid>
+      <guid>http://localhost:1313/posts/buy-camera/</guid>
       <description>&lt;p&gt;買ってしまいました、E-M1 mark iii。&lt;/p&gt;
 &lt;h3 id=&#34;よかった点&#34;&gt;よかった点&lt;/h3&gt;
 &lt;ul&gt;
@@ -468,9 +468,9 @@ GPRは、ニューラルネットより古典的な回帰手法ですが、回�
     </item>
     <item>
       <title>カメラを買いたい！</title>
-      <link>https://inody.github.io/posts/wanna-buy-camera/</link>
+      <link>http://localhost:1313/posts/wanna-buy-camera/</link>
       <pubDate>Sun, 11 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://inody.github.io/posts/wanna-buy-camera/</guid>
+      <guid>http://localhost:1313/posts/wanna-buy-camera/</guid>
       <description>&lt;p&gt;学生時代はPentaxのK-30とK-S1を使っていた。
 選んだ理由はシンプルにカタログスペック上のコスパが良いと感じたから。
 実際使ってみると、旅行先で風景写真を撮るなどの用途には不満を感じなかった。&lt;/p&gt;
@@ -601,9 +601,9 @@ GPRは、ニューラルネットより古典的な回帰手法ですが、回�
     </item>
     <item>
       <title>プロキシ環境でスクラッチからsingularityコンテナの作成</title>
-      <link>https://inody.github.io/posts/singularity/</link>
+      <link>http://localhost:1313/posts/singularity/</link>
       <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://inody.github.io/posts/singularity/</guid>
+      <guid>http://localhost:1313/posts/singularity/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;現職場環境からアクセスできるスパコンで、gpuを使ったコードを実行しようとする時、singularity経由でないとcudaの設定周りで怒られることがある。&lt;/li&gt;
@@ -686,9 +686,9 @@ RUN pip install --proxy=&amp;#34;http://user:pass@proxy_address:port&amp;#34; -r
     </item>
     <item>
       <title>日本応用数理学会の年会で発表してきました</title>
-      <link>https://inody.github.io/posts/jsiam-presentation/</link>
+      <link>http://localhost:1313/posts/jsiam-presentation/</link>
       <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://inody.github.io/posts/jsiam-presentation/</guid>
+      <guid>http://localhost:1313/posts/jsiam-presentation/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://jsiam.org/annual2022/&#34;&gt;日本応用数理学会の年会&lt;/a&gt;で口頭発表してきました。&lt;/p&gt;
@@ -714,7 +714,7 @@ RUN pip install --proxy=&amp;#34;http://user:pass@proxy_address:port&amp;#34; -r
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;発表資料を&lt;a href=&#34;https://inody.github.io/assets/jsiam2022.pdf&#34;&gt;ここ&lt;/a&gt;に置いておきます。興味のある方はご覧ください。&lt;/p&gt;
+&lt;p&gt;発表資料を&lt;a href=&#34;http://localhost:1313/assets/jsiam2022.pdf&#34;&gt;ここ&lt;/a&gt;に置いておきます。興味のある方はご覧ください。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;今回はハイブリッド開催でしたが、オンラインで発表しました。&lt;/p&gt;
@@ -731,9 +731,9 @@ RUN pip install --proxy=&amp;#34;http://user:pass@proxy_address:port&amp;#34; -r
     </item>
     <item>
       <title>モニタを買った</title>
-      <link>https://inody.github.io/posts/buy-monitor/</link>
+      <link>http://localhost:1313/posts/buy-monitor/</link>
       <pubDate>Tue, 09 Aug 2022 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/buy-monitor/</guid>
+      <guid>http://localhost:1313/posts/buy-monitor/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.dell.com/ja-jp/shop/dell-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%8F%E3%82%A4%E3%82%A8%E3%83%B3%E3%83%89%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-u3223qe-315%E3%82%A4%E3%83%B3%E3%83%81-4k-hdr-usb-c-hub-%E3%83%A2%E3%83%8B%E3%82%BF/apd/210-bebl/%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC-%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B5%E3%83%AA%E3%83%BC&#34;&gt;U3223QE&lt;/a&gt;
 買ってしまった…&lt;/p&gt;
 &lt;p&gt;良かったこと&lt;/p&gt;
@@ -751,9 +751,9 @@ RUN pip install --proxy=&amp;#34;http://user:pass@proxy_address:port&amp;#34; -r
     </item>
     <item>
       <title>モニタを買いたい</title>
-      <link>https://inody.github.io/posts/wanna-buy-monitor/</link>
+      <link>http://localhost:1313/posts/wanna-buy-monitor/</link>
       <pubDate>Wed, 03 Aug 2022 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/wanna-buy-monitor/</guid>
+      <guid>http://localhost:1313/posts/wanna-buy-monitor/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;今使っているモニタ（&lt;a href=&#34;https://nttxstore.jp/_II_PH15875856&#34;&gt;これ&lt;/a&gt;）はusb-cでmacbook airに接続・給電できるので、特に不満なく使っていた&lt;/li&gt;
 &lt;li&gt;買いたいと思ったきっかけは、デスクトップPCを購入して2台体制になったこと&lt;/li&gt;
@@ -813,9 +813,9 @@ RUN pip install --proxy=&amp;#34;http://user:pass@proxy_address:port&amp;#34; -r
     </item>
     <item>
       <title>重い腰を上げてGithub pagesにポートフォリオサイトを作成した</title>
-      <link>https://inody.github.io/posts/portfolio-blog-hugo/</link>
+      <link>http://localhost:1313/posts/portfolio-blog-hugo/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/portfolio-blog-hugo/</guid>
+      <guid>http://localhost:1313/posts/portfolio-blog-hugo/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;今まで研究者としてのポートフォリオはGoogle Siteを、ブログはTumblrを用いていた
 &lt;ul&gt;
@@ -867,9 +867,9 @@ RUN pip install --proxy=&amp;#34;http://user:pass@proxy_address:port&amp;#34; -r
     </item>
     <item>
       <title>WSLのインストールから、外部からのSSH環境構築までの備忘録</title>
-      <link>https://inody.github.io/posts/wsl-ssh/</link>
+      <link>http://localhost:1313/posts/wsl-ssh/</link>
       <pubDate>Sun, 16 Jan 2022 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/wsl-ssh/</guid>
+      <guid>http://localhost:1313/posts/wsl-ssh/</guid>
       <description>&lt;h2 id=&#34;インストール&#34;&gt;インストール&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/ja-jp/windows/wsl/install&#34;&gt;ここ&lt;/a&gt;を参考にした。
 以前WSL1を触った時はMicrosoftストアからイメージをDLする感じだったと記憶しているが、コマンドだけでインストールできた。
@@ -921,9 +921,9 @@ netsh interface portproxy add    v4tov4 listenport=22 connectaddress=%ip%
     </item>
     <item>
       <title>計算機を購入した</title>
-      <link>https://inody.github.io/posts/buy-pc/</link>
+      <link>http://localhost:1313/posts/buy-pc/</link>
       <pubDate>Sun, 16 Jan 2022 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/buy-pc/</guid>
+      <guid>http://localhost:1313/posts/buy-pc/</guid>
       <description>&lt;h2 id=&#34;購入理由&#34;&gt;購入理由&lt;/h2&gt;
 &lt;p&gt;正月で帰省中、ふと計算機がほしくなった。
 会社のネットワークはsshがブロックされているため、家から繋ぐにはRDP接続する必要がある。
@@ -962,9 +962,9 @@ DDR5メモリが枯渇する中、上記スペックのものとしては結構�
     </item>
     <item>
       <title>仕事と学業と育児のトリレンマ</title>
-      <link>https://inody.github.io/posts/trilemma/</link>
+      <link>http://localhost:1313/posts/trilemma/</link>
       <pubDate>Sun, 20 Jun 2021 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/trilemma/</guid>
+      <guid>http://localhost:1313/posts/trilemma/</guid>
       <description>&lt;p&gt;社会人博士として大学に入学してそろそろ2か月になります。
 現状を俯瞰すると、いろいろとまずい状態にあるように思われるので、問題点を列挙してみようと思います。&lt;/p&gt;
 &lt;p&gt;まず、平日に仕事と学業が思ったほど両立できていません。
@@ -1005,9 +1005,9 @@ DDR5メモリが枯渇する中、上記スペックのものとしては結構�
     </item>
     <item>
       <title>子の寝かしつけ</title>
-      <link>https://inody.github.io/posts/sleep-baby/</link>
+      <link>http://localhost:1313/posts/sleep-baby/</link>
       <pubDate>Sun, 20 Jun 2021 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/sleep-baby/</guid>
+      <guid>http://localhost:1313/posts/sleep-baby/</guid>
       <description>&lt;p&gt;娘が大きくなってきた。&lt;/p&gt;
 &lt;p&gt;以前は寝かしつけに相当苦労した。
 縦抱っこをしながら子守唄を歌う。
@@ -1028,9 +1028,9 @@ DDR5メモリが枯渇する中、上記スペックのものとしては結構�
     </item>
     <item>
       <title>博士課程に進学しました</title>
-      <link>https://inody.github.io/posts/start-phd/</link>
+      <link>http://localhost:1313/posts/start-phd/</link>
       <pubDate>Sat, 03 Apr 2021 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/start-phd/</guid>
+      <guid>http://localhost:1313/posts/start-phd/</guid>
       <description>&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I am a student. &lt;a href=&#34;https://t.co/UxXYyHTY8E&#34;&gt;pic.twitter.com/UxXYyHTY8E&lt;/a&gt;&lt;/p&gt;&amp;mdash; inody (@inody_) &lt;a href=&#34;https://twitter.com/inody_/status/1377903730125807616?ref_src=twsrc%5Etfw&#34;&gt;April 2, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;p&gt;この4月から、東京大学の数理科学研究科に博士後期課程の学生として入学することになりました。&lt;br&gt;
 入社当初から会社の上司には学位を取りたいと伝えていたのですが、足掛け5年でようやくスタートを切ることができた次第です。&lt;br&gt;
@@ -1049,9 +1049,9 @@ DDR5メモリが枯渇する中、上記スペックのものとしては結構�
     </item>
     <item>
       <title>2020年の振り返り</title>
-      <link>https://inody.github.io/posts/lookback-2020/</link>
+      <link>http://localhost:1313/posts/lookback-2020/</link>
       <pubDate>Thu, 31 Dec 2020 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/lookback-2020/</guid>
+      <guid>http://localhost:1313/posts/lookback-2020/</guid>
       <description>&lt;p&gt;気づけば年の瀬です。
 今年はコロナ禍で在宅勤務が一定期間続いたためか、矢のように時間が過ぎたと感じます。&lt;/p&gt;
 &lt;p&gt;自分は割と一人が好きなので、はじめのうちはリモートワークを歓迎し、集中して作業を進めることができました。
@@ -1089,9 +1089,9 @@ DDR5メモリが枯渇する中、上記スペックのものとしては結構�
     </item>
     <item>
       <title>LaTeXで2カラムの原稿の両側にページごとの行番号を振る</title>
-      <link>https://inody.github.io/posts/latex-two-cols/</link>
+      <link>http://localhost:1313/posts/latex-two-cols/</link>
       <pubDate>Sun, 08 Nov 2020 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/latex-two-cols/</guid>
+      <guid>http://localhost:1313/posts/latex-two-cols/</guid>
       <description>&lt;p&gt;タイトルについてです。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;lineno.sty&lt;/code&gt;を使うのですが、そのまま用いても以下の問題がありました。&lt;/p&gt;
 &lt;ul&gt;
@@ -1124,18 +1124,18 @@ DDR5メモリが枯渇する中、上記スペックのものとしては結構�
     </item>
     <item>
       <title>latexdiffでコンパイルエラーを回避したい</title>
-      <link>https://inody.github.io/posts/latexdiff-tips/</link>
+      <link>http://localhost:1313/posts/latexdiff-tips/</link>
       <pubDate>Fri, 03 Apr 2020 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/latexdiff-tips/</guid>
+      <guid>http://localhost:1313/posts/latexdiff-tips/</guid>
       <description>&lt;p&gt;大体の問題は、数式か引用文献で発生するので、これらをdiffから除外してあげればよい：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;latexdiff old.tex new.tex &amp;gt; diff.tex --exclude-safecmd=&amp;#34;cite&amp;#34; --math-markup=0
 &lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Dropboxの同時接続端末数制限を突破したい</title>
-      <link>https://inody.github.io/posts/dropbox-free/</link>
+      <link>http://localhost:1313/posts/dropbox-free/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/dropbox-free/</guid>
+      <guid>http://localhost:1313/posts/dropbox-free/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;Dropbox便利ですよね。
 何が便利って、真にマルチプラットフォームのクラウドストレージって、これくらいしかないという点です。&lt;/p&gt;
@@ -1160,9 +1160,9 @@ Apple製品で閉じているときは便利ですが、ubuntuとの連携はほ
     </item>
     <item>
       <title>macからubuntu mateにxrdpでリモートログイン</title>
-      <link>https://inody.github.io/posts/ubuntu-mate-xrdp/</link>
+      <link>http://localhost:1313/posts/ubuntu-mate-xrdp/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/ubuntu-mate-xrdp/</guid>
+      <guid>http://localhost:1313/posts/ubuntu-mate-xrdp/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;最近のコロナの騒ぎを受けて、弊社でもリモートワークが始まりました。
 今まで社内では、macbookからデスクトップubuntuにsshでログインして作業していたんですが、異なるネットワークを介して接続したことはありませんでした。
@@ -1210,9 +1210,9 @@ unset SESSION_MANAGER
     </item>
     <item>
       <title>15万円で揃える在宅環境</title>
-      <link>https://inody.github.io/posts/wfh/</link>
+      <link>http://localhost:1313/posts/wfh/</link>
       <pubDate>Fri, 17 Jan 2020 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/wfh/</guid>
+      <guid>http://localhost:1313/posts/wfh/</guid>
       <description>&lt;p&gt;最近引っ越しました。
 WFHも続きそうだし、これまでちょっとずつ揃えてきたデスク周りの環境をまとめておきます。
 全体像はこんな感じ。&lt;/p&gt;
@@ -1305,9 +1305,9 @@ WFHも続きそうだし、これまでちょっとずつ揃えてきたデス�
     </item>
     <item>
       <title>新年を迎えて</title>
-      <link>https://inody.github.io/posts/new-year-2020/</link>
+      <link>http://localhost:1313/posts/new-year-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/new-year-2020/</guid>
+      <guid>http://localhost:1313/posts/new-year-2020/</guid>
       <description>&lt;p&gt;約一年ぶりのブログ更新です。
 昨年は、公私ともに転換点を迎えた年でした。&lt;/p&gt;
 &lt;p&gt;仕事では愛知から東京への転勤を経験しました。
@@ -1328,9 +1328,9 @@ WFHも続きそうだし、これまでちょっとずつ揃えてきたデス�
     </item>
     <item>
       <title>2018年に読んでよかった本 &amp; 2019年の目標</title>
-      <link>https://inody.github.io/posts/goal-2019/</link>
+      <link>http://localhost:1313/posts/goal-2019/</link>
       <pubDate>Thu, 03 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/goal-2019/</guid>
+      <guid>http://localhost:1313/posts/goal-2019/</guid>
       <description>&lt;p&gt;久しぶりの投稿、しかも旬がすぎたタイトルでの投稿です。&lt;/p&gt;
 &lt;p&gt;2018年は大企業特有の闇の1年研修を終え、ようやく研究業務を始められた年でした。
 企業研究所の研究環境といえば、先日kumagi氏の例の記事がバズりましたね。
@@ -1361,9 +1361,9 @@ Twitterでおすすめされていた本書を試し読みなしにポチった�
     </item>
     <item>
       <title>Langevin方程式とFokker-Planck方程式の対応</title>
-      <link>https://inody.github.io/posts/langevin-fokkerplanck/</link>
+      <link>http://localhost:1313/posts/langevin-fokkerplanck/</link>
       <pubDate>Fri, 24 Aug 2018 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/langevin-fokkerplanck/</guid>
+      <guid>http://localhost:1313/posts/langevin-fokkerplanck/</guid>
       <description>&lt;p&gt;$x(t)\in\mathbb R$の時間発展が、つぎの非線形ランジュバン方程式
 $$
 \dot x(t) = f(x(t)) + R(t)
@@ -1394,9 +1394,9 @@ $$&lt;/p&gt;
     </item>
     <item>
       <title>OpenCV/ArUcoライブラリで物体位置計測</title>
-      <link>https://inody.github.io/posts/opencv/</link>
+      <link>http://localhost:1313/posts/opencv/</link>
       <pubDate>Sun, 18 Mar 2018 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/opencv/</guid>
+      <guid>http://localhost:1313/posts/opencv/</guid>
       <description>&lt;p&gt;OpenCVは画像処理に触れたことのある人ならば知らない人はいないと言われるほど有名なライブラリですが、本日はそのモジュールの一つである、AR用ライブラリArUcoを用いて、物体の位置計測をしてみます。&lt;br&gt;
 ネットにはC++の記事がたくさん転がっているのですが、Pythonを用いた記事が少ないように感じたため、備忘録としてブログに残そうと思った次第です。&lt;/p&gt;
 &lt;h1 id=&#34;やりたいこと&#34;&gt;やりたいこと&lt;/h1&gt;
@@ -1445,9 +1445,9 @@ cv2.imwrite(&#39;img_marked.png&#39;, img_marked)
     </item>
     <item>
       <title>デルタ関数とは、超関数とは</title>
-      <link>https://inody.github.io/posts/generalized-function/</link>
+      <link>http://localhost:1313/posts/generalized-function/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/generalized-function/</guid>
+      <guid>http://localhost:1313/posts/generalized-function/</guid>
       <description>&lt;h2 id=&#34;デルタ関数って結局何なの&#34;&gt;デルタ関数って結局何なの？&lt;/h2&gt;
 &lt;p&gt;工学の至る所で現れるデルタ関数。これはよく
 $$
@@ -1483,9 +1483,9 @@ $\mathcal D$ 上に属する関数 $\phi$ をテスト関数と呼びます。
     </item>
     <item>
       <title>カーネル型機械学習入門</title>
-      <link>https://inody.github.io/posts/kernel-machine-learning/</link>
+      <link>http://localhost:1313/posts/kernel-machine-learning/</link>
       <pubDate>Sun, 23 Jul 2017 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/kernel-machine-learning/</guid>
+      <guid>http://localhost:1313/posts/kernel-machine-learning/</guid>
       <description>&lt;p&gt;$d$個の数値を並べた変数$\mathbf{x}=(x_1,x_2,\ldots,x_d)^{\mathrm T}$から、
 $y$という変数を推定する多変量の回帰問題を考えます。
 サンプルデータは$n$組あるとし、$i$番目のサンプルを$\mathbf{x}^{(i)}, y^{(i)}$と書くことにします。&lt;/p&gt;
@@ -1521,9 +1521,9 @@ $$&lt;/p&gt;
     </item>
     <item>
       <title>日経平均株価をLSTMを用いて予測してみた</title>
-      <link>https://inody.github.io/posts/lstm-market/</link>
+      <link>http://localhost:1313/posts/lstm-market/</link>
       <pubDate>Sun, 16 Jul 2017 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/lstm-market/</guid>
+      <guid>http://localhost:1313/posts/lstm-market/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;今流行りの深層学習で日経平均株価を予想してみました。
 結論から言えば、全く予想できず、惨敗でした。&lt;/p&gt;
@@ -1631,9 +1631,9 @@ plt.show()
     </item>
     <item>
       <title>一色正彦ら著『理系のための交渉学入門』を読みました</title>
-      <link>https://inody.github.io/posts/read-isshiki/</link>
+      <link>http://localhost:1313/posts/read-isshiki/</link>
       <pubDate>Sun, 29 Jan 2017 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/read-isshiki/</guid>
+      <guid>http://localhost:1313/posts/read-isshiki/</guid>
       <description>&lt;p&gt;交渉というと、心理的駆け引きがものをいう、才能が支配する活動であり、自分のような口下手には縁遠いものだという印象がありました。
 しかしながら、本書は「交渉には理論があり、後天的に交渉力は獲得できる」という立場のもと、その基礎的な理論を紹介しています。&lt;/p&gt;
 &lt;p&gt;もっとも基礎的なこととして、交渉は準備が8割であり、始める前につぎの3つを決めるべきだとあります。&lt;/p&gt;
@@ -1665,9 +1665,9 @@ plt.show()
     </item>
     <item>
       <title>GPIFのデータをもとに最適ポートフォリオ問題を解いてみた（3）</title>
-      <link>https://inody.github.io/posts/portfolio3/</link>
+      <link>http://localhost:1313/posts/portfolio3/</link>
       <pubDate>Mon, 09 Jan 2017 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/portfolio3/</guid>
+      <guid>http://localhost:1313/posts/portfolio3/</guid>
       <description>&lt;h2 id=&#34;gpifによるデータ&#34;&gt;GPIFによるデータ&lt;/h2&gt;
 &lt;p&gt;GPIF（年金積立金管理運用独立行政法人）は、厚生年金と国民年金の積立金の管理・運用を行っている団体です。
 この団体は、定期的に各金融商品のリスクとリターン、相関係数について評価しており、それらをもとに積立金の運用のためのポートフォリオを決定しています。
@@ -1845,9 +1845,9 @@ plt.close(&#39;all&#39;)
     </item>
     <item>
       <title>GPIFのデータをもとに最適ポートフォリオ問題を解いてみた（2）</title>
-      <link>https://inody.github.io/posts/portfolio2/</link>
+      <link>http://localhost:1313/posts/portfolio2/</link>
       <pubDate>Sun, 08 Jan 2017 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/portfolio2/</guid>
+      <guid>http://localhost:1313/posts/portfolio2/</guid>
       <description>&lt;h2 id=&#34;ポートフォリオ最適化&#34;&gt;ポートフォリオ最適化&lt;/h2&gt;
 &lt;p&gt;複数の金融商品の組み合わせのことを「ポートフォリオ」といいます。
 あなたはAとBを購入する際、そのポートフォリオを調節することで、リスクをできるだけ小さくしながら、リターンをできるだけ大きくしようと思っています。
@@ -1898,9 +1898,9 @@ $$
     </item>
     <item>
       <title>GPIFのデータをもとに最適ポートフォリオ問題を解いてみた（1）</title>
-      <link>https://inody.github.io/posts/portfolio1/</link>
+      <link>http://localhost:1313/posts/portfolio1/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/portfolio1/</guid>
+      <guid>http://localhost:1313/posts/portfolio1/</guid>
       <description>&lt;h2 id=&#34;なぜ分散投資が有効なのか&#34;&gt;なぜ分散投資が有効なのか&lt;/h2&gt;
 &lt;p&gt;ここに2つの金融商品があったとしましょう。
 それぞれの金融商品は「リスク」と「リターン」という特徴量を持っているとします。
@@ -1943,9 +1943,9 @@ $$
     </item>
     <item>
       <title>資格取得と人生設計</title>
-      <link>https://inody.github.io/posts/license-life/</link>
+      <link>http://localhost:1313/posts/license-life/</link>
       <pubDate>Mon, 26 Dec 2016 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/license-life/</guid>
+      <guid>http://localhost:1313/posts/license-life/</guid>
       <description>&lt;p&gt;簿記3級に合格してから、ファイナンシャルプランニング技能検定3級の勉強を進めています。&lt;/p&gt;
 &lt;p&gt;はじめは「社会に出るにあたって資格の一つや二つ取ったほうがいいだろう」と気軽な気持ちで始めた資格勉強ですが、簿記の合格を契機にその楽しさに目覚めてしまいました。
 なんというか、やればやるだけ強くなれるところがRPGと似ていて癖になります。
@@ -1963,9 +1963,9 @@ $$
     </item>
     <item>
       <title>簿記3級に受かりました</title>
-      <link>https://inody.github.io/posts/bookkeeping/</link>
+      <link>http://localhost:1313/posts/bookkeeping/</link>
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/bookkeeping/</guid>
+      <guid>http://localhost:1313/posts/bookkeeping/</guid>
       <description>&lt;p&gt;就職を春に控え、一般常識で欠けている知識を補うために受験した簿記検定3級。
 本番で解答用紙の下書きを消し忘れるという手痛いミスをしてしまいましたが、本日結果を確認すると、しっかり点が加算されていました。
 参考書として使ったのは、TAC出版の&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4813264913/inody1991-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;スッキリわかる 日商簿記3級 第7版 [テキスト&amp;amp;問題集]&lt;/a&gt;です。
@@ -1975,9 +1975,9 @@ $$
     </item>
     <item>
       <title>LaTeXで図を作成するときにおすすめの方法</title>
-      <link>https://inody.github.io/posts/latex-figure/</link>
+      <link>http://localhost:1313/posts/latex-figure/</link>
       <pubDate>Fri, 30 Sep 2016 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/latex-figure/</guid>
+      <guid>http://localhost:1313/posts/latex-figure/</guid>
       <description>&lt;p&gt;研究者の皆さんは，論文を作成するときにIllustratorなどのベクターイメージ編集ソフトを使っていることと存じます．
 しかしながら，こうしたソフトは一般に有償であり，学生には手が届かないもの．
 中にはInkscapeなどのフリーソフトもあるため，そちらを使っている方もいるかもしれません（僕も少し前までこの方法でした）．
@@ -2030,9 +2030,9 @@ $$
     </item>
     <item>
       <title>モーパッサン『女の一生』を読みました</title>
-      <link>https://inody.github.io/posts/read-maupassant/</link>
+      <link>http://localhost:1313/posts/read-maupassant/</link>
       <pubDate>Fri, 26 Aug 2016 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/read-maupassant/</guid>
+      <guid>http://localhost:1313/posts/read-maupassant/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;二人の人間が、本当に魂の底まで、思いの奥底までひとつになることはできないのだと、ジャンヌは初めて思った。肩を並べて歩き、ときに抱き合うことはあっても、ひとつに溶け合うことはなく、心の底では誰もが生涯一人ぼっちなのだと。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2079,9 +2079,9 @@ $$
     </item>
     <item>
       <title>カメラを新調しました</title>
-      <link>https://inody.github.io/posts/purchase-camera/</link>
+      <link>http://localhost:1313/posts/purchase-camera/</link>
       <pubDate>Mon, 08 Aug 2016 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/purchase-camera/</guid>
+      <guid>http://localhost:1313/posts/purchase-camera/</guid>
       <description>&lt;p&gt;昨年度留学していた時にカメラを盗まれて以来，ずっと再購入しようと思っていたのですが，就活や研究などで忙しく，買う機会を逃し続けていました．
 先日友人と祇園祭を見て回った時に，ファインダーを覗く友人の姿が羨ましく思ったことが，再購入を決断したきっかけです．&lt;/p&gt;
 &lt;p&gt;購入に際しては，第一に値段，第二に軽さを重視することにしました．
@@ -2103,9 +2103,9 @@ $$
     </item>
     <item>
       <title>就活が終わりました</title>
-      <link>https://inody.github.io/posts/finish-job-hunting/</link>
+      <link>http://localhost:1313/posts/finish-job-hunting/</link>
       <pubDate>Sun, 19 Jun 2016 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/finish-job-hunting/</guid>
+      <guid>http://localhost:1313/posts/finish-job-hunting/</guid>
       <description>&lt;p&gt;先日、日本での就職活動を終えました。
 今年は例年と異なるスケジュールで、僕の帰国が遅れたこともあり、うまくいくか不安もあったのですが、売り手市場の後押しもあってか、最終的に幾つかの企業から内定を頂くことができました。
 その中で一社を選択する際、勤務地や待遇などで一時期迷ったのですが、結局最後は「研究職としてのキャリアが積めそうか」に的を絞ることで、納得のいく選択ができたと思います。
@@ -2120,9 +2120,9 @@ $$
     </item>
     <item>
       <title>WindowsにHaskellをインストール時にcabalが動作しない時の対処法</title>
-      <link>https://inody.github.io/posts/windows-cabal/</link>
+      <link>http://localhost:1313/posts/windows-cabal/</link>
       <pubDate>Tue, 24 May 2016 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/windows-cabal/</guid>
+      <guid>http://localhost:1313/posts/windows-cabal/</guid>
       <description>&lt;p&gt;新しいWindowsマシンにHaskell環境を整えていたとき、&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;cabal update
 &lt;/code&gt;&lt;/pre&gt;
@@ -2141,16 +2141,16 @@ $$
     </item>
     <item>
       <title>帰国報告</title>
-      <link>https://inody.github.io/posts/return-japan/</link>
+      <link>http://localhost:1313/posts/return-japan/</link>
       <pubDate>Thu, 07 Apr 2016 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/return-japan/</guid>
+      <guid>http://localhost:1313/posts/return-japan/</guid>
       <description>&lt;p&gt;先日無事日本に帰国しました。 帰国の前日にベルギーの空港でテロがあり、帰国便がキャンセルになってしまいましたが、不幸中の幸いというべきか、パリからの便に空きがあったため、フライトを変更してもらい、無事に帰国することができました。 一昨日に復学の手続きを終え、さっそく残る一年の修士課程に取り組み始めています。 研究活動に加え、就職活動も並行しておこなっているため、しばらくはまた忙しくなりそうです。 元同期がつぎつぎと社会に羽ばたいていく中、アラサーとなった自分が未だ大学に残っている事実に少し焦りを感じなくもありませんが、あまり深刻に捉えず、今年も自分らしい道を歩んでいきたいと思います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>（続）ベルギーでの企業研修を終えました</title>
-      <link>https://inody.github.io/posts/finish-belgium2/</link>
+      <link>http://localhost:1313/posts/finish-belgium2/</link>
       <pubDate>Mon, 21 Mar 2016 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/finish-belgium2/</guid>
+      <guid>http://localhost:1313/posts/finish-belgium2/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://inody1991.tumblr.com/post/141342959320/%E3%83%99%E3%83%AB%E3%82%AE%E3%83%BC%E3%81%A7%E3%81%AE%E4%BC%81%E6%A5%AD%E7%A0%94%E4%BF%AE%E3%82%92%E7%B5%82%E3%81%88%E3%81%BE%E3%81%97%E3%81%9F&#34;&gt;前回の記事&lt;/a&gt;では、ベルギーでの企業研修を終えたこと、今後は日本企業に就職していずれは社会人博士を目指したいことをお話ししました。
 しかしながら、企業研修を終える間際、上司に以下のことを言われたのです。&lt;/p&gt;
 &lt;p&gt;「もし君が望むなら、卒業後うちに来てPhDやらないか」&lt;/p&gt;
@@ -2205,9 +2205,9 @@ eyJoaXN0b3J5IjpbMjAyMDAzNTA3N119
     </item>
     <item>
       <title>ベルギーでの企業研修を終えました</title>
-      <link>https://inody.github.io/posts/finish-belgium/</link>
+      <link>http://localhost:1313/posts/finish-belgium/</link>
       <pubDate>Sun, 20 Mar 2016 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/finish-belgium/</guid>
+      <guid>http://localhost:1313/posts/finish-belgium/</guid>
       <description>&lt;p&gt;昨年の8月から、ベルギーのSiemens Industry Software NVという会社でインターン生として働いていたのですが、今日が研修最終日でした。
 最終プレゼンも無事に終わり、いよいよ一年間の海外生活も幕を閉じつつあります。&lt;/p&gt;
 &lt;p&gt;一年間を通じて、英語を用いた交流経験、エンジニアとしての労働経験、異文化の体験など、日本では決して得られなかった経験ができて、本当によかったと思います。
@@ -2263,9 +2263,9 @@ eyJoaXN0b3J5IjpbMjAyMDAzNTA3N119
     </item>
     <item>
       <title>ジャレド・ダイアモンド著の『銃・病原菌・鉄』を読みました</title>
-      <link>https://inody.github.io/posts/read-jaredo/</link>
+      <link>http://localhost:1313/posts/read-jaredo/</link>
       <pubDate>Mon, 07 Mar 2016 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/read-jaredo/</guid>
+      <guid>http://localhost:1313/posts/read-jaredo/</guid>
       <description>&lt;p&gt;大作と呼ばれる本作品、昨年末から積ん読していたのですが、この度の旅行のお供にした結果、ようやく読了に至る運びとなりました。&lt;/p&gt;
 &lt;p&gt;著者の主張は一貫して明らかで、「地球上の文明の進歩に差がついたのは、地理的・生態的な要因によるものだ」というものです。
 例えば、「ユーラシア大陸がアメリカ大陸を侵略して、逆ではなかったのはなぜか」という問いに対する究極の答えは、「ユーラシア大陸の方が多様な動植物が住んでおり、かつ東西に長い形をしていたから」と述べられています。&lt;/p&gt;
@@ -2294,9 +2294,9 @@ eyJoaXN0b3J5IjpbMjAyMDAzNTA3N119
     </item>
     <item>
       <title>複数の専門をもつことの重要性</title>
-      <link>https://inody.github.io/posts/multi-major/</link>
+      <link>http://localhost:1313/posts/multi-major/</link>
       <pubDate>Fri, 12 Feb 2016 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/multi-major/</guid>
+      <guid>http://localhost:1313/posts/multi-major/</guid>
       <description>&lt;p&gt;技術者として生きていく上で、複数の専門をもつというのは、重要な戦略になることを最近実感している。&lt;/p&gt;
 &lt;p&gt;例えば、僕の専門は制御工学であり、学部・大学院とともに、紙とペンを用いて理論寄りのテーマを研究してきた。
 研究を通じて統計学や最適化、授業を通じて機械工学や電気・電子工学などを幅広く学んではきたが、それでも「専門」として答えられる分野は制御くらいしかない。&lt;br&gt;
@@ -2323,9 +2323,9 @@ eyJoaXN0b3J5IjpbMjAyMDAzNTA3N119
     </item>
     <item>
       <title>Markdownを使って論文っぽい文章を書く</title>
-      <link>https://inody.github.io/posts/markdown-paper-writing/</link>
+      <link>http://localhost:1313/posts/markdown-paper-writing/</link>
       <pubDate>Tue, 08 Dec 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/markdown-paper-writing/</guid>
+      <guid>http://localhost:1313/posts/markdown-paper-writing/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;インターン先で進捗をレポートにまとめるよう言われたので、この機会を利用して、Markdownで全部書いてみようと思い至りました。
 Markdownはとても便利な記法ですが、引用や相互参照については少し手が届かないところがあります。
@@ -2379,9 +2379,9 @@ cabalはbrewからインストール可能です。&lt;/p&gt;
     </item>
     <item>
       <title>LQG/LTR制御を学んだ</title>
-      <link>https://inody.github.io/posts/lqg-ltr/</link>
+      <link>http://localhost:1313/posts/lqg-ltr/</link>
       <pubDate>Fri, 04 Dec 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/lqg-ltr/</guid>
+      <guid>http://localhost:1313/posts/lqg-ltr/</guid>
       <description>&lt;h2 id=&#34;lqgltr-linear-quadratic-gaussian--loop-transfer-recovery-とは&#34;&gt;LQG/LTR (Linear Quadratic Gaussian / Loop Transfer Recovery) とは&lt;/h2&gt;
 &lt;p&gt;LQGとは、カルマンフィルタを用いて推定した状態に対して、最適レギュレータを用いて状態フィードバックをおこなう、よく知られた制御法です。
 LQGが時間領域での制御器設計であるのに対して、周波数領域での設計も考慮するのが、LQG/LTRです。
@@ -2427,9 +2427,9 @@ $$
     </item>
     <item>
       <title>ボストンキャリアフォーラムに参加してきました</title>
-      <link>https://inody.github.io/posts/boston/</link>
+      <link>http://localhost:1313/posts/boston/</link>
       <pubDate>Thu, 26 Nov 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/boston/</guid>
+      <guid>http://localhost:1313/posts/boston/</guid>
       <description>&lt;h2 id=&#34;得られたもの&#34;&gt;得られたもの&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.careerforum.net/event/bos/?lang=J&#34;&gt;ボストンキャリアフォーラム&lt;/a&gt;（以下BCF）に参加してきました。
 自分は17年度卒なので、就活には少し早いのですが、今年は経団連の指示で採用活動が早まるのと、帰ってから就活に時間を奪われるのが嫌で、あらかじめ選考を進められたらという思いもあっての参加です。&lt;/p&gt;
@@ -2459,9 +2459,9 @@ $$
     </item>
     <item>
       <title>最適制御3</title>
-      <link>https://inody.github.io/posts/optimal-control3/</link>
+      <link>http://localhost:1313/posts/optimal-control3/</link>
       <pubDate>Sun, 08 Nov 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/optimal-control3/</guid>
+      <guid>http://localhost:1313/posts/optimal-control3/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;前回はいわゆるフィードフォワードの最適制御について考えた。
 すなわち、ある初期時刻$t_0$と初期状態$x(t_0)$が一つ与えられたときに、終端時刻$t_f$までに加える最適入力$u(t)$を求めようとした。
@@ -2521,9 +2521,9 @@ $$
     </item>
     <item>
       <title>最適制御2</title>
-      <link>https://inody.github.io/posts/optimal-control2/</link>
+      <link>http://localhost:1313/posts/optimal-control2/</link>
       <pubDate>Fri, 06 Nov 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/optimal-control2/</guid>
+      <guid>http://localhost:1313/posts/optimal-control2/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;今回からダイナミクスを持つシステムへの最適制御を考える。
 考え方は前回の場合とそれほど変わらず、ダイナミクスを制約条件として考えると、必要条件として、二点の境界条件をもつ微分方程式が導出される。
@@ -2554,9 +2554,9 @@ $$\bar J = \phi(x(N)) -\lambda^T(N)x(N) + \sum_{i=1}^{N-1}\left[ H^i - \lambda^T
     </item>
     <item>
       <title>kivyを用いたマルチプラットフォームアプリの開発環境を整える</title>
-      <link>https://inody.github.io/posts/kivy/</link>
+      <link>http://localhost:1313/posts/kivy/</link>
       <pubDate>Wed, 04 Nov 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/kivy/</guid>
+      <guid>http://localhost:1313/posts/kivy/</guid>
       <description>&lt;h2 id=&#34;kivyとは&#34;&gt;kivyとは&lt;/h2&gt;
 &lt;p&gt;PythonのNUI(Natural User Interface)でのマルチタッチアプリケーション開発のためのオープンソースライブラリ。
 一つのソースコードからAndroid、iOS、Linux、MacOSX、Windowsへと出力できるうえ、ライセンスフリーで使用できる。&lt;/p&gt;
@@ -2604,9 +2604,9 @@ if __name__ == &#39;__main__&#39;:
     </item>
     <item>
       <title>最適制御1</title>
-      <link>https://inody.github.io/posts/optimal-control/</link>
+      <link>http://localhost:1313/posts/optimal-control/</link>
       <pubDate>Sun, 25 Oct 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/optimal-control/</guid>
+      <guid>http://localhost:1313/posts/optimal-control/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;非線形最適制御の勉強を始めた。
 実は去年授業で単位は取得したのだけれど、ほとんど覚えていないも同然なので、はじめからやり直すことにする。
@@ -2645,9 +2645,9 @@ $$L(x,u): R^n\times R^m\rightarrow R$$
     </item>
     <item>
       <title>10月の雑記</title>
-      <link>https://inody.github.io/posts/idea-october/</link>
+      <link>http://localhost:1313/posts/idea-october/</link>
       <pubDate>Sat, 24 Oct 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/idea-october/</guid>
+      <guid>http://localhost:1313/posts/idea-october/</guid>
       <description>&lt;p&gt;自分には昔から何事においても、与えられた目標に対して最小限の努力でアプローチしようとする悪い癖がある。&lt;br&gt;
 この癖は多分、中高の陸上部時代に、きつい練習の中で少しずつ形成されはじめ、いつの間にか凝固してしまったものなんだと思う。&lt;br&gt;
 今まではそれでも誤魔化しながらなんとかやってきたのだけれど、今後大きなしっぺ返しを食らう予感もしていて、どうにか直したいと思っている。
@@ -2672,9 +2672,9 @@ $$L(x,u): R^n\times R^m\rightarrow R$$
     </item>
     <item>
       <title>線形適応制御入門</title>
-      <link>https://inody.github.io/posts/adaptive-control/</link>
+      <link>http://localhost:1313/posts/adaptive-control/</link>
       <pubDate>Sat, 17 Oct 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/adaptive-control/</guid>
+      <guid>http://localhost:1313/posts/adaptive-control/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;制御対象のパラメータを同定しながら制御する制御法。
 通常の制御法と違い、制御則の他に、適応則というのを設計する。
@@ -2695,9 +2695,9 @@ $$L(x,u): R^n\times R^m\rightarrow R$$
     </item>
     <item>
       <title>スライディングモード制御入門</title>
-      <link>https://inody.github.io/posts/sliding-mode-control/</link>
+      <link>http://localhost:1313/posts/sliding-mode-control/</link>
       <pubDate>Thu, 08 Oct 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/sliding-mode-control/</guid>
+      <guid>http://localhost:1313/posts/sliding-mode-control/</guid>
       <description>&lt;p&gt;対象システムが構造的不確かさをもつ場合に有効なロバスト制御法。
 今回はSISOシステムのみ取り上げるが、MIMOにも拡張可能。
 詳しくは&lt;a href=&#34;http://www.ioe.nchu.edu.tw/Pic/CourseItem/4497_APPLIED%20NONLINEAR%20CONTROL_slotine_Part1.pdf&#34;&gt;J. E. Slotine, W. Li, &amp;ldquo;Applied Nonlinear Control&amp;rdquo;, 1991&lt;/a&gt;を参照。&lt;/p&gt;
@@ -2731,9 +2731,9 @@ $$\ddot{\tilde{x}} = - \lambda \dot{\tilde{x}}$$
     </item>
     <item>
       <title>ベルギーで働いて感じたこと</title>
-      <link>https://inody.github.io/posts/idea-belgium/</link>
+      <link>http://localhost:1313/posts/idea-belgium/</link>
       <pubDate>Fri, 25 Sep 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/idea-belgium/</guid>
+      <guid>http://localhost:1313/posts/idea-belgium/</guid>
       <description>&lt;p&gt;ヨーロッパに来て半年になるので、つらつらと思うことを書き残しておく。&lt;/p&gt;
 &lt;p&gt;#研修内容について&lt;/p&gt;
 &lt;p&gt;今年度は、&lt;a href=&#34;http://www.eu-japan.eu/ja/vulcanus-europe&#34;&gt;ヴルカヌス・プログラム&lt;/a&gt;という奨学金付きのインターンシッププログラムに参加しており、ベルギーにあるシーメンスのソフトウェア部門で航空機の制御に関わる仕事をしている。&lt;/p&gt;
@@ -2773,9 +2773,9 @@ $$\ddot{\tilde{x}} = - \lambda \dot{\tilde{x}}$$
     </item>
     <item>
       <title>Xcodeアップデート時に起きるMatlabのMexのエラーを修正</title>
-      <link>https://inody.github.io/posts/xcode-matlab/</link>
+      <link>http://localhost:1313/posts/xcode-matlab/</link>
       <pubDate>Tue, 22 Sep 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/xcode-matlab/</guid>
+      <guid>http://localhost:1313/posts/xcode-matlab/</guid>
       <description>&lt;p&gt;###概要
 XCodeのバージョンを7にアップデートした際にMexがコンパイルエラーを吐くようになった。
 &lt;a href=&#34;http://www.mathworks.com/matlabcentral/answers/243868-mex-can-t-find-compiler-after-xcode-7-update-r2015b&#34;&gt;こちら&lt;/a&gt;に解決法が載っていたので、そのまま紹介。&lt;/p&gt;
@@ -2808,9 +2808,9 @@ Matlabのコンソールで&lt;/p&gt;
     </item>
     <item>
       <title>京大情報学研究科システム科学専攻入試攻略</title>
-      <link>https://inody.github.io/posts/kyoto-univ-exam/</link>
+      <link>http://localhost:1313/posts/kyoto-univ-exam/</link>
       <pubDate>Tue, 22 Sep 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/kyoto-univ-exam/</guid>
+      <guid>http://localhost:1313/posts/kyoto-univ-exam/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;もう2年前のことになるが、当時大学院入試を控えていた僕は、いろいろ考えた末に京都大学の情報学研究科システム科学専攻を受験することに決めた。&lt;br&gt;
 そこで今日は自分がどのように入試に臨んだかを書き記しておく。&lt;/p&gt;
@@ -2859,9 +2859,9 @@ Matlabのコンソールで&lt;/p&gt;
     </item>
     <item>
       <title>入出力線形化</title>
-      <link>https://inody.github.io/posts/io-stabilization/</link>
+      <link>http://localhost:1313/posts/io-stabilization/</link>
       <pubDate>Sat, 19 Sep 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/io-stabilization/</guid>
+      <guid>http://localhost:1313/posts/io-stabilization/</guid>
       <description>&lt;h2 id=&#34;入出力線形化-フィードバック線形化-とは&#34;&gt;入出力線形化 (フィードバック線形化) とは&lt;/h2&gt;
 &lt;p&gt;非線形システムに、非線形性を打ち消すような入力を加える事で、閉ループ系を線形化する制御法。 安定化が目的ではないので、得られた線形システムに対して線形制御法を適用する必要がある。&lt;/p&gt;
 &lt;p&gt;利点として&lt;/p&gt;
@@ -2899,9 +2899,9 @@ L_gh(x) = \frac{\partial h}{\partial x} g(x)$$
     </item>
     <item>
       <title>金井壽宏『働くひとのためのキャリアデザイン(PHP新書)』感想</title>
-      <link>https://inody.github.io/posts/read-kanei/</link>
+      <link>http://localhost:1313/posts/read-kanei/</link>
       <pubDate>Thu, 04 Jun 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/read-kanei/</guid>
+      <guid>http://localhost:1313/posts/read-kanei/</guid>
       <description>&lt;p&gt;筆者は終始「節目の期間はしっかりキャリアについて考える。それ以外の期間では目の前のことに打ち込み、時には偶然に流される(ドリフトする)ことも必要」という主張に徹する。
 なので、この主張を真に理解している人は本書を手にする必要はないと思う。&lt;/p&gt;
 &lt;p&gt;本書のメインターゲットは就活生とミドル世代の2種類である。
@@ -2945,9 +2945,9 @@ L_gh(x) = \frac{\partial h}{\partial x} g(x)$$
     </item>
     <item>
       <title>橘玲『臆病者のための株入門(PHP新書)』感想</title>
-      <link>https://inody.github.io/posts/read-tachibana/</link>
+      <link>http://localhost:1313/posts/read-tachibana/</link>
       <pubDate>Sat, 16 May 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/read-tachibana/</guid>
+      <guid>http://localhost:1313/posts/read-tachibana/</guid>
       <description>&lt;p&gt;某有名投資家のおすすめ書籍として紹介されていたことをきっかけに読み始めた。&lt;br&gt;
 株そのものに興味があるというよりも、日々ブログや経済ニュースで目にする用語を理解したかった。&lt;/p&gt;
 &lt;p&gt;全体として初学者にもわかりやすく、経済学の知見とそれに基づく著者の意見が記述されている。&lt;br&gt;
@@ -2963,9 +2963,9 @@ L_gh(x) = \frac{\partial h}{\partial x} g(x)$$
     </item>
     <item>
       <title>カルマンフィルタの更新式まとめ</title>
-      <link>https://inody.github.io/posts/kalman-filter/</link>
+      <link>http://localhost:1313/posts/kalman-filter/</link>
       <pubDate>Sun, 12 Apr 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/kalman-filter/</guid>
+      <guid>http://localhost:1313/posts/kalman-filter/</guid>
       <description>&lt;p&gt;##カルマンフィルタとは&lt;/p&gt;
 &lt;p&gt;「離散時間システムの出力から、システムの状態を最小二乗の意味で推定する」&lt;/p&gt;
 &lt;p&gt;##問題設定&lt;/p&gt;
@@ -2994,9 +2994,9 @@ $E[(x(0)-\bar x(0))(x(0)-\bar x(0))^T] = \Sigma_0$&lt;/p&gt;
     </item>
     <item>
       <title>アイルランドのSIM事情</title>
-      <link>https://inody.github.io/posts/sim-ireland/</link>
+      <link>http://localhost:1313/posts/sim-ireland/</link>
       <pubDate>Tue, 07 Apr 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/sim-ireland/</guid>
+      <guid>http://localhost:1313/posts/sim-ireland/</guid>
       <description>&lt;p&gt;アイルランドに来て3日経ちました。
 入国後まずはじめにしたことが、通信環境を整えること。
 アイルランドには主にVodafone, Meteor, 3(Three)などのキャリア会社がありますが、今回はMeteorのSIMカードを購入しました。&lt;/p&gt;
@@ -3013,9 +3013,9 @@ $E[(x(0)-\bar x(0))(x(0)-\bar x(0))^T] = \Sigma_0$&lt;/p&gt;
     </item>
     <item>
       <title>ヴルカヌス・プログラム出発にあたって</title>
-      <link>https://inody.github.io/posts/vine2/</link>
+      <link>http://localhost:1313/posts/vine2/</link>
       <pubDate>Tue, 31 Mar 2015 00:00:01 +0900</pubDate>
-      <guid>https://inody.github.io/posts/vine2/</guid>
+      <guid>http://localhost:1313/posts/vine2/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://inody1991.tumblr.com/post/103471427400&#34;&gt;ヴルカヌス・イン・ヨーロッパに参加します&lt;/a&gt;に記載したとおり、1年間の語学研修とインターンシップに参加してきます。
 僕の場合は、4ヶ月間アイルランドのダブリンで英語の語学研修を、残る8ヶ月間ベルギーのルーヴェンで企業研修を行います。&lt;/p&gt;
 &lt;p&gt;そもそもなぜこのようなプログラムに参加することになったのか。
@@ -3042,9 +3042,9 @@ $E[(x(0)-\bar x(0))(x(0)-\bar x(0))^T] = \Sigma_0$&lt;/p&gt;
     </item>
     <item>
       <title>内藤正典著『ヨーロッパとイスラーム 共生は可能か(岩波新書)』を読みました</title>
-      <link>https://inody.github.io/posts/read-naito/</link>
+      <link>http://localhost:1313/posts/read-naito/</link>
       <pubDate>Sat, 21 Mar 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/read-naito/</guid>
+      <guid>http://localhost:1313/posts/read-naito/</guid>
       <description>&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
 &lt;p&gt;4月からヨーロッパで過ごすこともあり、ホットなタイトルだったのでジャケ買いして読み始めました。&lt;br&gt;
 日々世間を騒がす報道について、理解のない自分でも前提知識なしで読むことが出来ました。&lt;br&gt;
@@ -3095,9 +3095,9 @@ draft: false&lt;/h2&gt;
     </item>
     <item>
       <title>田中素香『ユーロ 危機の中の統一通貨 (岩波新書)』を読みました</title>
-      <link>https://inody.github.io/posts/read-tanaka/</link>
+      <link>http://localhost:1313/posts/read-tanaka/</link>
       <pubDate>Fri, 06 Mar 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/read-tanaka/</guid>
+      <guid>http://localhost:1313/posts/read-tanaka/</guid>
       <description>&lt;h2 id=&#34;感想とメモ&#34;&gt;感想とメモ&lt;/h2&gt;
 &lt;p&gt;少し旬が過ぎてしまったが、4月からユーロ圏で過ごすこともあり、通読した。 &lt;br&gt;
 気まぐれに、得られた知識をメモしておきたいと思う。&lt;/p&gt;
@@ -3160,9 +3160,9 @@ draft: false&lt;/h2&gt;
     </item>
     <item>
       <title>線形回帰手法まとめ</title>
-      <link>https://inody.github.io/posts/linear-regression/</link>
+      <link>http://localhost:1313/posts/linear-regression/</link>
       <pubDate>Fri, 30 Jan 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/linear-regression/</guid>
+      <guid>http://localhost:1313/posts/linear-regression/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;最近学んだ線形回帰手法の特徴についてまとめる．&lt;br&gt;
 具体的には，特定のデータセットに対して，重回帰(Ordinary Least Squares: OLS)，リッジ回帰(Ridge Regression: RR)，部分最小自乗回帰(Partial Least Squares: PLS)の3つの線形回帰手法を適用し，結果を考察する．&lt;/p&gt;
@@ -3190,9 +3190,9 @@ draft: false&lt;/h2&gt;
     </item>
     <item>
       <title>モンテカルロ法で次元の呪い</title>
-      <link>https://inody.github.io/posts/monte-carlo/</link>
+      <link>http://localhost:1313/posts/monte-carlo/</link>
       <pubDate>Tue, 20 Jan 2015 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/monte-carlo/</guid>
+      <guid>http://localhost:1313/posts/monte-carlo/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://prunus1350.hatenablog.com/entry/2015/01/19/193002&#34;&gt;モンテカルロ法で次元の呪いを体験する&lt;/a&gt;を読んで，自分も最近似たような体験をしたことを思い出したので，メモしておく．&lt;/p&gt;
 &lt;h2 id=&#34;問題&#34;&gt;問題&lt;/h2&gt;
@@ -3228,9 +3228,9 @@ if __name__ == &#39;__main__&#39;:
     </item>
     <item>
       <title>三菱重工のインターンシップに参加しました</title>
-      <link>https://inody.github.io/posts/intern-mhi/</link>
+      <link>http://localhost:1313/posts/intern-mhi/</link>
       <pubDate>Thu, 04 Dec 2014 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/intern-mhi/</guid>
+      <guid>http://localhost:1313/posts/intern-mhi/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;本格的就活シーズンの到来に先駆け，少し古い話になるが，今年の夏に三菱重工のインターンに参加したことについて備忘録を残す．
 おそらく社外秘につき触れてはいけない点が多々あるため，特に技術的な点については触れないことにする．&lt;/p&gt;
@@ -3269,9 +3269,9 @@ if __name__ == &#39;__main__&#39;:
     </item>
     <item>
       <title>ヴルカヌス・イン・ヨーロッパに採択された </title>
-      <link>https://inody.github.io/posts/vine/</link>
+      <link>http://localhost:1313/posts/vine/</link>
       <pubDate>Tue, 25 Nov 2014 00:00:00 +0900</pubDate>
-      <guid>https://inody.github.io/posts/vine/</guid>
+      <guid>http://localhost:1313/posts/vine/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;理系の大学生，大学院生を対象にした，1年間の奨学金付きインターンプログラム．&lt;br&gt;
 日欧産業協力センター(以下センター)によって実施されている．詳しくはこちらを参照．&lt;/p&gt;
