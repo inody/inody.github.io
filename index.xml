@@ -491,22 +491,6 @@ GPRは、ニューラルネットより古典的な回帰手法ですが、回�
 家族を大事にすること、楽しむことを優先して、自分のペースで取り組んでいきたい。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Research</title>
-      <link>https://inody.github.io/research/</link>
-      <pubDate>Sun, 07 May 2023 11:38:55 +0900</pubDate>
-      <guid>https://inody.github.io/research/</guid>
-      <description>&lt;p&gt;I am interested in modeling and control of large-scale dynamical systems.
-The following are descriptions of some of the published research topics I have worked on.&lt;/p&gt;
-&lt;!-- 大規模な動的システムのモデリングや数値計算、制御手法の開発に興味があります。
-下記は、これまでに取り組んだ研究テーマのうち公開済みのものの説明です。 --&gt;
-&lt;h2 id=&#34;controlling-population-dynamics-using-mean-field-games-2019----present&#34;&gt;Controlling population dynamics using mean-field games (2019 &amp;ndash; Present)&lt;/h2&gt;
-&lt;p&gt;When controlling a large system, the larger the number of control targets, the longer it takes to compute the appropriate control inputs.
-To address this problem, we focus on a concept called the mean-field game, which approximates the optimal control system for a large number of populations.
-In mean-field games, &amp;ldquo;one-to-one&amp;rdquo; interactions are approximated as &amp;ldquo;one-to-population,&amp;rdquo; which leads to a reduction in computational complexity.
-Meanwhile, the mean-field game itself is also a system of equations that is difficult to solve in ordinary calculations, so it is necessary to develop a sophisticated numerical method.
-We investigate methods to numerically compute these mean-field games with high speed and high accuracy.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>さらば東京</title>
       <link>https://inody.github.io/posts/bye_tokyo/</link>
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
