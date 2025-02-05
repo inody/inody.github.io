@@ -4,10 +4,66 @@
     <title>Posts on inosite</title>
     <link>https://inody.github.io/posts/</link>
     <description>Recent content in Posts on inosite</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Jan 2025 11:38:55 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://inody.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WakeOnLan覚書</title>
+      <link>https://inody.github.io/posts/wol/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0900</pubDate>
+      <guid>https://inody.github.io/posts/wol/</guid>
+      <description>&lt;h2 id=&#34;wakeonlanの必要性&#34;&gt;WakeOnLanの必要性&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;自宅でDellのデスクトップPCにsshやrdp経由で繋いで使っている&lt;/li&gt;
+&lt;li&gt;接続できないとき、これまではPCの電源ボタンに設置したSwitchbotのスイッチ経由で強制的に再起動を繰り返していた&lt;/li&gt;
+&lt;li&gt;強制再起動の頻度はそこまで多くなかったが、無理が祟ったのか、先日PCが起動しなくなり、BIOSにすら入れなくなった&lt;/li&gt;
+&lt;li&gt;サポートに修理を依頼し、マザーボードとSSDの交換を実施してもらった&lt;/li&gt;
+&lt;li&gt;今後このようなことを防ぐため、WakeOnLan (WOL) の設定を実施した&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;wolの設定&#34;&gt;WOLの設定&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dell.com/support/kbdoc/ja-jp/000129137/wake-on-lan%E3%81%A8%E3%81%AF-%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0-%E3%82%AC%E3%82%A4%E3%83%89%E3%81%A8%E3%83%99%E3%82%B9%E3%83%88-%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9&#34;&gt;Dell公式のリンク&lt;/a&gt;から設定を進める&lt;/li&gt;
+&lt;li&gt;BIOSの設定、ログイン後のデバイスマネージャーの設定の両方を実施すると設定が完了する&lt;/li&gt;
+&lt;li&gt;クライアントは、iOSで適当なアプリをDLした&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;自宅固有の課題&#34;&gt;自宅固有の課題&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ルーターとPCの物理的距離の都合、PCはWifiアダプター経由でネットに接続している&lt;/li&gt;
+&lt;li&gt;WifiアダプターとEthernetアダプターの両方で、WoLの設定を実施したが、Wifiアダプター経由だとどうしてもWoLできなかった&lt;/li&gt;
+&lt;li&gt;自宅で余っているルーターのWDSブリッジング機能を用いることにした&lt;/li&gt;
+&lt;li&gt;接続関係はこんな感じ：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;flowchart LR
+A[WAN]--&amp;gt;|Wired|B[Router1]
+B--&amp;gt;|Wireless|C[Router2]
+C--&amp;gt;|Wired|D[desktop]
+B--&amp;gt;|Wireless|E[mobile,laptop]
+&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;WDSの設定は&lt;a href=&#34;https://ansize.net/how-to-use-the-tp-link-router-like-a-repeater/&#34;&gt;ここ&lt;/a&gt;を参考にした&lt;/li&gt;
+&lt;li&gt;WDSの都合なのか、設定後、PCのIP addressがコロコロ変わるようになったため、IPを固定する必要があった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;さらに更新&#34;&gt;さらに更新&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;WDSを有効にすると、ネットの接続が不安定になった&lt;/li&gt;
+&lt;li&gt;そこで、Router2とRouter1を接続するのは諦め、Router2はネットに繋がないWOL専用のWifiとして運用することにした&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;flowchart LR
+A[WAN]--&amp;gt;|Wired|B[Router1]
+B--&amp;gt;|Wireless|C[desktop]
+B--&amp;gt;|Wireless|D[mobile,laptop]
+E[Router2]--&amp;gt;|Wired|C
+&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;WOLしたいときはRouter2のSSIDに繋いでからコマンドを送ればよい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mermaid-on-hugo&#34;&gt;Mermaid on Hugo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;この記事を書くために、hugoにmermaidレンダリングさせる設定が必要だった&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://k-kaz.net/blog2/post/2023/04/13/&#34;&gt;ここ&lt;/a&gt;を参考にした&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>明けましておめでとうございます</title>
       <link>https://inody.github.io/posts/newyear2025/</link>
@@ -2034,11 +2090,9 @@ $$
       <pubDate>Fri, 26 Aug 2016 00:00:00 +0900</pubDate>
       <guid>https://inody.github.io/posts/read-maupassant/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;二人の人間が、本当に魂の底まで、思いの奥底までひとつになることはできないのだと、ジャンヌは初めて思った。肩を並べて歩き、ときに抱き合うことはあっても、ひとつに溶け合うことはなく、心の底では誰もが生涯一人ぼっちなのだと。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;二人の人間が、本当に魂の底まで、思いの奥底までひとつになることはできないのだと、ジャンヌは初めて思った。肩を並べて歩き、ときに抱き合うことはあっても、ひとつに溶け合うことはなく、心の底では誰もが生涯一人ぼっちなのだと。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;モーパッサン『女の一生』光文社古典新訳文庫&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;モーパッサン『女の一生』光文社古典新訳文庫&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;光文社古典新訳文庫のシリーズが軒並みKindle Unlimitedの対象になっていたので、読書欲が際限なく刺激される今日この頃。
 最近は新書を読むことが多かったので、久しぶりに読む小説は新鮮に感じられました。&lt;/p&gt;
 &lt;p&gt;以下あらすじ：&lt;/p&gt;
@@ -2068,11 +2122,9 @@ $$
 つまり物語に教訓はなく、解釈は読者の方に委ねられていると捉えるべきでしょう。
 冷徹なまでの写実的描写は、読んでいて映画を観ている錯覚を引き起こしました。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;ぐんぐん進む馬車に乗っていること、窓の外の物悲しい風景を眺めること、そして降りしきる雨にもかかわらず、自分は濡れない場所にいること。ジャンヌはそれだけで嬉しかった。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;ぐんぐん進む馬車に乗っていること、窓の外の物悲しい風景を眺めること、そして降りしきる雨にもかかわらず、自分は濡れない場所にいること。ジャンヌはそれだけで嬉しかった。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;モーパッサン『女の一生』光文社古典新訳文庫&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;モーパッサン『女の一生』光文社古典新訳文庫&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;原題は“Une vie”。
 どこにも「女の」とは書いておらず、「ある人生」と訳すのが適当そうです。
 筆者がやりたかったことは、人生とはこういうものだということを普遍的に描くことだったのかもしれません。&lt;/p&gt;</description>
@@ -2912,24 +2964,21 @@ L_gh(x) = \frac{\partial h}{\partial x} g(x)$$
 &lt;li&gt;自分はなにが得意か。&lt;/li&gt;
 &lt;li&gt;自分はいったいなにをやりたいのか。&lt;/li&gt;
 &lt;li&gt;どのようなことをやっている自分なら、意味を感じ、社会の役に立っていると実感できるのか。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
 &lt;p&gt;それぞれの問いは&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;能力・才能についての自己イメージ&lt;/li&gt;
 &lt;li&gt;動機・欲求についての自己イメージ&lt;/li&gt;
 &lt;li&gt;意味・価値についての自己イメージ&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
 &lt;p&gt;を照射しているという。キャリアを意識する上で、避けては通れない質問だと感じた。&lt;/p&gt;
 &lt;p&gt;また、筆者は本書のはじめに「研究に基づく見解」を披露すると述べており、個人的に「キャリアデザイン」という科学らしからぬ問題に対して、どのような研究が存在するかが興味をもった。
 実際には、多数の論者の言葉や考え方を引用するものの、定量的な考察はあまり見受けられず、「研究」という言葉の意味の齟齬を感じた(多分これは僕の考える「研究」があまりに狭義であるため)。&lt;br&gt;
 しかしながら、それらの考え方の中には、確かにそうだな、と実感させられるものもあり、キャリアに対する態度を改める必要すら感じた。&lt;/p&gt;
 &lt;p&gt;例えば、筆者が参加したエンジニアリング産業の社長会に参加した際、ある社長から耳にした言葉と、それに対する筆者の考えなどは、覚えておきたいと思った。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;「エンジニアリング産業の海外エンジのプロジェクトなんて、(中略)勘のいいバイタリティあふれる人なら、三十歳を超えるころには、だいたいプロジェクト・マネジメントができるようになる。そのあとは何箇所経験してもいっしょだ」&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;「エンジニアリング産業の海外エンジのプロジェクトなんて、(中略)勘のいいバイタリティあふれる人なら、三十歳を超えるころには、だいたいプロジェクト・マネジメントができるようになる。そのあとは何箇所経験してもいっしょだ」&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;この発言は、キャリア・トランジション・サイクルというモデルの重要さを説くための例として用いられている。
 このモデルは、ロンドンビジネススクールのナイジェル・ニコルソンにより提唱されたもので、&lt;/p&gt;
 &lt;ol&gt;
@@ -3116,8 +3165,7 @@ draft: false&lt;/h2&gt;
 当時の西ドイツでは、安定したマルクを放棄することへの懸念が大きかったが、EMSの金融政策を支配するこの国に対して、フランスを初め、各国は批判的だった。
 1989年、東西ドイツが統一へ動いたが、EC各国ではドイツの独り歩きが「再び」始まるのではないかという不安が広まった。
 各国はドイツの統合に反対し、ドイツはマルクを放棄するという条件のもとでの統一の道を提示、各国はこれを飲んだ。
-当時のコール首相は「欧州統合は平和か戦争かの問題だ」と繰り返し、世論を押し切ったのである。&lt;/p&gt;
-&lt;/blockquote&gt;
+当時のコール首相は「欧州統合は平和か戦争かの問題だ」と繰り返し、世論を押し切ったのである。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;第III章では、ユーロの仕組みと役割、制度についての解説がなされている。&lt;br&gt;
 欧州中央銀行と各国中央銀行との関係や、金融政策、市場介入などの仕組みなどが述べられていた。
 初学者の自分には、初めて知ることばかりであり、また、多少難解に感じた箇所もあることから、何度か読みなおす必要を感じた章である。&lt;/p&gt;
@@ -3139,8 +3187,7 @@ draft: false&lt;/h2&gt;
 &lt;p&gt;(p150)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;経常収支の大幅赤字、外国銀行からの巨額の借入、外貨依存という三つの点で、中・東欧諸国のん状況は九七年の東アジア通貨危機の諸国（タイや韓国など）に似ている。
-にもかかわらず銀行危機が起きていないのは、西欧の銀行支配のおかげであり、東アジアのように脆弱な金融システムではなかった点が大きい&lt;/p&gt;
-&lt;/blockquote&gt;
+にもかかわらず銀行危機が起きていないのは、西欧の銀行支配のおかげであり、東アジアのように脆弱な金融システムではなかった点が大きい&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;(p166,167)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;南欧支援の巨額の安定化策が最終決定したのは五月九日夜であった。
@@ -3149,8 +3196,7 @@ draft: false&lt;/h2&gt;
 (中略)
 なぜ七五〇〇億ユーロ、九〇兆円もの莫大な学になったのだろうか。それはユーロ圏諸国の危機感の裏返しといえる。
 ユーロはユーロ圏諸国にとって「後戻りできない壮大な実験」である。
-市場からのユーロの信認をつなぎ止めるのはいわば「至上命題」であった&lt;/p&gt;
-&lt;/blockquote&gt;
+市場からのユーロの信認をつなぎ止めるのはいわば「至上命題」であった&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;全体を通して、僕のような完全な初学者ではフォローできない箇所が目立った。
 テクニカルタームへの理解が足りず、金融論に関する知識をもっと増やす必要を感じた。
 以前読んだ、新保恵志著『金融商品とどうつき合うか―仕組みとリスク (岩波新書)』で得た知識は少なからず読解に役立ったと思うので、こちらも読み直したい。&lt;/p&gt;
@@ -3198,8 +3244,7 @@ draft: false&lt;/h2&gt;
 &lt;h2 id=&#34;問題&#34;&gt;問題&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;$N$行$N$列の行列の各要素に$1$から$N$までの数字が入っているものとする．
-各列，各行に数字の重複を許さない行列は全部で何通りあるかを推定せよ．&lt;/p&gt;
-&lt;/blockquote&gt;
+各列，各行に数字の重複を許さない行列は全部で何通りあるかを推定せよ．&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;はじめ，ランダムに$1$から$N$までの数字を格納した2次元配列を用意して，各行と列に重複がないかチェックし，重複がない試行の確率を求める方法をとった．以下，作成したPythonのコード(クソコードなのはご愛嬌)．&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;#! /usr/bin/env python
 # -*- coding: utf-8 -*-
@@ -3321,8 +3366,7 @@ if __name__ == &#39;__main__&#39;:
 これらは勉学に関する地道な下積みなしには達成できない成果です．&lt;/p&gt;
 &lt;p&gt;また，私は技術者として一定のスキルを備えています．
 具体的にはシミュレーション，実機実験，データ分析などをはじめとする，研究活動に必要なひと通りの作業を経験しています．
-また，C, Python, Matlabなどのプログラミング言語を扱うことができます．&lt;/p&gt;
-&lt;/blockquote&gt;
+また，C, Python, Matlabなどのプログラミング言語を扱うことができます．&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;1次選考志望動機(英文)&lt;/li&gt;
 &lt;/ul&gt;
