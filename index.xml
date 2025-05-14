@@ -14,43 +14,38 @@
       <pubDate>Wed, 02 Apr 2025 14:05:11 +0900</pubDate>
       <guid>https://inody.github.io/posts/zen/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
-&lt;p&gt;在宅勤務をしていると、ついSNSを見たり、動画サイトに手が伸びてしまう。
-仕事が途切れたタイミングでスマホを開いてしまうことが増えた。
-夜中に目が覚めたときも、ついスマホを手に取ってしまって、そのまま眠れなくなることがある。
-そんな毎日が続いて、これはもう中毒だと自覚した。&lt;/p&gt;
-&lt;p&gt;意志だけではどうにもならないので、ツールの力を借りてみることにした。&lt;/p&gt;
+&lt;p&gt;在宅勤務中、仕事が途切れたタイミングで、ついスマホを開いてSNSや動画サイトを見てしまう。
+また、夜中に目が覚めたときも、ついスマホを手に取ってしまって、そのまま眠れなくなることがある。
+これ以上深刻化する前に、ツールを用いて生活習慣の改善を目指す。&lt;/p&gt;
 &lt;h2 id=&#34;screen-time&#34;&gt;Screen Time&lt;/h2&gt;
 &lt;p&gt;iPhoneやiPadには、スクリーンタイムという機能がある。
 設定の中の「休止時間（Downtime）」という項目で、アプリの利用を制限する時間帯を設定できる。
-たとえば22時から翌朝5時までの間は、あらかじめ許可していないアプリを使えないようにすることができる。&lt;/p&gt;
-&lt;p&gt;これを使えば、夜中に目が覚めても、スマホを使うきっかけが減るはずだと思った。&lt;/p&gt;
+たとえば22時から翌朝5時までの間は、あらかじめ許可していないアプリを使えないようにすることができる。
+これを使うことで、夜中に目が覚めても、スマホを使うきっかけが減るはずである。&lt;/p&gt;
 &lt;h2 id=&#34;jomo&#34;&gt;Jomo&lt;/h2&gt;
 &lt;p&gt;勤務中にも無意識にスマホやPCでSNSを見てしまうことがある。
 その対策として、Jomoというアプリを用いる。
 これは特定のアプリやウェブサイトを、曜日や時間帯ごとにブロックできる仕組みを持っている。
-Screen Timeよりも細かくコントロールできるところが便利。&lt;/p&gt;
-&lt;p&gt;ただし、無料版ではブロック時間帯を2つ以上設定できないという制限がある。
-そのため、夜間はScreen Time、日中はJomoというように、役割を分けて使うことにした。&lt;/p&gt;
+Screen Timeよりも細かくコントロールできるところが便利である。
+ただし、無料版ではブロック時間帯を2つ以上設定できないという制限がある。
+そのため、夜間はScreen Time、日中はJomoというように、役割を分けて使うことにする。&lt;/p&gt;
 &lt;h2 id=&#34;screenzen&#34;&gt;ScreenZen&lt;/h2&gt;
 &lt;p&gt;時間に関係なく、スマホを使いたくなるときがある。
 この対策として、ScreenZenというアプリを用いる。
-このアプリは、特定のアプリやサイトを開こうとすると、数秒の待ち時間が挟まれて、「本当に開きますか？」と確認される。
-その間に自分の行動を見直す余裕が生まれるので、衝動的な使用を減らせる。&lt;/p&gt;
-&lt;p&gt;どうやら、人は&amp;quot;トリガー&amp;quot;によって無意識にスマホを開いてしまう習慣を持ってしまうらしい。
-たとえば、手が空いた瞬間に反射的にTwitterを開いてしまうような感じだ。
-だからこそ、その&amp;quot;無意識&amp;quot;を自覚させるための一手間が必要だと感じた。&lt;/p&gt;
-&lt;p&gt;少し試したone-secというアプリも似たような仕組みだったが、無料でブロックできる対象が1つだけという制限があった。
-ScreenZenは複数の対象を登録できるし、マルチプラットフォームな点でも使いやすかった。&lt;/p&gt;
+このアプリは、ユーザーが特定のアプリやサイトを開こうとするたびに、数秒の待ち時間が「本当に開きますか？」というメッセージと共に挟まれる。
+この間に行動を見直す余裕が生まれるので、衝動的な使用を減らせる。&lt;/p&gt;
+&lt;p&gt;人は&amp;quot;トリガー&amp;quot;によって無意識にスマホを開いてしまう習慣を持ってしまうらしい。
+この&amp;quot;無意識&amp;quot;を意識させるために有用なアプリだと思う。
+少し試したone-secというアプリも似たような仕組みだったが、無料でブロックできる対象が1つだけという制限があった。
+ScreenZenは複数の対象を登録できるし、マルチプラットフォームな点でも使いやすい。&lt;/p&gt;
 &lt;h2 id=&#34;画面のモノクロ化&#34;&gt;画面のモノクロ化&lt;/h2&gt;
-&lt;p&gt;スマホの画面をモノクロにすることで、刺激を減らすという方法も知ったので試してみた。
+&lt;p&gt;スマホの画面をモノクロにすることで、刺激を減らすという方法も知ったので試してみている。
 iPhoneでは「アクセシビリティ」→「画面表示とテキストサイズ」→「カラーフィルタ」で設定できる。
-カラフルなアイコンや画面がすべてグレースケールになるだけで、スマホに対する興味が薄れた気がする。&lt;/p&gt;
+カラフルなアイコンや画面がすべてグレースケールになるだけで、スマホに対する興味が少し薄れる気がする。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
 &lt;p&gt;Screen Timeで夜間の使用を制限し、Jomoで勤務中の誘惑を断ち、ScreenZenで衝動的な使用を抑える。
-さらに、白黒画面でスマホそのものへの関心を減らす。&lt;/p&gt;
-&lt;p&gt;こうして、自分で仕掛けた罠に自分が引っかからないようにするための環境を整えてみた。
-効果が出るかはこれからだけど、とりあえずやれることはやってみた。
-このまま中毒から少しでも抜け出せたらいいと思っている。&lt;/p&gt;
+さらに、白黒画面でスマホそのものへの関心を減らす。
+これらの施作でスマホ依存から少しでも抜け出せたらいいと思う。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;注：本記事は箇条書きの内容を生成AIに清書してもらいました。&lt;/p&gt;</description>
     </item>
@@ -64,6 +59,7 @@ iPhoneでは「アクセシビリティ」→「画面表示とテキストサ�
 &lt;li&gt;S. Koyama, D. Inoue, H. Yoshida, K. Aihara, and G. Tanaka, &amp;ldquo;Predicting unobserved climate time series data at distant areas via spatial correlation using reservoir computing,&amp;rdquo; Jun. 05, 2024. (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2406.03061&#34;&gt;link&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations,&amp;rdquo; January 18, 2023, (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2301.06415&#34;&gt;link&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;journal-refereed&#34;&gt;Journal (Refereed)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, “An Uncertainty-Aware, Mesh-Free Numerical Method for Kolmogorov PDEs,” Journal of Scientific Computing, vol. 103, no. 2, p. 41, Mar. 2025. (&lt;a href=&#34;http://doi.org/10.1007/s10915-025-02846-9&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
@@ -82,6 +78,7 @@ iPhoneでは「アクセシビリティ」→「画面表示とテキストサ�
 &lt;li&gt;井上 大輔, 東 俊一, 杉江 俊治, 量子化観測を伴う移動ロボットシステムのランデブー制御, システム制御情報学会論文誌, 2016, 29 巻, 7 号, pp. 311-317. (&lt;a href=&#34;https://doi.org/10.5687/iscie.29.311&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;加嶋 健司, 井上 大輔, ネットワーク化制御系における確率雑音の白色化効果と非再現性の同時活用, 計測自動制御学会論文集, 2014, 50 巻, 10 号, pp. 712-720. (&lt;a href=&#34;https://doi.org/10.9746/sicetr.50.712&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;conference-refereed&#34;&gt;Conference (Refereed)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;T. Miyano, Y. Ito, D. Inoue, S. Koide, and T. Hatanaka, &amp;ldquo;Stability Analysis of Logit Dynamics with Committed Minority and Internal/External Conformity Biases,&amp;rdquo; Proc. 22nd IFAC World Congress, Yokohama, Japan, July 9-14, 2023. (&lt;a href=&#34;https://doi.org/10.1016/j.ifacol.2023.10.1646&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
@@ -93,10 +90,12 @@ iPhoneでは「アクセシビリティ」→「画面表示とテキストサ�
 &lt;li&gt;K. Kashima and D. Inoue, &amp;ldquo;Replay attack detection in control systems with quantized signals,&amp;rdquo; 2015 European Control Conference (ECC), Linz, pp. 782-787, 2015. (&lt;a href=&#34;https://doi.org/10.1109/ECC.2015.7330637&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;K. Kashima and D. Inoue, &amp;ldquo;Stationary performance evaluation of control systems with random dither quantization,&amp;rdquo; 2014 European Control Conference (ECC), Strasbourg, pp. 1625-1630, 2014. (&lt;a href=&#34;https://doi.org/10.1109/ECC.2014.6862294&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;japanese-journal&#34;&gt;Japanese Journal&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;井上 大輔, 大規模エージェントシステムの連続体近似制御-平均場ゲームと動的最適輸送, システム/制御/情報, vol. 68, no. 6, pp. 224–229, 2024. (&lt;a href=&#34;https://doi.org/10.11509/isciesci.68.6_224&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;conference-unrefereed&#34;&gt;Conference (Unrefereed)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;An Uncertainty-aware, Mesh-free Numerical Method for Kolmogorov PDEs,&amp;rdquo; International Conference on Scientific Computation and Differential Equations 2024, Singapore, July, 16, 2024.&lt;/li&gt;
@@ -111,10 +110,12 @@ iPhoneでは「アクセシビリティ」→「画面表示とテキストサ�
 &lt;li&gt;井上 大輔, 加嶋 健司, ディザを有する制御系の定常特性解析 II：リプレイアタック検出, 第1回制御部門マルチシンポジウム , 2014 （制御部門研究奨励賞受賞）&lt;/li&gt;
 &lt;li&gt;井上 大輔, 加嶋 健司, ディザを有する制御系の定常特性解析 I: 不変確率測度の近似計算 , 第1回制御部門マルチシンポジウム , 2014&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;patent&#34;&gt;Patent&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;井上 大輔, 演算装置、演算システム、演算方法、およびコンピュータプログラム, 7040505号&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;media-listing&#34;&gt;Media listing&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;D-Wave Systems Inc. &lt;a href=&#34;https://www.dwavesys.com/sites/default/files/Dwave_Toyota_Case_Study_V4.2F.pdf&#34;&gt;Toyota Central R&amp;amp;D Labs: A Quantum Approach to Transportation&lt;/a&gt;&lt;/li&gt;
@@ -123,6 +124,7 @@ iPhoneでは「アクセシビリティ」→「画面表示とテキストサ�
 &lt;li&gt;日刊工業新聞 &lt;a href=&#34;https://www.nikkan.co.jp/articles/view/588009&#34;&gt;豊田中央研、量子コンピューターで信号機群制御　車両の流れやすさ10％向上&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Yahooニュース &lt;a href=&#34;https://news.yahoo.co.jp/articles/7eab0d041f58dd626b5bed2b547792eb6375ec1c&#34;&gt;量子コンピューターの一種で渋滞緩和を目指す。都市全体の信号機制御を最適化&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;awards&#34;&gt;Awards&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Dean&amp;rsquo;s Award, Graduate School of Mathematical Sciences, The University of Tokyo (2024, Mar)&lt;/li&gt;
@@ -131,6 +133,7 @@ iPhoneでは「アクセシビリティ」→「画面表示とテキストサ�
 &lt;li&gt;Research Encouragement Award on The 58th Annual Conference of the Institute of Systems, Control and Information Engineers, The Institute of Systems, Control and Information Engineers (2015 Jun)&lt;/li&gt;
 &lt;li&gt;Research Encouragement Award on The 1st Multi-symposium on Control Systems, The Society of Instrument and Control Engineers (2014 Mar)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;grants&#34;&gt;Grants&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Vulcanus in Europe  2015  (15, 540 dollars), Selected students get to go to Europe to study the local language, and to have a working experience at EU-Japan Centre for Industrial Cooperation in Institute for International Studies and Training&lt;/li&gt;
@@ -201,9 +204,54 @@ E[Router2]--&amp;gt;|Wired|C
 &lt;p&gt;I am a researcher at &lt;a href=&#34;https://www.tytlabs.co.jp/&#34;&gt;Toyota Central R&amp;amp;D Labs,. Inc.&lt;/a&gt;
 I received a B.E. degree in engineering from Osaka University in 2014, an M.S. degree in informatics from Kyoto University in 2017, and a Ph.D. degree in mathematical science from the University of Tokyo in 2024.
 My current research interests include controlling large-scale multi-agent systems and solving high-dimensional partial differential equations.&lt;/p&gt;
-&lt;p&gt;I am seeking opportunities to collaborate with a laboratory outside Japan for 2 to 3 years.
-This collaboration will be fully funded by my current employer.
-If you are interested in working together, please feel free to &lt;a href=&#34;mailto:d.inoue.jp@gmail.com&#34;&gt;contact me&lt;/a&gt; ! ✉️&lt;/p&gt;</description>
+&lt;hr&gt;
+&lt;h2 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h2&gt;
+&lt;h3 id=&#34;2017-apr--present-toyota-central-rd-labs-inc-in-aichi-japan&#34;&gt;2017 Apr – Present: Toyota Central R&amp;amp;D Labs., Inc. in Aichi, Japan&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Numerical methods for PDEs arising in optimal control problems&lt;/li&gt;
+&lt;li&gt;Controller design for very large-scale systems&lt;/li&gt;
+&lt;li&gt;Exploring applications of quantum annealing machines for control engineering&lt;/li&gt;
+&lt;li&gt;etc&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2016-july--2017-mar-kyoto-university-in-kyoto-japan&#34;&gt;2016 July – 2017 Mar: Kyoto University in Kyoto, Japan&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Teaching Assistant of Complex Analysis Class&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2015-july--2016-mar-siemens-industry-software-nv-in-leuven-belgium&#34;&gt;2015 July – 2016 Mar: Siemens Industry Software N.V in Leuven, Belgium&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Motion Controller Design for Airbus A330 based on 1-D &amp;amp; 3-D Co-simulation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2014-july-mitsubishi-heavy-industries-ltd-in-kobe-japan&#34;&gt;2014 July: Mitsubishi Heavy Industries, Ltd. in Kobe, Japan&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Development of a Nuclear Power Plant Simulator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;h3 id=&#34;2021-apr---2024-mar-phd-student-at-graduate-school-of-mathematical-sciences-the-university-of-tokyo&#34;&gt;2021 Apr - 2024 Mar: Ph.D. student at Graduate School of Mathematical Sciences, the University of Tokyo&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thesis: Numerical Methods for Nonlinear Partial Differential Equations Arising from Large-Scale Multi-Agent Control Problems (Dean&amp;rsquo;s Award)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2014-apr--2017-mar-master-of-informatics-at-graduate-school-of-informatics-kyoto-university&#34;&gt;2014 Apr – 2017 Mar: Master of Informatics at Graduate School of Informatics, Kyoto University&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thesis: Stability Analysis of Networked Monotone Systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2010-apr--2014-mar-bachelor-of-engineering-at-department-of-engineering-science-osaka-university&#34;&gt;2010 Apr – 2014 Mar: Bachelor of Engineering at Department of Engineering Science, Osaka University&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thesis: Stationary performance evaluation of control systems with random dither quantization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;General Programming: Python, C, C++, Julia, Matlab&lt;/li&gt;
+&lt;li&gt;Operating System: Windows, macOS, Linux (Debian, Ubuntu)&lt;/li&gt;
+&lt;li&gt;Embedded System: Raspberry Pi, Arduino, Simulink, ROS&lt;/li&gt;
+&lt;li&gt;Numerical Methods: FreeFEM++, FEniCS&lt;/li&gt;
+&lt;li&gt;Optimization: Gurobi, D-Wave&lt;/li&gt;
+&lt;li&gt;Language: Japanese, English&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;my-research&#34;&gt;My research&lt;/h2&gt;
+&lt;p&gt;I am interested in modeling and control of large-scale dynamical systems.
+The following are descriptions of some of the published research topics I have worked on.&lt;/p&gt;</description>
     </item>
     <item>
       <title>明けましておめでとうございます</title>
