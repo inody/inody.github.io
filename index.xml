@@ -4,10 +4,42 @@
     <title>inosite</title>
     <link>https://inody.github.io/</link>
     <description>Recent content on inosite</description>
-    <generator>Hugo -- 0.143.0</generator>
+    <generator>Hugo -- 0.149.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Apr 2025 14:05:11 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 07 Sep 2025 09:00:32 +0900</lastBuildDate>
     <atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>プレプリントをアップしました</title>
+      <link>https://inody.github.io/posts/rppi/</link>
+      <pubDate>Sun, 07 Sep 2025 09:00:32 +0900</pubDate>
+      <guid>https://inody.github.io/posts/rppi/</guid>
+      <description>&lt;p&gt;先日、arXivにプレプリントをアップしました。
+概要の日本語訳をこちらに掲載します。&lt;/p&gt;
+&lt;p&gt;複雑な非線形性を近似できるニューラルネットワークは、非線形動的システムのデータ駆動制御において広範囲に応用されています。
+しかし、動力学が未知のシステムの高速オンライン同定と制御は依然として中心的な課題です。
+本論文では、エコーステートネットワーク（ESN）とモデル予測経路積分（MPPI）制御を統合した新手法を提案し、これらの課題に取り組みます。
+提案するReservoir Predictive Path Integral（RPPI）制御は、ESNによる非線形動力学の高速学習を可能にし、学習した非線形性を並列化されたMPPI制御計算で直接活用します。
+このフレームワークはUncertainty-aware RPPI（URPPI）にさらに拡張され、ESNの不確実性を活用して探索と活用のバランスが自動調整されます。
+Duffing振動子とquadruple-tankシステムの制御実験により、URPPIが制御性能を向上させ、従来の二次計画法ベースのモデル予測制御手法と比較して制御コストを最大60%削減することが実証されました。&lt;/p&gt;
+&lt;p&gt;ご興味ある方は、&lt;a href=&#34;https://arxiv.org/abs/2509.03839&#34;&gt;こちらのリンク&lt;/a&gt;からアクセスしていただければと思います。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Imperial College Londonに滞在します</title>
+      <link>https://inody.github.io/posts/icl/</link>
+      <pubDate>Sun, 07 Sep 2025 08:57:04 +0900</pubDate>
+      <guid>https://inody.github.io/posts/icl/</guid>
+      <description>&lt;p&gt;この度、2025年9月から2年間、イギリスのImperial College LondonでSponsored Researcherとして研究することになりました。
+会社のサバティカル制度を利用し、これまで取り組んできた大規模マルチエージェントシステムの解析・制御に関する研究を継続していく予定です。&lt;/p&gt;
+&lt;p&gt;修士時代に&lt;a href=&#34;https://www.eu-japan.eu/ja/training-young-scientists-engineers-vine&#34;&gt;ヴルカヌス・イン・ヨーロッパ&lt;/a&gt;でアイルランド・ベルギーに1年滞在してから、はや10年。
+今度は家族と一緒に海外生活に挑戦できることになりました。
+ついてきてくれる妻と子に心から感謝しています。&lt;/p&gt;
+&lt;p&gt;この滞在が実現できたのは、会社の皆さんのご理解とご支援、そして受け入れ先の先生方・スタッフの皆様のご協力があってこそです。
+本当にありがとうございます。&lt;/p&gt;
+&lt;p&gt;なお、滞在中は会社のメールアドレスが使用できなくなります。
+ご連絡の際は&lt;a href=&#34;mailto:d.inoue.jp@gmail.com&#34;&gt;プライベートアドレス&lt;/a&gt;までお願いいたします。&lt;/p&gt;
+&lt;p&gt;ロンドンでの研究や生活の様子も、こちらで時々ご報告していければと思います。
+引き続き、よろしくお願いいたします。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>スマホ依存をどうにかしたい</title>
       <link>https://inody.github.io/posts/zen/</link>
@@ -56,8 +88,9 @@ iPhoneでは「アクセシビリティ」→「画面表示とテキストサ�
       <guid>https://inody.github.io/publication/</guid>
       <description>&lt;h2 id=&#34;preprint&#34;&gt;Preprint&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;S. Koyama, D. Inoue, H. Yoshida, K. Aihara, and G. Tanaka, &amp;ldquo;Predicting unobserved climate time series data at distant areas via spatial correlation using reservoir computing,&amp;rdquo; Jun. 05, 2024. (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2406.03061&#34;&gt;link&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations,&amp;rdquo; January 18, 2023, (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2301.06415&#34;&gt;link&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;D. Inoue, T. Matsumori, G. Tanaka, and Y. Ito. “Reservoir Predictive Path Integral Control for Unknown Nonlinear Dynamics,” September 4, 2025. (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2509.03839&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;S. Koyama, D. Inoue, H. Yoshida, K. Aihara, and G. Tanaka, &amp;ldquo;Predicting unobserved climate time series data at distant areas via spatial correlation using reservoir computing,&amp;rdquo; Jun 5, 2024. (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2406.03061&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations,&amp;rdquo; January 18, 2023. (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2301.06415&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;journal-refereed&#34;&gt;Journal (Refereed)&lt;/h2&gt;
@@ -204,54 +237,8 @@ E[Router2]--&amp;gt;|Wired|C
 &lt;p&gt;I am a researcher at &lt;a href=&#34;https://www.tytlabs.co.jp/&#34;&gt;Toyota Central R&amp;amp;D Labs,. Inc.&lt;/a&gt;
 I received a B.E. degree in engineering from Osaka University in 2014, an M.S. degree in informatics from Kyoto University in 2017, and a Ph.D. degree in mathematical science from the University of Tokyo in 2024.
 My current research interests include controlling large-scale multi-agent systems and solving high-dimensional partial differential equations.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h2&gt;
-&lt;h3 id=&#34;2017-apr--present-toyota-central-rd-labs-inc-in-aichi-japan&#34;&gt;2017 Apr – Present: Toyota Central R&amp;amp;D Labs., Inc. in Aichi, Japan&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Numerical methods for PDEs arising in optimal control problems&lt;/li&gt;
-&lt;li&gt;Controller design for very large-scale systems&lt;/li&gt;
-&lt;li&gt;Exploring applications of quantum annealing machines for control engineering&lt;/li&gt;
-&lt;li&gt;etc&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2016-july--2017-mar-kyoto-university-in-kyoto-japan&#34;&gt;2016 July – 2017 Mar: Kyoto University in Kyoto, Japan&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Teaching Assistant of Complex Analysis Class&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2015-july--2016-mar-siemens-industry-software-nv-in-leuven-belgium&#34;&gt;2015 July – 2016 Mar: Siemens Industry Software N.V in Leuven, Belgium&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Motion Controller Design for Airbus A330 based on 1-D &amp;amp; 3-D Co-simulation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2014-july-mitsubishi-heavy-industries-ltd-in-kobe-japan&#34;&gt;2014 July: Mitsubishi Heavy Industries, Ltd. in Kobe, Japan&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Development of a Nuclear Power Plant Simulator&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
-&lt;h3 id=&#34;2021-apr---2024-mar-phd-student-at-graduate-school-of-mathematical-sciences-the-university-of-tokyo&#34;&gt;2021 Apr - 2024 Mar: Ph.D. student at Graduate School of Mathematical Sciences, the University of Tokyo&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Thesis: Numerical Methods for Nonlinear Partial Differential Equations Arising from Large-Scale Multi-Agent Control Problems (Dean&amp;rsquo;s Award)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2014-apr--2017-mar-master-of-informatics-at-graduate-school-of-informatics-kyoto-university&#34;&gt;2014 Apr – 2017 Mar: Master of Informatics at Graduate School of Informatics, Kyoto University&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Thesis: Stability Analysis of Networked Monotone Systems&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2010-apr--2014-mar-bachelor-of-engineering-at-department-of-engineering-science-osaka-university&#34;&gt;2010 Apr – 2014 Mar: Bachelor of Engineering at Department of Engineering Science, Osaka University&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Thesis: Stationary performance evaluation of control systems with random dither quantization&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;General Programming: Python, C, C++, Julia, Matlab&lt;/li&gt;
-&lt;li&gt;Operating System: Windows, macOS, Linux (Debian, Ubuntu)&lt;/li&gt;
-&lt;li&gt;Embedded System: Raspberry Pi, Arduino, Simulink, ROS&lt;/li&gt;
-&lt;li&gt;Numerical Methods: FreeFEM++, FEniCS&lt;/li&gt;
-&lt;li&gt;Optimization: Gurobi, D-Wave&lt;/li&gt;
-&lt;li&gt;Language: Japanese, English&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;my-research&#34;&gt;My research&lt;/h2&gt;
-&lt;p&gt;I am interested in modeling and control of large-scale dynamical systems.
-The following are descriptions of some of the published research topics I have worked on.&lt;/p&gt;</description>
+&lt;p&gt;&lt;em&gt;From September 2025 to August 2027, I will be staying at Imperial College London as a Sponsored Researcher.&lt;/em&gt;
+&lt;em&gt;During this period, my company email address will not be available. Please contact me at my &lt;a href=&#34;d.inoue.jp@gmail.com&#34;&gt;private address&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>明けましておめでとうございます</title>
