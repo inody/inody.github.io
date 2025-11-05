@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://inody.github.io/biography/</loc>
-    <lastmod>2025-10-08T11:38:55+09:00</lastmod>
+    <loc>https://inody.github.io/posts/202510/</loc>
+    <lastmod>2025-11-05T11:36:59+00:00</lastmod>
   </url><url>
     <loc>https://inody.github.io/</loc>
+    <lastmod>2025-11-05T11:36:59+00:00</lastmod>
+  </url><url>
+    <loc>https://inody.github.io/posts/</loc>
+    <lastmod>2025-11-05T11:36:59+00:00</lastmod>
+  </url><url>
+    <loc>https://inody.github.io/biography/</loc>
     <lastmod>2025-10-08T11:38:55+09:00</lastmod>
   </url><url>
     <loc>https://inody.github.io/publication/</loc>
     <lastmod>2025-10-08T11:38:55+09:00</lastmod>
   </url><url>
     <loc>https://inody.github.io/posts/20259/</loc>
-    <lastmod>2025-09-28T14:02:26+01:00</lastmod>
-  </url><url>
-    <loc>https://inody.github.io/posts/</loc>
     <lastmod>2025-09-28T14:02:26+01:00</lastmod>
   </url><url>
     <loc>https://inody.github.io/posts/rppi/</loc>
