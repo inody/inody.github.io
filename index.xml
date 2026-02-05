@@ -6,8 +6,34 @@
     <description>Recent content on inosite</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Jan 2026 08:35:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 12:16:42 +0000</lastBuildDate>
     <atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026年1月の振り返り</title>
+      <link>https://inody.github.io/posts/202601/</link>
+      <pubDate>Thu, 05 Feb 2026 12:16:42 +0000</pubDate>
+      <guid>https://inody.github.io/posts/202601/</guid>
+      <description>&lt;h2 id=&#34;今月の業務内容&#34;&gt;今月の業務内容&lt;/h2&gt;
+&lt;p&gt;メインの研究テーマについて、昨年指導教員から指摘された理論的仮定の不足を検証し、理論保証の内容を更新した。
+年末までは、解析対象の方程式の解に対して非自明な正則性を仮定する必要があり、導出した評価も厳密ではあるものの実務的な意義が限定的であった。
+関連分野の先行研究を参考に別経路で不等式を導出したところ、必要な仮定を削減しつつ、より精密で実務的にも有用な評価を得ることができた。
+この内容を原稿に反映し、現在は指導教員に再確認を依頼している。&lt;/p&gt;
+&lt;p&gt;また、1月上旬には海外大学の研究者がセミナー講演のため来訪され、講演後に研究ディスカッションの機会を得た。
+上述の別経路による証明は、その議論から得られた示唆がきっかけとなっている。
+来月にも再訪の予定があるため、再度議論をお願いする計画である。&lt;/p&gt;
+&lt;p&gt;Imperialの数学科で開催されるセミナーは多岐にわたり、今月は自身の研究対象である多体系の時間発展方程式に関する講演が特に充実していた。
+他大学の研究者による講演を複数聴講し、論文だけでは把握しづらい研究のエッセンスを直接学ぶ貴重な機会となった。
+応用数学分野の論文は構成が重厚で読解に時間を要することも多いが、講演を通じた理解は研究の着想にもつながるため、今後も積極的に活用していきたい。&lt;/p&gt;
+&lt;p&gt;メインテーマとは別に、以下の業務も進めた。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;博士課程学生の数値計算に関する助言業務&lt;/strong&gt;：継続的に実施中。対象方程式の簡略化モデルに対する数値計算に成功し、今後は本来の方程式に向けて理論面・数値面双方から拡張を進めていく予定である。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修士課程学生の指導準備&lt;/strong&gt;：来月より指導を開始予定。今月は提示予定の研究テーマの整理と文献調査を行った。候補となるテーマは絞られてきたが、学生本人の関心も重要であるため、面談を通じて調整を行う予定である。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;周辺の出来事&#34;&gt;周辺の出来事&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://inody.github.io/posts/new-year-trouble/&#34;&gt;年末年始の交通トラブル&lt;/a&gt;以降、妻の海外生活に対する不安がやや強まっている。&lt;/p&gt;
+&lt;p&gt;妻にとって長期の海外生活は今回が初めてであり、今回の経験が心理的に大きな比重を占めているようである。現在は、筆者が長時間自宅を離れることに対して慎重な状況が続いている。&lt;/p&gt;
+&lt;p&gt;今後予定されている海外出張についても、家庭側の負担との兼ね合いから調整が必要となっている。滞在中は地の利を生かしてアウトリーチに力を入れたいという思いがある一方、家族の気持ちにも寄り添う必要があり、両者のバランスに悩む日々である。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>パリ旅行トラブル顛末記</title>
       <link>https://inody.github.io/posts/new-year-trouble/</link>
