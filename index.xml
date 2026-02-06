@@ -35,6 +35,18 @@
 &lt;p&gt;今後予定されている海外出張についても、家庭側の負担との兼ね合いから調整が必要となっている。滞在中は地の利を生かしてアウトリーチに力を入れたいという思いがある一方、家族の気持ちにも寄り添う必要があり、両者のバランスに悩む日々である。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Bibliography</title>
+      <link>https://inody.github.io/biography/</link>
+      <pubDate>Thu, 05 Feb 2026 11:38:55 +0900</pubDate>
+      <guid>https://inody.github.io/biography/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;
+&lt;p&gt;I am a researcher at &lt;a href=&#34;https://www.tytlabs.co.jp/&#34;&gt;Toyota Central R&amp;amp;D Labs,. Inc.&lt;/a&gt;
+I received a B.E. degree in engineering from Osaka University in 2014, an M.S. degree in informatics from Kyoto University in 2017, and a Ph.D. degree in mathematical science from the University of Tokyo in 2024.
+My current research interests include controlling large-scale multi-agent systems and solving high-dimensional partial differential equations.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;From September 2025 to August 2027, I will be staying at Imperial College London as a Sponsored Researcher.&lt;/em&gt;
+&lt;em&gt;During this period, my company email address will not be available. Please contact me at my &lt;a href=&#34;d.inoue.jp@gmail.com&#34;&gt;private address&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Publications</title>
       <link>https://inody.github.io/publication/</link>
       <pubDate>Thu, 05 Feb 2026 11:38:55 +0900</pubDate>
@@ -85,7 +97,8 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;conference-unrefereed&#34;&gt;Conference (Unrefereed)&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;D. Inoue, &amp;ldquo;Numerical Computation of Mean Field Games Using Cole-Hopf Transformation and Fictitious Play&amp;rdquo;, 2025 SIAM Conference on Control and Its Applications (CT25), July, 28, 2025.&lt;/li&gt;
+&lt;li&gt;D. Inoue, &amp;ldquo;Numerical Computation of Mean Field Games Using Cole-Hopf Transformation and Fictitious Play&amp;rdquo;, SQUIDS Seminar, Manchester University, November, 12, 2025.&lt;/li&gt;
+&lt;li&gt;D. Inoue, &amp;ldquo;Numerical Computation of Mean Field Games Using Cole-Hopf Transformation and Fictitious Play&amp;rdquo;, 2025 SIAM Conference on Control and Its Applications (CT25), Montréal, July, 28, 2025.&lt;/li&gt;
 &lt;li&gt;D. Inoue, H. Yamashita, K. Aihara, H. Yoshida, &amp;ldquo;Traffic Signal Optimization in Large-Scale Urban Road Networks: An Adaptive-Predictive Controller Using Ising Models,&amp;rdquo; Workshop on Mathematics for Machine Learning and Its Application to Industry, Kyushu University, April, 17, 2025.&lt;/li&gt;
 &lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;An Uncertainty-aware, Mesh-free Numerical Method for Kolmogorov PDEs,&amp;rdquo; International Conference on Scientific Computation and Differential Equations 2024, Singapore, July, 16, 2024.&lt;/li&gt;
 &lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;An Uncertainty-aware Mesh-free Numerical Method for Kolmogorov PDEs,&amp;rdquo; REMODEL-DSC Workshop on Machine Learning and Physics, Hokkaido University, September, 2, 2024.&lt;/li&gt;
@@ -244,18 +257,6 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;医療手続きメモ&#34;&gt;医療・手続きメモ&lt;/h2&gt;
 &lt;p&gt;妻の歯の詰め物が脱落したため、NHSは受診まで時間を要することから、会社加入の海外医療保険を利用して民間の歯科医院を受診した。診療費は300 GBPだった。しかし術後に保険規約を確認したところ、詰め物の脱落は補償対象外であることが判明した。治療前に保険適用範囲を十分に確認する重要性を痛感した。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bibliography</title>
-      <link>https://inody.github.io/biography/</link>
-      <pubDate>Wed, 08 Oct 2025 11:38:55 +0900</pubDate>
-      <guid>https://inody.github.io/biography/</guid>
-      <description>&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;
-&lt;p&gt;I am a researcher at &lt;a href=&#34;https://www.tytlabs.co.jp/&#34;&gt;Toyota Central R&amp;amp;D Labs,. Inc.&lt;/a&gt;
-I received a B.E. degree in engineering from Osaka University in 2014, an M.S. degree in informatics from Kyoto University in 2017, and a Ph.D. degree in mathematical science from the University of Tokyo in 2024.
-My current research interests include controlling large-scale multi-agent systems and solving high-dimensional partial differential equations.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;From September 2025 to August 2027, I will be staying at Imperial College London as a Sponsored Researcher.&lt;/em&gt;
-&lt;em&gt;During this period, my company email address will not be available. Please contact me at my &lt;a href=&#34;d.inoue.jp@gmail.com&#34;&gt;private address&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025年9月の振り返り</title>
