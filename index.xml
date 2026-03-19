@@ -4,10 +4,51 @@
     <title>inosite</title>
     <link>https://inody.github.io/</link>
     <description>Recent content on inosite</description>
-    <generator>Hugo -- 0.154.5</generator>
+    <generator>Hugo -- 0.158.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 12:02:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 16:21:47 +0000</lastBuildDate>
     <atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iPad × Macでcode-server環境構築</title>
+      <link>https://inody.github.io/posts/tailscale/</link>
+      <pubDate>Thu, 19 Mar 2026 16:21:47 +0000</pubDate>
+      <guid>https://inody.github.io/posts/tailscale/</guid>
+      <description>&lt;p&gt;iPadからMac上の &lt;code&gt;code-server&lt;/code&gt; へ、Tailscaleを利用して安全かつHTTPSでアクセスするための設定メモ。&lt;/p&gt;
+&lt;h2 id=&#34;1-構成の概要&#34;&gt;1. 構成の概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;サーバー&lt;/strong&gt;: Mac (自宅等に設置)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;クライアント&lt;/strong&gt;: iPad (外出先/自宅)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;通信パス&lt;/strong&gt;: iPad -&amp;gt; Tailscale (HTTPS) -&amp;gt; Mac (localhost:8080)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用ツール&lt;/strong&gt;: &lt;code&gt;code-server&lt;/code&gt;, &lt;code&gt;Tailscale&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-事前準備-tailscale-管理画面&#34;&gt;2. 事前準備 (Tailscale 管理画面)&lt;/h2&gt;
+&lt;p&gt;設定を有効にするために、&lt;a href=&#34;https://login.tailscale.com/admin/dns&#34;&gt;Tailscale Admin Console&lt;/a&gt; で以下の2点を確認：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;MagicDNS&lt;/strong&gt;: &lt;code&gt;Enabled&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;HTTPS Certificates&lt;/strong&gt;: &lt;code&gt;Enabled&lt;/code&gt; (証明書自動発行のため必須)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-mac側の設定-code-server&#34;&gt;3. Mac側の設定 (code-server)&lt;/h2&gt;
+&lt;h3 id=&#34;設定ファイルの編集&#34;&gt;設定ファイルの編集&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;~/.config/code-server/config.yaml&lt;/code&gt; を開き、待ち受けアドレスを &lt;strong&gt;localhost限定&lt;/strong&gt; にする。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;bind-addr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;127.0.0.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;8080&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;auth&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;none&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;cert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# TailscaleがHTTPS化するため、アプリ側はfalseで良い&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;注意点&lt;/strong&gt;: 初めtailscaleで付与されている公開ipである &lt;code&gt;100.x.x.x&lt;/code&gt; に設定したが、うまくhttps化できなかった。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;4-tailscale-serve-の設定&#34;&gt;4. Tailscale Serve の設定&lt;/h2&gt;
+&lt;p&gt;Tailscaleのリバースプロキシ機能を使い、Mac内部の8080ポートを外部（Tailscale網内）に公開する。&lt;/p&gt;
+&lt;h3 id=&#34;設定コマンド&#34;&gt;設定コマンド&lt;/h3&gt;
+&lt;p&gt;再起動後も設定が維持されるよう &lt;code&gt;--bg&lt;/code&gt; (background) フラグを付ける。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# 既存設定のクリア
+tailscale serve reset
+
+# プロキシ設定の有効化
+tailscale serve --bg http://127.0.0.1:8080
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ステータス確認&#34;&gt;ステータス確認&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;tailscale serve status
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;出力結果に &lt;code&gt;https://[マシン名].[ランダム文字列].ts.net/&lt;/code&gt; が表示されれば成功。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2026年2月の振り返り</title>
       <link>https://inody.github.io/posts/202602/</link>
