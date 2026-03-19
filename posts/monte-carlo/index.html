@@ -33,37 +33,10 @@ if __name__ == '__main__':
 問題 $N$行$N$列の行列の各要素に$1$から$N$までの数字が入っているものとする． 各列，各行に数字の重複を許さない行列は全部で何通りあるかを推定せよ．
 はじめ，ランダムに$1$から$N$までの数字を格納した2次元配列を用意して，各行と列に重複がないかチェックし，重複がない試行の確率を求める方法をとった．以下，作成したPythonのコード(クソコードなのはご愛嬌)．
 #! /usr/bin/env python # -*- coding: utf-8 -*- from numpy.random import * def check_overlap(args): for i in range(len(args)): if len(set(args[:,i])) < len(args[:,i]) or len(set(args[i,:])) < len(args[ i,:]): return False return True if __name__ == '__main__': N=4	#size of matrix M=100000000	#number of trial randarray = randint(1,N+1,(N,N,M)) count=0 for i in range(M): if check_overlap(randarray[:,:,i])==True: count = count+1 if i%100000==0: print(M-i,count) print( N**(N*N) * count / M ) この方法では，$N=4$あたりで現実的な解が得られなくなってしまった．
-より計算時間を減らすために，$1$から$N$までが格納された1次元配列の要素をランダムにシャッフルし，それを$N$個積み重ねることで，重複をチェックする方向を一方向だけにする方法をとった．"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2015-01-20T00:00:00+09:00"><meta property="article:modified_time" content="2015-01-20T00:00:00+09:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="モンテカルロ法で次元の呪い"><meta name=twitter:description content="概要
-モンテカルロ法で次元の呪いを体験するを読んで，自分も最近似たような体験をしたことを思い出したので，メモしておく．
-問題
-
-$N$行$N$列の行列の各要素に$1$から$N$までの数字が入っているものとする．
-各列，各行に数字の重複を許さない行列は全部で何通りあるかを推定せよ．
-
+より計算時間を減らすために，$1$から$N$までが格納された1次元配列の要素をランダムにシャッフルし，それを$N$個積み重ねることで，重複をチェックする方向を一方向だけにする方法をとった．"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2015-01-20T00:00:00+09:00"><meta property="article:modified_time" content="2015-01-20T00:00:00+09:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="モンテカルロ法で次元の呪い"><meta name=twitter:description content="概要 モンテカルロ法で次元の呪いを体験するを読んで，自分も最近似たような体験をしたことを思い出したので，メモしておく．
+問題 $N$行$N$列の行列の各要素に$1$から$N$までの数字が入っているものとする． 各列，各行に数字の重複を許さない行列は全部で何通りあるかを推定せよ．
 はじめ，ランダムに$1$から$N$までの数字を格納した2次元配列を用意して，各行と列に重複がないかチェックし，重複がない試行の確率を求める方法をとった．以下，作成したPythonのコード(クソコードなのはご愛嬌)．
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
-from numpy.random import *
-
-def check_overlap(args):
-	for i in range(len(args)):
-		if len(set(args[:,i])) < len(args[:,i]) or len(set(args[i,:])) < len(args[    i,:]):
-			return False
-	return True
-
-if __name__ == '__main__':
-	N=4				#size of matrix
-	M=100000000		#number of trial
-	randarray = randint(1,N+1,(N,N,M))
-	count=0
-	for i in range(M):
-		if check_overlap(randarray[:,:,i])==True:
-			count = count+1
-		if i%100000==0:
-			print(M-i,count) 
-	print( N**(N*N) * count / M )
-
-この方法では，$N=4$あたりで現実的な解が得られなくなってしまった．
+#! /usr/bin/env python # -*- coding: utf-8 -*- from numpy.random import * def check_overlap(args): for i in range(len(args)): if len(set(args[:,i])) < len(args[:,i]) or len(set(args[i,:])) < len(args[ i,:]): return False return True if __name__ == '__main__': N=4	#size of matrix M=100000000	#number of trial randarray = randint(1,N+1,(N,N,M)) count=0 for i in range(M): if check_overlap(randarray[:,:,i])==True: count = count+1 if i%100000==0: print(M-i,count) print( N**(N*N) * count / M ) この方法では，$N=4$あたりで現実的な解が得られなくなってしまった．
 より計算時間を減らすために，$1$から$N$までが格納された1次元配列の要素をランダムにシャッフルし，それを$N$個積み重ねることで，重複をチェックする方向を一方向だけにする方法をとった．"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://inody.github.io/posts/"},{"@type":"ListItem","position":2,"name":"モンテカルロ法で次元の呪い","item":"https://inody.github.io/posts/monte-carlo/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"モンテカルロ法で次元の呪い","name":"モンテカルロ法で次元の呪い","description":"概要 モンテカルロ法で次元の呪いを体験するを読んで，自分も最近似たような体験をしたことを思い出したので，メモしておく．\n問題 $N$行$N$列の行列の各要素に$1$から$N$までの数字が入っているものとする． 各列，各行に数字の重複を許さない行列は全部で何通りあるかを推定せよ．\nはじめ，ランダムに$1$から$N$までの数字を格納した2次元配列を用意して，各行と列に重複がないかチェックし，重複がない試行の確率を求める方法をとった．以下，作成したPythonのコード(クソコードなのはご愛嬌)．\n#! /usr/bin/env python # -*- coding: utf-8 -*- from numpy.random import * def check_overlap(args): for i in range(len(args)): if len(set(args[:,i])) \u0026lt; len(args[:,i]) or len(set(args[i,:])) \u0026lt; len(args[ i,:]): return False return True if __name__ == '__main__': N=4\t#size of matrix M=100000000\t#number of trial randarray = randint(1,N+1,(N,N,M)) count=0 for i in range(M): if check_overlap(randarray[:,:,i])==True: count = count+1 if i%100000==0: print(M-i,count) print( N**(N*N) * count / M ) この方法では，$N=4$あたりで現実的な解が得られなくなってしまった．\nより計算時間を減らすために，$1$から$N$までが格納された1次元配列の要素をランダムにシャッフルし，それを$N$個積み重ねることで，重複をチェックする方向を一方向だけにする方法をとった．\n","keywords":[],"articleBody":"概要 モンテカルロ法で次元の呪いを体験するを読んで，自分も最近似たような体験をしたことを思い出したので，メモしておく．\n問題 $N$行$N$列の行列の各要素に$1$から$N$までの数字が入っているものとする． 各列，各行に数字の重複を許さない行列は全部で何通りあるかを推定せよ．\nはじめ，ランダムに$1$から$N$までの数字を格納した2次元配列を用意して，各行と列に重複がないかチェックし，重複がない試行の確率を求める方法をとった．以下，作成したPythonのコード(クソコードなのはご愛嬌)．\n#! /usr/bin/env python # -*- coding: utf-8 -*- from numpy.random import * def check_overlap(args): for i in range(len(args)): if len(set(args[:,i])) \u003c len(args[:,i]) or len(set(args[i,:])) \u003c len(args[ i,:]): return False return True if __name__ == '__main__': N=4\t#size of matrix M=100000000\t#number of trial randarray = randint(1,N+1,(N,N,M)) count=0 for i in range(M): if check_overlap(randarray[:,:,i])==True: count = count+1 if i%100000==0: print(M-i,count) print( N**(N*N) * count / M ) この方法では，$N=4$あたりで現実的な解が得られなくなってしまった．\nより計算時間を減らすために，$1$から$N$までが格納された1次元配列の要素をランダムにシャッフルし，それを$N$個積み重ねることで，重複をチェックする方向を一方向だけにする方法をとった．\n#! /usr/bin/env python # -*- coding: utf-8 -*- import numpy as np import math def shuffle_array(args): for i in range(len(args)): np.random.shuffle(args[i,:]) def check_overlap(args): for i in range(len(args)): if len(set(args[:,i])) \u003c len(args[:,i]): return False return True if __name__ == '__main__': N=6 M=100000000 count=0 array = np.zeros([N,N]) for i in range(N): array[i,:] = np.arange(N)+1 for i in range(M): if i%10000==0: print(M-i,count) shuffle_array(array) if check_overlap(array)==True: count = count+1 print( math.factorial(N)**N * count / M ) こちらの方法では，$N=6$あたりまでであれば，時間をかければそれらしい解が得られるようになった．\nしかし，依然として次元の呪いを回避出来たわけではない．\n結論 誰かもっといい方法を教えて下さい．\n","wordCount":"150","inLanguage":"en","datePublished":"2015-01-20T00:00:00+09:00","dateModified":"2015-01-20T00:00:00+09:00","author":{"@type":"Person","name":"Daisuke Inoue"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://inody.github.io/posts/monte-carlo/"},"publisher":{"@type":"Organization","name":"inosite","logo":{"@type":"ImageObject","url":"https://inody.github.io/elephant.png"}}}</script></head><body id=top><header class=header><nav class=nav><div class=logo><a href=https://inody.github.io/ accesskey=h title="🏠  (Alt + H)">🏠</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
 <svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
 <svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://inody.github.io/biography title=biography><span>biography</span></a></li><li><a href=https://inody.github.io/publication title=publications><span>publications</span></a></li><li><a href=https://inody.github.io/posts title=blog><span>blog</span></a></li><li><a href=https://inoslides.pages.dev/ title=slides><span>slides</span>&nbsp;
