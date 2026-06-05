@@ -6,8 +6,25 @@
     <description>Recent content on inosite</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 11:38:55 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 08:55:19 +0100</lastBuildDate>
     <atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026年5月の振り返り</title>
+      <link>https://inody.github.io/posts/202605/</link>
+      <pubDate>Fri, 05 Jun 2026 08:55:19 +0100</pubDate>
+      <guid>https://inody.github.io/posts/202605/</guid>
+      <description>&lt;h2 id=&#34;今月の業務内容&#34;&gt;今月の業務内容&lt;/h2&gt;
+&lt;p&gt;メインの研究テーマについて、国際会議への投稿原稿を提出した。あわせて、6月上旬に開催される学会での発表準備を進めた。直近2ヶ月は数値計算による検討を中心に進めており、当初予定していた3つのシナリオのうち2つについて結果が揃ったため、この内容で発表を行う予定である。&lt;/p&gt;
+&lt;p&gt;これらの結果をもとに論文原稿の作成も進めており、学会発表に合わせて preprint として公開する予定である。執筆にあたり指導教員に相談したところ、以前から交流のある研究者に共著として加わってもらってはどうかと提案を受けた。現在、当該研究者に共著参加を依頼している。論文は6月中旬の投稿を予定しており、これに向けて3つ目のシナリオの数値計算も並行して進めている。&lt;/p&gt;
+&lt;p&gt;サブの研究テーマについては、他プロジェクトを優先しているため、今月は進捗なし。来月、指導予定の学生との打ち合わせを実施する予定である。&lt;/p&gt;
+&lt;p&gt;博士課程学生のアドバイザー業務については、数値計算上のバグにより停滞していたが、今月その原因を特定し、進捗が得られた。今後はベースラインと提案手法を比較し、理論的予測が再現されることを立証していく。当初予定していた論文投稿スケジュールは、進捗状況を踏まえて数ヶ月後ろ倒しに変更した。&lt;/p&gt;
+&lt;p&gt;また今月は、国内研究機関の共同研究者との共同研究も進めた。機械学習モデルの振る舞いに関する理論的予測を数値計算により立証するため、計算機を用いた実験を実施し、論文の数値実験パートを執筆した。成果を機械学習分野の会議に投稿し、現在査読中である。なお、論文はプレプリントとして公開済みである。
+（&lt;a href=&#34;https://arxiv.org/abs/2605.07772&#34;&gt;arXivへのリンクはこちら&lt;/a&gt;）&lt;/p&gt;
+&lt;h2 id=&#34;周辺のニュース&#34;&gt;周辺のニュース&lt;/h2&gt;
+&lt;p&gt;今月、欧州の研究機関に滞在中の同じ会社出身の研究者の方が、セミナー発表のためImperialを訪問された。この機会に情報交換を兼ねた意見交換を行った。滞在期間を有効に活用し、帰国後も継続できる人的ネットワークや影響を可能な限り築いておきたい、という点で双方の認識が一致した。今後は研究業務に加え、現地研究者との関係構築にも積極的に取り組んでいきたい。&lt;/p&gt;
+&lt;p&gt;また今月は、子どもの学校の同級生の保護者の方々から、屋外パーティにお招きいただいた。我が家を含め、日本出身の家庭が複数集まり、交流を深めることができた。休日に子どもと過ごすのに適した公園など、有益な情報を共有いただいた。今後も近隣のコミュニティとの交流を継続したい。&lt;/p&gt;
+&lt;p&gt;今月の選挙におけるReform UKの躍進は、印象的なニュースであった。近年、世界各国で国際化に対する揺り戻しが進んでいるように見受けられ、移民という立場として、今後の生活への影響を注視していきたい。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Publications</title>
       <link>https://inody.github.io/publication/</link>
@@ -16,6 +33,7 @@
       <description>&lt;h2 id=&#34;preprint&#34;&gt;Preprint&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;D. Inoue, M. Laurière, and D. Kalise, “Nonlocal Mean Field Schrödinger Bridge with Learned Interactions,” Jun. 02, 2026. (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2606.04265&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;N. Isobe, D. Inoue, and M. Imaizumi, “Training-Induced Escape from Token Clustering in a Mean-Field Formulation of Transformers,” May 08, 2026. (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2605.07772&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;D. Inoue, T. Matsumori, G. Tanaka, and Y. Ito. “Reservoir Predictive Path Integral Control for Unknown Nonlinear Dynamics,” September 4, 2025. (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2509.03839&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;S. Koyama, D. Inoue, H. Yoshida, K. Aihara, and G. Tanaka, &amp;ldquo;Predicting unobserved climate time series data at distant areas via spatial correlation using reservoir computing,&amp;rdquo; June 5, 2024. (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2406.03061&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;D. Inoue, Y. Ito, T. Kashiwabara, N. Saito, and H. Yoshida, &amp;ldquo;Convergence Analysis of the Upwind Difference Methods for Hamilton-Jacobi-Bellman Equations,&amp;rdquo; January 18, 2023. (&lt;a href=&#34;https://doi.org/10.48550/arXiv.2301.06415&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
