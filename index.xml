@@ -6,8 +6,25 @@
     <description>Recent content on inosite</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 08:55:19 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 08:56:53 +0100</lastBuildDate>
     <atom:link href="https://inody.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SIAM-OP26で発表を行いました</title>
+      <link>https://inody.github.io/posts/siam26/</link>
+      <pubDate>Fri, 05 Jun 2026 08:56:53 +0100</pubDate>
+      <guid>https://inody.github.io/posts/siam26/</guid>
+      <description>&lt;p&gt;タイトルの通り、応用数学系の国際会議である &lt;a href=&#34;https://www.siam.org/conferences-events/siam-conferences/op26/&#34;&gt;2026 SIAM Conference on Optimization (OP26)&lt;/a&gt; で発表してきました。
+昨年9月に Imperial College London に来てから、すでに8ヶ月が経過しました。
+ようやく成果を目に見える形で公表できて、少しほっとしています。&lt;/p&gt;
+&lt;p&gt;共著に入っていただいた Mathieu と Dante には、執筆にあたってたくさん助けてもらいました。改めて感謝しています。&lt;/p&gt;
+&lt;p&gt;貴重な滞在の機会を無駄にしないためにも、引き続き頑張ります。&lt;/p&gt;
+&lt;p&gt;arXiv: &lt;a href=&#34;https://arxiv.org/abs/2606.04265&#34;&gt;https://arxiv.org/abs/2606.04265&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;slide: &lt;a href=&#34;https://inoslides.pages.dev/20260604_siam_op26/&#34;&gt;https://inoslides.pages.dev/20260604_siam_op26/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;概要（日本語訳）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;シュレディンガー橋問題は，最小のエネルギーで初期分布と終端分布を結ぶ確率過程を構成する問題である．本研究では，相互作用粒子系に対する平均場拡張である平均場シュレディンガー橋を考察する．非局所的な相互作用が存在する場合，粒子に依存する分布項の評価コストは個体数に対して二次オーダーでスケールしうるため，大規模問題は計算上扱いにくい．本研究では，この計算上のボトルネックに対し，非局所相互作用をニューラルネットワークによる代理モデルで近似することで対処する．得られる4段階の交互最適化アルゴリズムにより，推論時のステップあたりの計算コストは，個体数に関して二次オーダーから線形オーダーへと削減される．さらに，代理モデルの誤差が生成される軌道へどのように伝播するかを示すGrönwall型の安定性評価を導出する．ナビゲーションおよび意見ダイナミクスのタスクにおける数値実験において，提案手法が解析的評価によって得られる軌道を再現し，かつ訓練時間を削減できることを示す．&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>2026年5月の振り返り</title>
       <link>https://inody.github.io/posts/202605/</link>
@@ -19,7 +36,8 @@
 &lt;p&gt;サブの研究テーマについては、他プロジェクトを優先しているため、今月は進捗なし。来月、指導予定の学生との打ち合わせを実施する予定である。&lt;/p&gt;
 &lt;p&gt;博士課程学生のアドバイザー業務については、数値計算上のバグにより停滞していたが、今月その原因を特定し、進捗が得られた。今後はベースラインと提案手法を比較し、理論的予測が再現されることを立証していく。当初予定していた論文投稿スケジュールは、進捗状況を踏まえて数ヶ月後ろ倒しに変更した。&lt;/p&gt;
 &lt;p&gt;また今月は、国内研究機関の共同研究者との共同研究も進めた。機械学習モデルの振る舞いに関する理論的予測を数値計算により立証するため、計算機を用いた実験を実施し、論文の数値実験パートを執筆した。成果を機械学習分野の会議に投稿し、現在査読中である。なお、論文はプレプリントとして公開済みである。
-（&lt;a href=&#34;https://arxiv.org/abs/2605.07772&#34;&gt;arXivへのリンクはこちら&lt;/a&gt;）&lt;/p&gt;
+arXivへのリンクは&lt;a href=&#34;https://arxiv.org/abs/2605.07772&#34;&gt;こちら&lt;/a&gt;。
+共同研究を通して、主著者の迅速かつ力強い活動に大変感銘を受けた。自分も見習って活発な活動を心がけたい。&lt;/p&gt;
 &lt;h2 id=&#34;周辺のニュース&#34;&gt;周辺のニュース&lt;/h2&gt;
 &lt;p&gt;今月、欧州の研究機関に滞在中の同じ会社出身の研究者の方が、セミナー発表のためImperialを訪問された。この機会に情報交換を兼ねた意見交換を行った。滞在期間を有効に活用し、帰国後も継続できる人的ネットワークや影響を可能な限り築いておきたい、という点で双方の認識が一致した。今後は研究業務に加え、現地研究者との関係構築にも積極的に取り組んでいきたい。&lt;/p&gt;
 &lt;p&gt;また今月は、子どもの学校の同級生の保護者の方々から、屋外パーティにお招きいただいた。我が家を含め、日本出身の家庭が複数集まり、交流を深めることができた。休日に子どもと過ごすのに適した公園など、有益な情報を共有いただいた。今後も近隣のコミュニティとの交流を継続したい。&lt;/p&gt;
